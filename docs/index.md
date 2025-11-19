@@ -1,17 +1,36 @@
-# Welcome to MkDocs
+# MSD-LIVE Help
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Need help getting started with your MSD-LIVE account or with a specific MSD-LIVE tool? This is the place to look for answers. MSD-LIVE is just starting out, so please check back periodically as tutorials and more documentation are added!
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Getting Started
 
-## Project layout
+If you are new to MSD-LIVE, please see our **Get Started** page for information on how to set up an account and start using MSD-LIVE resources.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+
+## Tutorials
+
+Please see our **Resources** page for informational videos and other content explaining various MSD-LIVE components and/or community best practices.
+
+---
+
+## Command-line Interface (CLI)
+
+If you would like to upload or download files directly from your computer terminal instead of using the user interface, please see our **CLI Help** page for instructions.
+
+---
+
+## Issues
+
+If you find problems with any of the MSD-LIVE tools, please first check our **Known Issues** page to see if your problem has already been reported.  
+If so, the issue will describe any workarounds that can be used to mitigate the problem in the interim, and it may also include a target date by which we hope to resolve the issue.
+
+If you have an issue that hasn’t been reported, please create a new issue using the GitHub interface or contact us using the address provided below.
+
+---
+
+## Contact Us
+
+You can contact us via email at **info@msdlive.org**.

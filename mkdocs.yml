@@ -1,6 +1,14 @@
 site_name: MSD-Live Docs
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Resources: resources.md
+  - CLI Help: cli-help.md
+  - Dataset Notebooks: dataset-notebooks.md
