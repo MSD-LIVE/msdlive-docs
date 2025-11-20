@@ -1,0 +1,18 @@
+<header class="md-header custom-topbar">
+  <div class="topbar-container">
+    <div class="left">
+      <a href="{{ config.site_url }}" class="logo-title">
+        <img src="/assets/logo.png" class="logo" />
+        <span class="title">MSD-LIVE</span>
+      </a>
+    </div>
+
+    </nav>
+
+    <!-- Built-in search -->
+    {% include "partials/search.html" %}
+  </div>
+</header>
+
+<!-- Use built-in Material header below -->
+{{ super() }}

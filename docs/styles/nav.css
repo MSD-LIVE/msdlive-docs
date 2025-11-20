@@ -1,0 +1,51 @@
+/* --- TOP WHITE BAR --- */
+.custom-topbar {
+  background: white;
+  padding: 0.5rem 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #003366;
+}
+
+
+/* --- SECOND BLUE NAV BAR (native Material tabs) --- */
+.md-tabs {
+  background: #073c81 !important; /* MSD-LIVE dark blue */
+}
+
+.md-tabs__link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.md-tabs__link--active {
+  border-bottom: 2px solid white !important;
+}
+
+
+
+/* Move search icon to align to right */
+.md-search__overlay {
+  background: rgba(0,0,0,0.3);
+}

@@ -1,10 +1,23 @@
-site_name: MSD-Live Docs
+site_name: Docs
+
 theme:
   name: material
+  custom_dir: docs/overrides
+  logo: assets/MSD.LIVE.horiz.svg
+  favicon: assets/favicon.ico
+
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
+
+  palette:
+    - scheme: default
+      primary: white
+      accent: blue
+
+extra_css:
+  - styles/nav.css
 
 nav:
   - Home: index.md
