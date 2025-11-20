@@ -1,4 +1,3 @@
-/* --- TOP WHITE BAR --- */
 .custom-topbar {
   background: white;
   padding: 0.5rem 1.5rem;
@@ -28,10 +27,8 @@
   color: #003366;
 }
 
-
-/* --- SECOND BLUE NAV BAR (native Material tabs) --- */
 .md-tabs {
-  background: #073c81 !important; /* MSD-LIVE dark blue */
+  background: #073c81 !important;
 }
 
 .md-tabs__link {
@@ -43,9 +40,6 @@
   border-bottom: 2px solid white !important;
 }
 
-
-
-/* Move search icon to align to right */
 .md-search__overlay {
   background: rgba(0,0,0,0.3);
 }
