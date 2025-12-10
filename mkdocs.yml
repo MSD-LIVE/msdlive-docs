@@ -27,6 +27,9 @@ nav:
   - CLI: 
     - Help: cli/cli_help.md
     - Using a Virtual Environment: cli/venv.md
+    - Installing the CLI: cli/installation.md
+    - Using the CLI: cli/cli_usage.md
+    - Running the CLI Behing a Proxy: cli/proxy_run_cli.md
 
   - Dataset Notebooks: dataset_notebooks.md
 
