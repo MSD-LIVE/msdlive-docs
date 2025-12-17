@@ -3,7 +3,7 @@ site_name: Docs
 theme:
   name: material
   custom_dir: docs/overrides
-  logo: assets/MSD.LIVE.horiz.svg
+  logo: assets/MSD.LIVE.STACK.png
   favicon: assets/favicon.ico
 
   features:
