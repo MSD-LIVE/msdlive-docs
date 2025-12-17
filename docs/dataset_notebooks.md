@@ -52,7 +52,7 @@ As a dataset author, you can choose to enable interactive Jupyter Notebook file 
 
 Dataset authors have the option to provide pre-packaged code designed to assist downstream users in exploring the data. For example, data visualization notebooks used to generate quick-look plots of the data. This is an optional step. If you enable file exploration for your data but do not provide pre-packaged code downstream users will still have the option to open blank Jupyter Notebooks to write their own analysis, visualization, or subsetting routines.
 
-![File Exploration Options](assets/dataset_notebooks/yesnable.png)
+![File Exploration Options](assets/dataset_notebooks/yesenable.png)
 
 🔧 **For more detailed help, visit:**  
 👉 [**How to Provide Pre-Packaged Code**](https://msdlive.org/help/resources/quick-guides/providing-pre-packaged-code)
