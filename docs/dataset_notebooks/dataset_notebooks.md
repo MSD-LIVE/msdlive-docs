@@ -59,7 +59,7 @@ Dataset authors have the option to provide pre-packaged code designed to assist 
 🔧 **For more detailed help, visit:**  
 👉 [**How to Provide Pre-Packaged Code**](prepackaged_code.md)
 
-👉 [**Using MSD-LIVE's Notebook Lab**](https://msdlive.org/help/resources/quick-guides/notebook-lab)
+👉 [**Using MSD-LIVE's Notebook Lab**](notebook_lab.md)
 
 ---
 
