@@ -29,7 +29,7 @@ nav:
     - Installing the CLI: cli/installation.md
     - Using the CLI: cli/cli_usage.md
     - Running the CLI Behing a Proxy: cli/proxy_run_cli.md
-  - Dataset Notebooks: dataset_notebooks.md
+  - Dataset Notebooks: dataset_notebooks/dataset_notebooks.md
   - Tutorials: tutorials.md
   - Articles: articles.md
   - Webinars: webinars.md
