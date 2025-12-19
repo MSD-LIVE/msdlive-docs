@@ -85,7 +85,7 @@ Once in your Jupyter Notebook environment there are multiple ways to explore the
 
 🔧 **For more detailed help, visit:**  
 👉 [**Using MSD-LIVE's Dataset Notebooks**](https://msdlive.org/help/resources/quick-guides/using-dataset-notebooks)
-👉 [**Creating Dataset Notebooks**](https://msdlive.org/help/resources/quick-guides/creating-dataset-notebooks) 
+👉 [**Creating Dataset Notebooks**](create_notebooks.md) 
 👉 [**Copying Files to Your Scratch Directory**](https://msdlive.org/help/resources/quick-guides/using-dataset-notebooks#scratch-about)
 
 ---
