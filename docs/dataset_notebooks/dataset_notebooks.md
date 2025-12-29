@@ -84,7 +84,7 @@ Once in your Jupyter Notebook environment there are multiple ways to explore the
 ![Downstream User Exploring](../assets/dataset_notebooks/downstreamuserexploring.png)
 
 🔧 **For more detailed help, visit:**  
-👉 [**Using MSD-LIVE's Dataset Notebooks**](https://msdlive.org/help/resources/quick-guides/using-dataset-notebooks)
+👉 [**Using MSD-LIVE's Dataset Notebooks**](using_notebooks.md)
 👉 [**Creating Dataset Notebooks**](create_notebooks.md) 
 👉 [**Copying Files to Your Scratch Directory**](https://msdlive.org/help/resources/quick-guides/using-dataset-notebooks#scratch-about)
 
