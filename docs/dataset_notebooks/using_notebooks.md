@@ -260,7 +260,7 @@ In Jupyter Notebooks, you can install and use external packages directly from wi
       end
       ```
 
-!!!note
+!!! note
     
     - You typically only need to install a package once per environment
 
@@ -352,7 +352,7 @@ The scratch directory is:
     - large in size or quantity, or
     - needed on a remote computer that is lacking a web browser
 
-!!!warning "Limitations"
+!!! warning "Limitations"
 
     Because it's backed by S3:
 
@@ -394,7 +394,7 @@ Here's a video of copying files to a scratch directory:
   </iframe>
 </div>
 
-!!!note "Important Note"
+!!! note "Important Note"
 
     Using the "Copy to Scratch Dir" button in the file explorer is the preferred and supported way to copy files into your scratch directory. While it's technically possible to copy files using code inside notebooks, this is not recommended. Due to underlying S3 limitations, doing so may cause:
 
@@ -437,6 +437,6 @@ Watch this video for a full walkthrough of downloading your scratch directory us
   </iframe>
 </div>
 
-!!!warning "Scratch Directory Cleanup"
+!!! warning "Scratch Directory Cleanup"
 
     Files in your scratch directory will be automatically deleted after 24 hours. Be sure to download anything you need before then.

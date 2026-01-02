@@ -7,15 +7,20 @@ theme:
   favicon: assets/favicon.ico
 
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.instant
     - navigation.top
+    - navigation.indexes
     - toc.integrate
+    - search.suggest
+    - search.highlight
 
   palette:
     - scheme: default
       primary: white
       accent: blue
+
+plugins:
+  - search
 
 extra_css:
   - styles/nav.css
@@ -23,19 +28,19 @@ extra_css:
 nav:
   - Home: index.md
   - Getting Started: getting_started.md
-  - CLI: 
-    - Overview: cli/cli_help.md
-    - Using a Virtual Environment: cli/venv.md
-    - Installing the CLI: cli/installation.md
-    - Using the CLI: cli/cli_usage.md
-    - Running the CLI Behing a Proxy: cli/proxy_run_cli.md
-  - Dataset Notebooks: 
-    - Overview: dataset_notebooks/dataset_notebooks.md
-    - Creating Notebooks: dataset_notebooks/create_notebooks.md
-    - Enable Exploration: dataset_notebooks/enable_exploration.md
-    - Notebook Lab: dataset_notebooks/notebook_lab.md
-    - Prepackaged Code: dataset_notebooks/prepackaged_code.md
-    - Using Notebooks: dataset_notebooks/using_notebooks.md
+  - CLI:
+    - cli/cli_help.md
+    - cli/venv.md
+    - cli/installation.md
+    - cli/cli_usage.md
+    - cli/proxy_run_cli.md
+  - Dataset Notebooks:
+    - dataset_notebooks/dataset_notebooks.md
+    - dataset_notebooks/create_notebooks.md
+    - dataset_notebooks/enable_exploration.md
+    - dataset_notebooks/notebook_lab.md
+    - dataset_notebooks/prepackaged_code.md
+    - dataset_notebooks/using_notebooks.md
   - Tutorials: tutorials.md
   - Articles: articles.md
   - Webinars: webinars.md

@@ -43,3 +43,65 @@
 .md-search__overlay {
   background: rgba(0,0,0,0.3);
 }
+
+/* Give toggleable section headers a distinct surface */
+.md-nav__link[aria-expanded] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #7e8185;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: background-color .12s ease, border-color .12s ease,
+              box-shadow .12s ease, transform .12s ease;
+}
+
+/* Hover / focus affordance */
+.md-nav__link[aria-expanded]:hover,
+.md-nav__link[aria-expanded]:focus {
+  background: #eef6ff;
+  border-color: #d6eaff;
+  box-shadow: 0 1px 0 rgba(13, 71, 161, 0.04);
+  outline: none;
+}
+
+/* Chevron indicator for collapsed/expanded state */
+.md-nav__link[aria-expanded]::after {
+  content: "▸";
+  display: inline-block;
+  font-size: 0.85rem;
+  color: #4b5563;
+  transform: rotate(0deg);
+  transition: transform .12s ease;
+  margin-left: 0.5rem;
+}
+
+/* Rotate chevron when expanded */
+.md-nav__link[aria-expanded="true"]::after {
+  transform: rotate(90deg);
+}
+
+/* Indent and visually group nested lists */
+.md-nav__list .md-nav__list {
+  padding-left: 0.75rem;
+  background: 2px solid rgba(2,6,23,0.03);
+}
+
+/* Make nested links slightly smaller and lighter to separate from headers */
+.md-nav__list .md-nav__list .md-nav__link {
+  color: #2f3742;
+  border-radius: 6px;
+}
+
+/* Hover for nested items */
+.md-nav__list .md-nav__list .md-nav__link:hover {
+  background: rgba(3, 64, 138, 0.04);
+}
+
+/* Responsive: maintain clear spacing on small screens */
+@media (max-width: 900px) {
+  .md-nav__link[aria-expanded] {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+}

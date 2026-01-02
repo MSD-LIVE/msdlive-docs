@@ -141,7 +141,7 @@ except:
   - '*.txt'  # Except, include all files that end with .txt
 ```
 
-!!! info Notes
+!!! info "Notes"
 
     We recommend using an editor such as VSCode that supports YAML file syntax to make creating your filter file easier.
 
