@@ -18,7 +18,7 @@ Please see our [**Resources**](tutorials.md) page for informational videos and o
 
 ## Command-line Interface (CLI)
 
-If you would like to upload or download files directly from your computer terminal instead of using the user interface, please see our [**CLI Help**](cli/cli_help.md) page for instructions.
+If you would like to upload or download files directly from your computer terminal instead of using the user interface, please see our [**CLI Help**](cli/index.md) page for instructions.
 
 ---
 

@@ -29,18 +29,18 @@ nav:
   - Home: index.md
   - Getting Started: getting_started.md
   - CLI:
-    - cli/cli_help.md
-    - cli/venv.md
-    - cli/installation.md
-    - cli/cli_usage.md
-    - cli/proxy_run_cli.md
+    - cli/index.md
+    - Virtual Environment: cli/venv.md
+    - Installation: cli/installation.md
+    - CLI Usage: cli/cli_usage.md
+    - Proxy Run CLI: cli/proxy_run_cli.md
   - Dataset Notebooks:
-    - dataset_notebooks/dataset_notebooks.md
-    - dataset_notebooks/create_notebooks.md
-    - dataset_notebooks/enable_exploration.md
-    - dataset_notebooks/notebook_lab.md
-    - dataset_notebooks/prepackaged_code.md
-    - dataset_notebooks/using_notebooks.md
+    - dataset_notebooks/index.md
+    - Create Notebooks: dataset_notebooks/create_notebooks.md
+    - Enable Exploration: dataset_notebooks/enable_exploration.md
+    - Notebook Lab: dataset_notebooks/notebook_lab.md
+    - Prepackaged Code: dataset_notebooks/prepackaged_code.md
+    - Using Notebooks: dataset_notebooks/using_notebooks.md
   - Tutorials: tutorials.md
   - Articles: articles.md
   - Webinars: webinars.md

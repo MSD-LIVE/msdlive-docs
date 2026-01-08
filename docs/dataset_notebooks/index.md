@@ -21,7 +21,7 @@ Downstream users can also open blank Jupyter Notebooks and write their own analy
 ![Overview of Dataset Notebooks](../assets/dataset_notebooks/overview-bordered.png)
 
 Watch this video for an overview of the workflow for using MSD-LIVE's dataset notebooks feature:
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://www.youtube.com/embed/7DOLFdx5eNA"
       frameborder="0" allowfullscreen>
@@ -92,13 +92,12 @@ Once in your Jupyter Notebook environment there are multiple ways to explore the
 
 ## Other Resources
 
-- MSD-LIVE's GitHub repository template to use when enabling file exploration
+- MSD-LIVE's GitHub [repository template](https://github.com/MSD-LIVE/template-dataset-jupyter-notebook) to use when enabling file exploration
 - Example dataset with file exploration enabled and its accompanying notebook environment
-
 - Helpful Resource Links
-  - How to Enable File Exploration  
-  - How to Provide Pre-Packaged Code  
-  - Using MSD-LIVE's Notebook Lab  
-  - Using MSD-LIVE's Dataset Notebooks  
-  - Creating Dataset Notebooks  
-  - Copying Files to Your Scratch Directory
+    - [How to Enable File Exploration](enable_exploration.md)
+    - [How to Provide Pre-Packaged Code](prepackaged_code.md)
+    - [Using MSD-LIVE's Notebook Lab](notebook_lab.md)
+    - [Using MSD-LIVE's Dataset Notebooks](using_notebooks.md)
+    - [Creating Dataset Notebooks](create_notebooks.md)
+    - [Copying Files to Your Scratch Directory](using_notebooks.md#scratch-dir)

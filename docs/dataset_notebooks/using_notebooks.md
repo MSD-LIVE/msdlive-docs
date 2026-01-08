@@ -1,6 +1,6 @@
 # Using MSD-LIVE's Dataset Notebooks
 
-The fourth component of MSD-LIVE's dataset notebooks feature is the ability to run code from within Jupyter Notebooks against data mounted from a dataset. See [Exploring Datasets via Jupyter Notebooks](dataset_notebooks.md) for an overview of related dataset notebook features.
+The fourth component of MSD-LIVE's dataset notebooks feature is the ability to run code from within Jupyter Notebooks against data mounted from a dataset. See [Exploring Datasets via Jupyter Notebooks](index.md) for an overview of related dataset notebook features.
 
 Watch this video for a full walkthrough of exploring datasets via Jupyter Notebooks.
 
@@ -289,7 +289,7 @@ Key points:
 ### Contributing Back
 MSD-LIVE's dataset exploration environment includes a powerful collaboration feature that lets users contribute improvements back to the platform. If you create useful analysis or visualization notebooks, you can submit a GitHub Pull Request (PR) so others can benefit from your work.
 
-### Pull Request
+#### How to Submit a Pull Request
 ![PR Button](../assets/dataset_notebooks/pr2.png)
 
 When exploring a dataset, you’ll see a **Pull Request** button in the JupyterLab toolbar. You can use it to contribute new notebooks or updates to existing ones.
@@ -316,7 +316,7 @@ Community Notebooks exist so contributions can still be saved and shared even wh
 
 Once approved, your notebook will become available to all future users who explore the dataset. This creates a collaborative ecosystem where the exploration experience continuously improves through community contributions.
 
-### GitHub Repository Link
+#### Browsing Source Code Repository
 
 ![Repo Button](../assets/dataset_notebooks/repo_button.png)
 
@@ -334,7 +334,7 @@ You'll also see a button that opens the dataset's notebook repository directly o
 
 ---
 
-### Using the Scratch Directory in Jupyter Notebooks
+### Using the Scratch Directory in Jupyter Notebooks {#scratch-dir}
 We’ve also included a scratch directory to help you download large files easily from your Jupyter Notebooks. The scratch directory also enables you to download files remotely when a web browser isn't available.
 
 ![Scratch Directory](../assets/dataset_notebooks/scratch_dir.png)
