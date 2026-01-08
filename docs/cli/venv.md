@@ -6,43 +6,49 @@ A Python virtual environment is a self-contained directory that contains a speci
 
 Python provides a built-in module called venv to create and manage virtual environments. The steps to create a virtual environment depend upon the operating system you are using:
 
-### Windows
+=== "Windows"
 
-Open the command prompt (Note: our instructions are for "Command Prompt" not "Windows PowerShell" as PowerShell might need additional configurations).
+    Open the command prompt (Note: our instructions are for "Command Prompt" not "Windows PowerShell" as PowerShell might need additional configurations).
 
-Enter the following command:
+    Enter the following command:
 
-```
-python -m venv %HOMEPATH%\venvs\msdlive
-```
+    ```
+    python -m venv %HOMEPATH%\venvs\msdlive
+    ```
 
-### Unix-based systems (Linux/macOS)
-Open a terminal.
+=== "Unix-based systems (Linux/macOS)"
 
-Enter the following command:
-```
-python3 -m venv ~/venvs/msdlive
-```
+    Open a terminal.
+
+    Enter the following command:
+
+    ```
+    python3 -m venv ~/venvs/msdlive
+    ```
 
 ## Activating a Virtual Environment
 Once you have created a virtual environment, you need to activate it in order to use it. The steps depend upon the operating system you are using:
 
-### Windows
-Open the command prompt.
+=== "Windows"
 
-Enter the following command:
-```
-%HOMEPATH%\venvs\msdlive\Scripts\activate
-```
+    Open the command prompt.
 
-### Unix-based systems (Linux/macOS)
-Open a terminal.
+    Enter the following command:
+    ```
+    %HOMEPATH%\venvs\msdlive\Scripts\activate
+    ```
 
-Enter the following command:
-```
-source ~/venvs/msdlive/bin/activate
-```
-After executing the appropriate command, you should see that the virtual environment is activated. The prompt in your command prompt or terminal will change to indicate that you are now working within the virtual environment. You can then install packages or run Python scripts within this activated venv.
+=== "Unix-based systems (Linux/macOS)"
+
+    Open a terminal.
+
+    Enter the following command:
+    
+    ```
+    source ~/venvs/msdlive/bin/activate
+    ```
+
+    After executing the appropriate command, you should see that the virtual environment is activated. The prompt in your command prompt or terminal will change to indicate that you are now working within the virtual environment. You can then install packages or run Python scripts within this activated venv.
 
 ## Deactivating a Virtual Environment
 Once you have finished working in your virtual environment, you can deactivate it to restore your system's default Python environment:
