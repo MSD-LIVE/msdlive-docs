@@ -6,7 +6,7 @@ The first component of MSD-LIVE's dataset notebooks feature is uploading raw dat
 
 Watch this video to see how to enable file exploration.
 
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://youtube.com/embed/GjbYZ12k2aM"
       frameborder="0" allowfullscreen>

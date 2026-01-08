@@ -2,7 +2,7 @@
 
 The second component of MSD-LIVE's dataset notebooks feature is the ability to provide pre-packaged code written by the dataset author. See Exploring Datasets via Jupyter Notebooks for an overview of related dataset notebook features.
 
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://youtube.com/embed/sImLLAIGmhk"
       frameborder="0" allowfullscreen>

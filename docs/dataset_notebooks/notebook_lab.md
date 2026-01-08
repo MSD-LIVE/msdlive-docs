@@ -5,7 +5,7 @@ The second component of MSD-LIVE's dataset notebooks feature is the ability to p
 ![Dataset Notebooks](../assets/dataset_notebooks/datasetnotebookstep2-custom.png)
 
 Watch this video to see how to use the Notebook Lab environment
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://youtube.com/embed/00Rm65PTsn8"
       frameborder="0" allowfullscreen>

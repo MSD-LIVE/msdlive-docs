@@ -4,7 +4,7 @@ The MSD-LIVE CLI provides easy methods to help you upload or download files dire
 
 Watch this video for a full walkthrough of installing and using the CLI:
 
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://www.youtube.com/embed/A7xMkEvV-Ms"
       frameborder="0" allowfullscreen>

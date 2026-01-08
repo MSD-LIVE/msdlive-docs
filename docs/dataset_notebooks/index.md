@@ -2,7 +2,7 @@
 
 MSD-LIVE allows users to **interactively explore data** in the MSD-LIVE data repository using Jupyter Notebooks within MSD-LIVE's Notebook Lab. This feature lets users explore, analyze, and subset datasets directly in the cloud without downloading files locally.
 
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://www.youtube.com/embed/pSuCXRqsTGQ"
       frameborder="0" allowfullscreen>

@@ -4,7 +4,7 @@ The fourth component of MSD-LIVE's dataset notebooks feature is the ability to r
 
 Watch this video for a full walkthrough of exploring datasets via Jupyter Notebooks.
 
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://youtube.com/embed/TGFe0bD4qe8"
       frameborder="0" allowfullscreen>
@@ -387,7 +387,7 @@ To copy your processed/subsetted files to the scratch dir from within your noteb
 
 Here's a video of copying files to a scratch directory:
 
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://youtube.com/embed/PQ4aF16puak"
       frameborder="0" allowfullscreen>
@@ -430,7 +430,7 @@ msdlive download --scratch --output-dir msdlive_scratch
 Replace ```msdlive_scratch``` with a folder name or full path where you want the files saved
 
 Watch this video for a full walkthrough of downloading your scratch directory using the CLI:
-<div style="text-align: center;">
+<div>
   <iframe width="560" height="315"
       src="https://youtube.com/embed/A7xMkEvV-Ms"
       frameborder="0" allowfullscreen>
