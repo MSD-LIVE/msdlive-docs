@@ -1,47 +1,35 @@
-.custom-topbar {
-  background: white;
-  padding: 0.5rem 1.5rem;
-  border-bottom: 1px solid #ddd;
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  background: #f8f9fa;
+  border-right: 1px solid #d1d5db;
 }
 
-.topbar-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.md-nav--primary {
+  background: #f8f9fa;
 }
 
-.logo-title {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.logo {
-  height: 40px;
-  margin-right: 10px;
-}
-
-.title {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #003366;
-}
-
-.md-tabs {
-  background: #073c81 !important;
-}
-
-.md-tabs__link {
-  color: white !important;
+/* Top-level navigation links (main categories) */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+  color: #374151 !important;
   font-weight: 500;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  margin: 0.1rem 0.3rem;
+  background: transparent;
+  font-size: 0.75rem;
+  border: 1px solid transparent;
 }
 
-.md-tabs__link--active {
-  border-bottom: 2px solid white !important;
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link:hover {
+  background: rgba(44, 90, 160, 0.08);
+  color: #1e4a91 !important;
+  border-color: #cbd5e1;
 }
 
-.md-search__overlay {
-  background: rgba(0,0,0,0.3);
+/* Active main category */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link--active {
+  background: #2c5aa0;
+  color: white !important;
+  border-color: #2c5aa0;
 }
 
 /* Give toggleable section headers a distinct surface */
@@ -49,9 +37,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #7e8185;
-  border-radius: 8px;
+  background: transparent;
+  color: #374151 !important;
+  border-radius: 6px;
   border: 1px solid transparent;
+  padding: 0.6rem 1rem;
+  margin: 0.1rem 0.3rem;
+  font-weight: 500;
+  font-size: 0.75rem;
   transition: background-color .12s ease, border-color .12s ease,
               box-shadow .12s ease, transform .12s ease;
 }
@@ -59,18 +52,18 @@
 /* Hover / focus affordance */
 .md-nav__link[aria-expanded]:hover,
 .md-nav__link[aria-expanded]:focus {
-  background: #eef6ff;
-  border-color: #d6eaff;
-  box-shadow: 0 1px 0 rgba(13, 71, 161, 0.04);
+  background: rgba(44, 90, 160, 0.08);
+  color: #1e4a91 !important;
   outline: none;
+  border-color: #cbd5e1;
 }
 
 /* Chevron indicator for collapsed/expanded state */
 .md-nav__link[aria-expanded]::after {
   content: "▸";
   display: inline-block;
-  font-size: 0.85rem;
-  color: #4b5563;
+  font-size: 0.65rem;
+  color: #6b7280;
   transform: rotate(0deg);
   transition: transform .12s ease;
   margin-left: 0.5rem;
@@ -81,21 +74,40 @@
   transform: rotate(90deg);
 }
 
-/* Indent and visually group nested lists */
+/* Indent and visually group nested lists (subsections) */
 .md-nav__list .md-nav__list {
-  padding-left: 0.75rem;
-  background: 2px solid rgba(2,6,23,0.03);
+  padding-left: 0.5rem;
+  background: #e5e7eb;
+  border-radius: 4px;
+  margin: 0.2rem 0.3rem 0.4rem 0.3rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid #d1d5db;
 }
 
-/* Make nested links slightly smaller and lighter to separate from headers */
+/* Make nested links (subsections) lighter to separate from headers */
 .md-nav__list .md-nav__list .md-nav__link {
-  color: #2f3742;
-  border-radius: 6px;
+  color: #6b7280 !important;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  margin: 0.1rem 0;
+  font-weight: 400;
+  font-size: 0.688rem;
+  border: 1px solid transparent;
 }
 
 /* Hover for nested items */
 .md-nav__list .md-nav__list .md-nav__link:hover {
-  background: rgba(3, 64, 138, 0.04);
+  background: rgba(44, 90, 160, 0.08);
+  color: #1e4a91 !important;
+  border-color: #cbd5e1;
+}
+
+/* Active subsection */
+.md-nav__list .md-nav__list .md-nav__link--active {
+  background: rgba(44, 90, 160, 0.15);
+  color: #2c5aa0 !important;
+  font-weight: 500;
+  border-color: #93c5fd;
 }
 
 /* Responsive: maintain clear spacing on small screens */
