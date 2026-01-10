@@ -15,7 +15,7 @@
   border-radius: 6px;
   margin: 0.1rem 0.3rem;
   background: transparent;
-  font-size: 0.75rem;
+  font-size: 0.688rem;
   border: 1px solid transparent;
 }
 
@@ -44,7 +44,7 @@
   padding: 0.6rem 1rem;
   margin: 0.1rem 0.3rem;
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 0.688rem;
   transition: background-color .12s ease, border-color .12s ease,
               box-shadow .12s ease, transform .12s ease;
 }
@@ -81,17 +81,15 @@
   border-radius: 4px;
   margin: 0.2rem 0.3rem 0.4rem 0.3rem;
   padding: 0.4rem 0.5rem;
-  border: 1px solid #d1d5db;
 }
 
 /* Make nested links (subsections) lighter to separate from headers */
 .md-nav__list .md-nav__list .md-nav__link {
-  color: #6b7280 !important;
   border-radius: 4px;
   padding: 0.5rem 0.75rem;
   margin: 0.1rem 0;
   font-weight: 400;
-  font-size: 0.688rem;
+  font-size: 0.6rem;
   border: 1px solid transparent;
 }
 
