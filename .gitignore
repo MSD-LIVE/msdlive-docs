@@ -13,6 +13,7 @@ typings/
 .mypy_cache/
 storage/root
 _version.py
+.venv/
 
 
 ## Python .gitignore from https://github.com/github/gitignore/blob/main/Python.gitignore
