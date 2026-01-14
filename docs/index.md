@@ -6,7 +6,7 @@ Need help getting started with your MSD-LIVE account or with a specific MSD-LIVE
 
 ## Getting Started
 
-If you are new to MSD-LIVE, please see our [**Get Started**](getting_started.md) page for information on how to set up an account and start using MSD-LIVE resources.
+If you are new to MSD-LIVE, please see our [**Geting Started**](getting_started.md) page for information on how to set up an account and start using MSD-LIVE resources.
 
 ---
 
