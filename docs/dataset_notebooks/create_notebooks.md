@@ -1,7 +1,9 @@
-# Creating Dataset Notebooks
+
+
 Follow these steps to quickly launch your Jupyter Notebook environment and start working with your data.
 
-## Step 1: Launch your environment
+
+## Launching the Environment
 - Downstream users should click “Explore the data” to launch the Jupyter Notebook environment.
 
 - If the dataset author linked a GitHub repository, the provided notebooks will be automatically cloned.
@@ -14,7 +16,7 @@ Follow these steps to quickly launch your Jupyter Notebook environment and start
 
 ![Launch from Landing](../assets/dataset_notebooks/launchfromlanding.png)
 
-## Step 2: Using the MSD-LIVE AI Assistant (optional)
+## MSD-LIVE's AI Assistant (optional)
 
 ![Chat Bot](../assets/dataset_notebooks/chatbot.png)
 
@@ -31,7 +33,7 @@ This built-in chatbot is designed to help you write high-quality dataset noteboo
 
 Use it whenever you need quick guidance or examples while developing your notebooks.
 
-## Step 3: Create notebooks
+## Creating Notebooks
 After logging in to your notebook environment, right-click in the file explorer panel and select **“New Notebook”**.
 
 ![New Notebook Menu Item](../assets/dataset_notebooks/newnotebookmenuitem.png)
@@ -48,29 +50,28 @@ After logging in to your notebook environment, right-click in the file explorer 
 
     - Only the starter code option appears. Check it to pre-fill your notebook with examples and environment guidance.
 
-## Step 4: Import required packages
+## Importing Packages
 In your new notebook, start by importing the necessary libraries from an empty cell. For example using python:
 
 ![Install Packages](../assets/dataset_notebooks/install_pkgs.png)
 
 Click HERE for detailed examples on how to import libraries in Python, Julia, and R.
 
-## Step 5: Access data
+## Accessing Data
 Use the **"DATA_DIR"** environment variable to access the location where a copy of your data is stored.
 
 ![Access Data](../assets/dataset_notebooks/access_data.png)
 
-## Step 6: Complete your notebook(s)
 Now you're ready to write custom code to visualize/analyze the data or to create workflows for subsetting the data in space and time.
 
-## Step 7: Update README.md file
+## Update the README
 If your notebook will be saved to GitHub through a pull request (PR), update the README.md file to include your new notebook and a short description of what it does.
 
 - If you are the dataset author creating the first notebook, be sure to replace all placeholders marked with {{ }} in the README.md.
 
 - If you are adding additional notebooks, add an entry describing your new notebook so other users know what it provides.
 
-## Step 8: Contributing changes
+## Contributing Changes
 After you have completed edits to your notebooks and the README.md file, commit changes back to the repository via a GitHub pull request (PR):
 
 - CTRL-click to select all the files you have changed.
