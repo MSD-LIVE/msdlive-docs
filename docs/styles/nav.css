@@ -1,114 +1,122 @@
-.md-sidebar--primary .md-sidebar__scrollwrap {
-  background: #f8f9fa;
-  border-right: 1px solid #d1d5db;
+:root {
+  --msd-nav-bg: #f7f9fc;
+  --msd-nav-border: #dbe4f3;
+  --msd-nav-shadow: 0 0 18px rgb(15 55 95 / 8%);
+  --msd-nav-link: #1f3559;
+  --msd-nav-link-muted: #4f5d73;
+  --msd-nav-link-hover: #0e2b52;
+  --msd-nav-link-active: #0f62fe;
+  --msd-nav-link-active-bg: #dfe8fb;
+  --msd-nav-link-pad-x: 2px;
+  --msd-nav-nested-offset: 3px;
 }
 
-.md-nav--primary {
-  background: #f8f9fa;
+/* lessens horizontal padding for nav items (less indent) */
+.md-nav--integrated>.md-nav__list>.md-nav__item--active:not(.md-nav__item--nested) {
+  padding: 0;
 }
 
-/* Top-level navigation links (main categories) */
-.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
-  color: #374151 !important;
-  font-weight: 500;
-  padding: 0.6rem 1rem;
+
+/* hides the default 'DOCS' nav header that we don't need */
+.md-sidebar--primary .md-nav__title {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+.md-sidebar {
+  padding: 0;
+}
+
+/* adds background color to nav */
+.md-sidebar--primary,
+.md-sidebar--primary .md-nav {
+  background: var(--msd-nav-bg);
+  border-right: 1px solid var(--msd-nav-border);
+  box-shadow: var(--msd-nav-shadow);
+}
+
+
+.md-sidebar--primary .md-nav {
+  padding: 0 0 5px;
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
+  margin-top: 0;
+}
+
+/* Base link styling */
+.md-sidebar--primary .md-nav__link {
+  color: var(--msd-nav-link);
+  line-height: 1.55;
+  padding: 4px var(--msd-nav-link-pad-x) !important;
   border-radius: 6px;
-  margin: 0.1rem 0.3rem;
-  background: transparent;
-  font-size: 0.688rem;
-  border: 1px solid transparent;
+  transition: color 0.2s ease, background 0.2s ease;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link:hover {
-  background: rgba(44, 90, 160, 0.08);
-  color: #1e4a91 !important;
-  border-color: #cbd5e1;
+.md-sidebar--primary .md-nav__link:hover {
+  color: var(--msd-nav-link-hover);
+  background: rgba(15, 55, 95, 0.06);
 }
 
-/* Active main category */
-.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link--active {
-  background: #2c5aa0;
-  color: white !important;
-  border-color: #2c5aa0;
+.md-sidebar--primary .md-nav__item--active>.md-nav__link,
+.md-sidebar--primary .md-nav__item--active>.md-nav__link:hover {
+  color: var(--msd-nav-link);
+  background: var(--msd-nav-link-active-bg);
+  font-weight: 600;
+  margin-inline: 0;
+  padding: 4px var(--msd-nav-link-pad-x);
+  border-radius: 0;
 }
 
-/* Give toggleable section headers a distinct surface */
-.md-nav__link[aria-expanded] {
+.md-nav__item--active.md-nav__item--nested .md-nav__item--active>.md-nav__link {
+  background: transparent !important;
+}
+
+/* Shared container/toggle layout */
+.md-nav__link.md-nav__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background: transparent;
-  color: #374151 !important;
-  border-radius: 6px;
-  border: 1px solid transparent;
-  padding: 0.6rem 1rem;
-  margin: 0.1rem 0.3rem;
-  font-weight: 500;
-  font-size: 0.688rem;
-  transition: background-color .12s ease, border-color .12s ease,
-              box-shadow .12s ease, transform .12s ease;
+  gap: 6px;
+  padding: 0 !important;
 }
 
-/* Hover / focus affordance */
-.md-nav__link[aria-expanded]:hover,
-.md-nav__link[aria-expanded]:focus {
-  background: rgba(44, 90, 160, 0.08);
-  color: #1e4a91 !important;
-  outline: none;
-  border-color: #cbd5e1;
+
+.md-nav__link.md-nav__container>label {
+  flex: 0 0 24px;
 }
 
-/* Chevron indicator for collapsed/expanded state */
-.md-nav__link[aria-expanded]::after {
-  content: "▸";
-  display: inline-block;
-  font-size: 0.65rem;
-  color: #6b7280;
-  transform: rotate(0deg);
-  transition: transform .12s ease;
-  margin-left: 0.5rem;
+/* Remove spacing from integrated TOC in Material theme */
+.md-nav--secondary {
+  margin-top: 0;
+  padding-top: 0;
 }
 
-/* Rotate chevron when expanded */
-.md-nav__link[aria-expanded="true"]::after {
-  transform: rotate(90deg);
+.md-nav__item--active>.md-nav--secondary {
+  margin-top: 0;
 }
 
-/* Indent and visually group nested lists (subsections) */
-.md-nav__list .md-nav__list {
-  padding-left: 0.5rem;
-  background: #e5e7eb;
-  border-radius: 4px;
-  margin: 0.2rem 0.3rem 0.4rem 0.3rem;
-  padding: 0.4rem 0.5rem;
+/* Remove extra spacing from TOC title */
+.md-nav--secondary .md-nav__title {
+  margin: 0;
+  padding: 0;
+  display: none;
 }
 
-/* Make nested links (subsections) lighter to separate from headers */
-.md-nav__list .md-nav__list .md-nav__link {
-  border-radius: 4px;
-  padding: 0.5rem 0.75rem;
-  margin: 0.1rem 0;
-  font-weight: 400;
-  font-size: 0.6rem;
-  border: 1px solid transparent;
+.md-nav__item--active>.md-nav--secondary>.md-nav__list>.md-nav__item:first-child>.md-nav__link {
+  margin-top: 0;
 }
 
-/* Hover for nested items */
-.md-nav__list .md-nav__list .md-nav__link:hover {
-  background: rgba(44, 90, 160, 0.08);
-  color: #1e4a91 !important;
-  border-color: #cbd5e1;
+.md-nav__item--active>.md-nav--secondary>.md-nav__list {
+  padding-top: 10px;
 }
 
-/* Active subsection */
-.md-nav__list .md-nav__list .md-nav__link--active {
-  background: rgba(44, 90, 160, 0.15);
-  color: #2c5aa0 !important;
-  font-weight: 500;
-  border-color: #93c5fd;
-}
 
-/* Responsive: maintain clear spacing on small screens */
+/* md-nav__link md-nav__link--active" */
+/* md-nav__link md-nav__link--active */
+/* body > div.md-container > main > div > div.md-sidebar.md-sidebar--primary > div > div > nav > ul > li.md-nav__item.md-nav__item--active.md-nav__item--nested > nav > ul > li.md-nav__item.md-nav__item--active > a */
+
 @media (max-width: 900px) {
   .md-nav__link[aria-expanded] {
     padding-left: 0.6rem;

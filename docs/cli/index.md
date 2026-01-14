@@ -10,7 +10,7 @@ The CLI does not require a web browser and provides better performance, making i
 !!! warning "Important"
 
 
-    **Python Required.** The MSD-LIVE CLI requires Python 3.8 or higher. If you get a "command not found” error when trying to run pip, then you must install Python (or use Conda if you're familiar with it). Click here to [download the Python Installer](https://www.python.org/downloads/).
+    **Python Required.** The MSD-LIVE CLI requires Python 3.8 or higher. If you get a "command not found" error when trying to run pip, then you must install Python (or use Conda if you're familiar with it). Click here to <a href="https://www.python.org/downloads/" target="_blank" rel="noopener noreferrer">download the Python Installer</a>.
 
     **Virtual Environment Recommended.** If you encounter dependency conflicts when installing, we recommend using a Python virtual environment such as venv or conda. Click here for [more information on using a virtual environment](venv.md).
 

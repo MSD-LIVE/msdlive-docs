@@ -55,11 +55,11 @@ msdlive download --dataset-id $YOUR_DATASET_ID --output-dir $YOUR_LOCAL_DIRECTOR
 
 **Required Parameters:**
 
-- **--dataset-id $YOUR_DATASET_ID**
+**--dataset-id $YOUR_DATASET_ID**
 
 Replace $YOUR_DATASET_ID with the dataset ID, which you can find on the MSD-LIVE Data Repository web interface. From your dataset’s page, click **"Download files from the command line..."** to get a pre-filled command with the correct dataset ID.
 
-- **--output-dir $YOUR_LOCAL_DIRECTORY**
+**--output-dir $YOUR_LOCAL_DIRECTORY**
 
 Replace $YOUR_LOCAL_DIRECTORY with the path to a folder on your local computer. All files from the dataset will be downloaded to this location.
 
@@ -73,17 +73,17 @@ msdlive download --scratch --output-dir $YOUR_LOCAL_DIRECTORY
 
 **Required Parameter:**
 
-- **--output-dir $YOUR_LOCAL_DIRECTORY**
+**--output-dir $YOUR_LOCAL_DIRECTORY**
 
 Replace $YOUR_LOCAL_DIRECTORY with the folder path where you want the scratch files saved.
 
 **Optional Parameters (for both modes):**
 
-- **--filter-file $PATH_TO_FILE**
+**--filter-file $PATH_TO_FILE**
 
-Download only specific files by providing a filter file. This file contains rules for including or excluding files. See the [Filtering Files Section](https://local.msdlive.org:3000/cli-help#filter-files) for syntax details.
+Download only specific files by providing a filter file. This file contains rules for including or excluding files. See the [Filtering Files](#filtering-files) section for syntax details.
 
-- **--quiet**
+**--quiet**
 
 Suppresses normal output and only shows errors—useful for silent or scripted operations.
 
@@ -98,19 +98,19 @@ msdlive upload --dataset-id $YOUR_DATASET_ID --src-dir $PATH_TO_LOCAL_FOLDER
 
 **Required Parameters:**
 
-- **--dataset-id $YOUR_DATASET_ID**
+**--dataset-id $YOUR_DATASET_ID**
 
 Replace $YOUR_DATASET_ID with the dataset id that you get from the MSD-LIVE Data Repository web interface. From your dataset's web page, click the 'Upload files from the command line...' link to get the exact command which includes the dataset id.
 
-- **--src-dir $PATH_TO_LOCAL_FOLDER**
+**--src-dir $PATH_TO_LOCAL_FOLDER**
 
-  The --src-dir parameter specifies the folder you want to upload. Replace $PATH_TO_LOCAL_FOLDER with the path to a folder on your local computer. By default, all the contents of that folder will be uploaded to your dataset. If you only want to upload certain files, use the optional parameter --filter-file. See the Filtering Files Section for details on the file syntax.
+  The --src-dir parameter specifies the folder you want to upload. Replace $PATH_TO_LOCAL_FOLDER with the path to a folder on your local computer. By default, all the contents of that folder will be uploaded to your dataset. If you only want to upload certain files, use the optional parameter --filter-file. See the [Filtering Files](#filtering-files) section for details on the file syntax.
 
 **Optional Parameters:**
 
-- **--filter-file $PATH_TO_FILE**
+**--filter-file $PATH_TO_FILE**
 
-If you only want to upload certain files from the source directory, add the --filter-file parameter. Replace $PATH_TO_FILE with the path to a file on your local computer. The filter file contains special syntax describing which files to exclude and which to include. See the Filtering Files Section for details on the file syntax.
+If you only want to upload certain files from the source directory, add the --filter-file parameter. Replace $PATH_TO_FILE with the path to a file on your local computer. The filter file contains special syntax describing which files to exclude and which to include. See the [Filtering Files](#filtering-files) section for details on the file syntax.
 
 --quiet
 
@@ -126,7 +126,7 @@ If you upload the same directory to your dataset more than once, the command wil
 
 By default, all files are included in an msdlive upload or download. If you want to exclude or include only certain files, you will need to create a filter file and then pass the path to that file on the command line using the --filter-file parameter.
 
-The filter file is a [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) file that has two sections, one for files to exclude and one for exceptions to the exclude rules, as shown in this example:
+The filter file is a <a href="https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started" target="_blank" rel="noopener noreferrer">YAML</a> file that has two sections, one for files to exclude and one for exceptions to the exclude rules, as shown in this example:
 
 ```
 # This is a basic example of a filter-file.yaml

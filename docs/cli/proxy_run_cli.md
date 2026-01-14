@@ -8,7 +8,7 @@ If you get certificate errors when trying to install or run the CLI, it is likel
 From your activated virtual environment shell, run this command:
 
 ```
-pip install --proxy $PROXY_URL https://github.com/MSD-LIVE/msdlive-cli-distro/raw/dev/dist/msdlive_cli-1.1.1-py3-none-any.whl
+pip install --proxy $PROXY_URL https://github.com/MSD-LIVE/msdlive-cli-distro/raw/prod/dist/msdlive_cli-1.2-py3-none-any.whl
 ```
 
 

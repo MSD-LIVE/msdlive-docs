@@ -1,17 +1,38 @@
-site_name: Docs
+site_name: MSD-LIVE Docs
 
 theme:
   name: material
   custom_dir: docs/overrides
   logo: assets/MSD.LIVE.STACK.png
   favicon: assets/favicon.ico
-
   features:
-    - navigation.instant
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
     - navigation.indexes
-    - toc.integrate
-    - search.suggest
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
     - search.highlight
+    - search.share
+    - search.suggest
+    # toggle these 2 to see TOC in left nav or by itself on right
+    # - toc.follow
+    - toc.integrate
 
   palette:
     - scheme: default
@@ -22,29 +43,63 @@ plugins:
   - search
 
 extra_css:
-  - styles/nav.css
+  # - styles/nav.css
+  - styles/msd-customizations.css
+extra_javascript:
+  - javascripts/nav-toggle.js
+
+# nav:
+#   - Home: index.md
+#   - Getting Started: getting_started.md
+#   - CLI:
+#       - cli/index.md
+#       - Virtual Environment: cli/venv.md
+#       - Installation: cli/installation.md
+#       - Commands: cli/cli_usage.md
+#       - Proxy Setup: cli/proxy_run_cli.md
+#   - How-To:
+#       - how-to/index.md
+#       - Dataset Notebooks:
+#           - dataset_notebooks/index.md
+#           - Overview: dataset_notebooks/overview.md
+#           - Create Notebooks: dataset_notebooks/create_notebooks.md
+#           - Enable Exploration: dataset_notebooks/enable_exploration.md
+#           - Notebook Lab: dataset_notebooks/notebook_lab.md
+#           - Prepackaged Code: dataset_notebooks/prepackaged_code.md
+#           - Using Notebooks: dataset_notebooks/using_notebooks.md
+#       - Spacial Metadata: spacial_metadata.md
+#   - Best Practices: tutorials.md
+#   - Articles: articles.md
+#   - Webinars: webinars.md
 
 nav:
   - Home: index.md
   - Getting Started: getting_started.md
   - CLI:
-    - cli/index.md
-    - Virtual Environment: cli/venv.md
-    - Installation: cli/installation.md
-    - CLI Usage: cli/cli_usage.md
-    - Proxy Run CLI: cli/proxy_run_cli.md
+      - cli/index.md
+      - Virtual Environment: cli/venv.md
+      - Installation: cli/installation.md
+      - Commands: cli/cli_usage.md
+      - Proxy Setup: cli/proxy_run_cli.md
   - Dataset Notebooks:
-    - dataset_notebooks/index.md
-    - Create Notebooks: dataset_notebooks/create_notebooks.md
-    - Enable Exploration: dataset_notebooks/enable_exploration.md
-    - Notebook Lab: dataset_notebooks/notebook_lab.md
-    - Prepackaged Code: dataset_notebooks/prepackaged_code.md
-    - Using Notebooks: dataset_notebooks/using_notebooks.md
-  - Tutorials: tutorials.md
-  - Articles: articles.md
-  - Webinars: webinars.md
-  - Spacial Metadata: spacial_metadata.md
+      - dataset_notebooks/index.md
+      - Overview: dataset_notebooks/overview.md
+      - Dataset Authors:
+          - Enable File Exploration: dataset_notebooks/enable_exploration.md
+          - Notebook Lab: dataset_notebooks/notebook_lab.md
+          - Notebook Lab Storage: dataset_notebooks/notebook_lab_storage.md
+          - Providing Pre-Packaged Notebooks: dataset_notebooks/prepackaged_code.md
+      - Downstream Users:
+          - Explore Data in Notebooks: dataset_notebooks/using_notebooks.md
+          - Working with Data: dataset_notebooks/working_with_data.md
+          - Manage Your Scratch Directory: dataset_notebooks/scratch_directory.md
+          - Download Files via CLI: dataset_notebooks/download_scratch_cli.md
 
+  - Spatial Metadata: spatial_metadata.md
+  - Learning Resources:
+      - Video Tutorials: tutorials.md
+      - Articles: articles.md
+      - Webinars: webinars.md
 
 # Extensions
 markdown_extensions:
@@ -58,3 +113,5 @@ markdown_extensions:
       alternate_style: true
   - toc:
       permalink: true
+      toc_depth: 2 # Only how H1 and H2 headers in the sidebar
+      title: On this page

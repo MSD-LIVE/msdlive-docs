@@ -79,6 +79,11 @@ Here's a video of copying files to a scratch directory:
 
     Stick to the provided button workflow for the best results.
 
+## Download Your Scratch Directory
+
+Once you've copied files to your scratch directory, you can download them to your local machine or a remote computer using the [MSD-LIVE CLI](download_scratch_cli.md). This is recommended for large files or when you are working on a machine without a browser.
+
+
 !!! warning "Scratch Directory Cleanup"
 
     Files in your scratch directory will be automatically deleted after 24 hours. Be sure to download anything you need before then.
