@@ -1,6 +1,6 @@
-# Dataset Authors: Enabling File Exploration
+# Enable File Exploration
 
-The first component of MSD-LIVE's dataset notebooks feature is uploading raw data files and enabling this feature on a dataset. See Exploring Datasets via Jupyter Notebooks for an overview of related dataset notebook features.
+The first component of MSD-LIVE's dataset notebooks feature is uploading raw data files and enabling this feature on a dataset. See [Exploring Datasets via Jupyter Notebooks](/dataset_notebooks/overview) for an overview of related dataset notebook features.
 
 ![Step 1 Outline](../assets/dataset_notebooks/step1_outline-custom.png)
 

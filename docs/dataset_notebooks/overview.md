@@ -25,8 +25,8 @@ As a dataset author, you can choose to enable interactive Jupyter Notebook file 
 
 ![Enabling File Exploration](../assets/dataset_notebooks/prbutton.png)
 
-**For more detailed help enabling file exploration, visit:**
-[**How to Enable File Exploration**](enable_exploration.md)
+<!-- **For more detailed help enabling file exploration, visit:**
+[**How to Enable File Exploration**](enable_exploration.md) -->
 
 ---
 
@@ -36,10 +36,10 @@ Dataset authors have the option to provide pre-packaged code designed to assist 
 
 ![File Exploration Options](../assets/dataset_notebooks/yesenable.png)
 
-**For more detailed help, visit:**
+<!-- **For more detailed help, visit:**
 [**How to Provide Pre-Packaged Code**](prepackaged_code.md)
 
-[**Using MSD-LIVE's Notebook Lab**](notebook_lab.md)
+[**Using MSD-LIVE's Notebook Lab**](notebook_lab.md) -->
 
 ---
 
@@ -64,22 +64,22 @@ Once in your Jupyter Notebook environment there are multiple ways to explore the
 
 ![Downstream User Exploring](../assets/dataset_notebooks/downstreamuserexploring.png)
 
-**For more detailed help, visit:**
+<!-- **For more detailed help, visit:**
 
 - [Using MSD-LIVE's Dataset Notebooks](using_notebooks.md)
 - [Creating Dataset Notebooks](create_notebooks.md)
-- [Copying Files to Your Scratch Directory](using_notebooks.md#scratch-dir)
+- [Copying Files to Your Scratch Directory](using_notebooks.md#scratch-dir) -->
 
 ---
 
 ## Resources
 
-- MSD-LIVE's GitHub [repository template](https://github.com/MSD-LIVE/template-dataset-jupyter-notebook) to use when enabling file exploration
-- Example dataset with [file exploration enabled](https://data.msdlive.org/records/6yawb-zyx60) and its [accompanying notebook environment](https://notebook.dev.msdlive.org/?dataset_id=kw4st-brm23)
-- Helpful Resource Links:
+- MSD-LIVE's GitHub <a href="https://github.com/MSD-LIVE/template-dataset-jupyter-notebook" target="_blank" rel="noopener noreferrer">repository template</a> to use when enabling file exploration
+- Example dataset with <a href="https://data.msdlive.org/records/6yawb-zyx60" target="_blank" rel="noopener noreferrer">file exploration enabled</a> and its <a href="https://notebook.dev.msdlive.org/?dataset_id=kw4st-brm23" target="_blank" rel="noopener noreferrer">accompanying notebook environment</a>
+<!-- - Helpful Resource Links:
   - [How to Enable File Exploration](enable_exploration.md)
   - [How to Provide Pre-Packaged Code](prepackaged_code.md)
   - [Using MSD-LIVE's Notebook Lab](notebook_lab.md)
   - [Using MSD-LIVE's Dataset Notebooks](using_notebooks.md)
   - [Creating Dataset Notebooks](create_notebooks.md)
-  - [Copying Files to Your Scratch Directory](using_notebooks.md#scratch-dir)
+  - [Copying Files to Your Scratch Directory](using_notebooks.md#scratch-dir) -->

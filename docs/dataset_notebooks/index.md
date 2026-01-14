@@ -1,4 +1,4 @@
-# Exploring Datasets via Jupyter Notebooks
+# Getting Started with Dataset Notebooks
 
 MSD-LIVE allows users to **interactively explore data** in the MSD-LIVE data repository using Jupyter Notebooks within MSD-LIVE's Notebook Lab. This feature lets users explore, analyze, and subset datasets directly in the cloud without downloading files locally.
 

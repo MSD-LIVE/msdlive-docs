@@ -1,10 +1,12 @@
-# Using MSD-Live's Notebook Lab
+# Notebook Lab for Dataset Authors
 
-The second component of MSD-LIVE's dataset notebooks feature is the ability to provide pre-packaged code written by the dataset author. See [Exploring Datasets via Jupyter Notebooks](index.md) for an overview of related dataset notebook features.
+This guide is intended for **dataset authors** who want to create and maintain example notebooks using MSD-LIVE’s cloud-based Notebook Lab. See [Exploring Datasets via Jupyter Notebooks](/dataset_notebooks/overview) for an overview of all dataset notebook features.
 
 ![Dataset Notebooks](../assets/dataset_notebooks/datasetnotebookstep2-custom.png)
 
-Watch this video to see how to use the Notebook Lab environment
+## Video Overview: Notebook Lab Demo
+Watch this short demo to see how authors use the Notebook Lab environment.
+
 <div>
   <iframe width="560" height="315"
       src="https://youtube.com/embed/00Rm65PTsn8"
@@ -12,111 +14,77 @@ Watch this video to see how to use the Notebook Lab environment
   </iframe>
 </div>
 
-## Features of the Notebook Lab
+## What the Notebook Lab Provides
 
-- **No local setup required:** The authoring environment automatically spawns a fully-configured Jupyter server for you in the cloud - no need to install Python, Jupyter, or any dependencies locally
+- **No local setup required:** A fully configured Jupyter server is launched automatically in the cloud—no Python or Jupyter installation needed.
+- **Pre-mounted dataset files:** Your dataset files are immediately available in the notebook environment.
+- **Instant productivity:** Start writing and executing code as soon as the environment loads.
+- **Built-in GitHub workflow:** Create pull requests directly from the Notebook Lab and share notebooks for review.
 
-- **Pre-mounted data:** Your dataset files are automatically available
 
-- **Instant access:** Start coding and executing cells immediately - everything you need is already set up
+## Using the Notebook Lab
 
-- **GitHub integration:** Create pull requests directly from the Jupyter Notebook environment and share notebooks with project members for review
+**Launch the Notebook Lab**
 
-## How To Use MSD-LIVE's Notebook Lab:
+1. Log in to MSD-LIVE’s data repository
+2. Navigate to your draft or published dataset with File Exploration enabled
+3. Click **Launch Notebook Lab**
+4. Log in using your MSD-LIVE credentials
 
-### Prerequisites
-- A draft or published dataset in MSD-LIVE with:
-    - The data uploaded
-    - File exploration enabled on the dataset
-    - A GitHub repository linked
-
-- Basic knowledge of Jupyter Notebooks and your chosen programming language
-
-**1. Launch the Notebook Lab**
-1. Log in to MSD-LIVE's data repository
-2. Navigate to your draft or published dataset that has file exploration enabled
-3. Click "Launch Notebook Lab"
-4. Log in with your MSD-LIVE credentials
-
-Your Notebook Lab can be launched from a published or draft dataset's landing page:
+You can launch the Notebook Lab from a published or draft dataset’s landing page:
 
 ![Launch from Landing](../assets/dataset_notebooks/launchfromlanding.png)
 
-Or, from the File Exploration section of your draft once your GitHub repo has been linked:
+Or from the File Exploration section once your GitHub repository is linked:
 
 ![Launch from Draft](../assets/dataset_notebooks/launchfromdraft.png)
 
 !!! important
+    Notebook Lab sessions are limited to **3 hours**. Be sure to save your work frequently.
 
-    Be sure to save often as our MSD-LIVE's Notebook Lab session is limited to 3 hours
+### Creating New Notebooks
 
-### Create Notebooks
-Create notebooks following the steps in this guide:
+After the environment loads, right-click in the file explorer and select **New Notebook**.
+![New Notebook Menu Item](../assets/dataset_notebooks/newnotebookmenuitem.png)
 
-### Save Your Notebooks to Your GitHub Repository
-Your Notebook Lab environment comes with the following GitHub integrations.
+When creating a notebook, you’ll be asked to choose where it lives. This determines how it’s shared and reviewed.
 
-1. Automatic repository setup:
-    - When your Notebook Lab launches for a dataset for the first time, we automatically clone the GitHub repository you specified in the "File Exploration" section
-    - The repository is cloned into your home directory under the notebooks folder
+- **If the dataset has a linked GitHub repository:**
+    - Choose a notebook location:
+        - *Community Notebooks* for general or cross-dataset notebooks
+        - *Dataset Notebooks* for dataset-specific notebooks
+    - Optionally select **Create notebook with starter code and dataset guidance**
 
-2. Create and edit notebooks:
-    - Work on your notebooks inside the notebooks folder
-    - Your files persist across notebook sessions for this dataset - you won't lose your work when you close and reopen the environment
-    - Your Jupyter Notebook server session is limited to 3 hours so be sure to save often
+- **If the dataset does not have a linked repository:**
+    - Only the starter code option is available
+    - Select it to pre-fill the notebook with examples and environment guidance
 
-3. Push changes to GitHub:
-    - When your notebooks are complete, click the "Pull Request" button in the interface
-    - If this is your first time, you'll be prompted to authorize MSD-LIVE to access your GitHub repository
-    - Once authorized, MSD-LIVE will create a pull request on your behalf with your new files and changes
+
+![New Notebook Dialog](../assets/dataset_notebooks/newnotebookdialog.png)
+
+
+### Saving and Syncing Notebooks with GitHub
+
+Notebook Lab includes built-in GitHub integration to manage your work.
+
+#### Automatic Repository Setup
+- The first time you launch Notebook Lab for a dataset, MSD-LIVE automatically clones the linked GitHub repository
+- The repository is placed in your home directory under the `notebooks` folder
+
+#### Editing and Persisting Notebooks
+- Create and edit notebooks inside the `notebooks` folder
+- Files persist across Notebook Lab sessions for the same dataset
+- Sessions expire after 3 hours, so save often
+
+#### Creating a Pull Request
+- Click the **Pull Request** button in the Notebook Lab interface
+- On first use, authorize MSD-LIVE to access your GitHub repository
+- MSD-LIVE creates a pull request containing your new or updated notebooks
 
 ![PR Button](../assets/dataset_notebooks/prbutton.png)
 
-### Authorization process:
+### GitHub Authorization and Permissions
 
-- The first time you use the pull request feature, you'll need to grant MSD-LIVE permission to make pull requests to your repository
-- This is a one-time setup that allows MSD-LIVE to push your notebook changes directly to your GitHub repo
-- You maintain full control - you can review and merge the pull requests as usual on GitHub
-
-### Manage Your Home Directory
-
-!!! important
-
-    - Your home directory has a 50 GB quota
-    - Files older than 7 days in your home directory are automatically deleted
-
-### Storage Quota
-
-  - Limit: 50 GB per user per dataset
-  - Dataset files (files mounted under /data and symlinked in your home folder as data) are excluded from the quota
-  - MSD-LIVE has daily monitoring with email alerts if exceeded
-  - You can manage your storage quota usage by cleaning up old files
-
-### Automated Cleanup
-
-Files older than 7 days are automatically deleted to maintain system performance.
-
-**What gets deleted:**
-
-- Temporary files (.tmp, .log, .cache, .bak)
-- Data files (.csv, .json, .pkl, .zip, etc.)
-- Large files over 100 MB
-- Files with "temp", "cache", or "backup" in the name
-
-**What's protected:**
-
-- Configuration directories (.jupyter, .ssh, .git, etc.)
-- Recently accessed Jupyter Notebooks
-- Any file accessed within 7 days
-- Your dataset's data mounted at /data is never deleted
-
-**Advance warning:**
-
-- MSD-LIVE will send you email notification 3 days before deletion
-- Simply open a file to protect it for another 7 days
-
-**Best practices:**
-
-- Use the Pull Request button to push changes back to your GitHub repo
-- Complete your dataset notebook development within 1 week
-
+- Authorization is required the first time you use the pull request feature
+- This is a one-time setup that allows MSD-LIVE to push changes on your behalf
+- You retain full control—review and merge pull requests directly on GitHub
