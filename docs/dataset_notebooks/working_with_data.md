@@ -59,7 +59,7 @@ In Jupyter Notebooks, you can install and use external packages directly from wi
         ```
         Converts the pandas DataFrame (df) to a Polars DataFrame (pl_df), displays the first rows, and computes simple column means using Polars expressions.
 
-    5. Access another dataset by its Record ID
+    5. [Access another dataset](#accessing-multiple-datasets-from-any-notebook-server) by its Record ID
 
         ```python
         import os
@@ -126,7 +126,7 @@ In Jupyter Notebooks, you can install and use external packages directly from wi
       }
       ```
 
-    4. Access another dataset by its Record ID
+    4. [Access another dataset](#accessing-multiple-datasets-from-any-notebook-server) by its Record ID
 
       ```r
       # PUBLIC_DATA_DIR points to all public datasets with file exploration enabled
@@ -223,11 +223,17 @@ MSD-LIVE supports exploring multiple datasets from the same Jupyter notebook ser
 
 Key points:
 
-1. From any dataset's Jupyter notebook server, you can access all published, public datasets that have enabled file exploration via the /public_datasets directory.
+1. From any dataset's Jupyter notebook server, you can access all published, public datasets that have enabled file exploration via the /public_datasets directory. 
 
-2. Only datasets with file exploration enabled are available here.
+    ![public_datasets](../assets/dataset_notebooks/public_datasets_in_jupyter.png)
+
+2. Only datasets with file exploration enabled are available here. 
+
+    ![public_datasets](../assets/dataset_notebooks/record_id_in_dir.png)
 
 3. The Record ID can be found on the dataset's public landing page, in the details section.
+
+    ![Record ID](../assets/dataset_notebooks/record_id.png)
 
 4. A symbolic link named public_datasets is included in your Jupyter home directory (similar to /data) pointing to /public_datasets.
 
