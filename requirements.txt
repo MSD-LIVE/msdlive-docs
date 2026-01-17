@@ -1,2 +1,13 @@
-mkdocs
-mkdocs-material
+mkdocs==1.5.3  
+
+# Requirements for plugins
+babel>=2.10
+colorama>=0.4
+paginate>=0.5
+backrefs>=5.7.post1
+requests>=2.30
+
+mkdocs-carbon==2.0.1   
+mkdocs-glightbox  
+mkdocs-redirects  
+pyyaml
