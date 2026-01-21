@@ -1,4 +1,5 @@
 site_name: Docs
+site_url: https://msd-live.github.io/msdlive-docs/
 
 theme:
     name: carbon
