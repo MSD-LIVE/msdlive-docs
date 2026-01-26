@@ -96,30 +96,18 @@
     </cds-header>
     </div>
     <!-- Main container with three-column layout -->
-    <div class="md-container md-container--with-tall-header">
+    <div class="md-container">
       <!-- Left sidebar - Navigation -->
-      <aside class="md-sidebar md-sidebar--primary  md-sidebar--offset-header" data-md-component="sidebar">
+      <aside class="md-sidebar md-sidebar--primary" data-md-component="sidebar">
         <div class="md-sidebar__scrollwrap">
           <div class="md-sidebar__inner">
-            <cds-side-nav aria-label="Side navigation" offset-height="96">
+            <cds-side-nav aria-label="Side navigation">
               <cds-side-nav-items>
                 {% for nav_item in nav %}
                   {% include "nav.html.j2" %}
                 {% endfor %}
               </cds-side-nav-items>
             </cds-side-nav>
-
-<script type="module">
-  import '@carbon/web-components/es/components/ui-shell/side-nav.js';
-
-  const sideNav = document.querySelector('cds-side-nav');
-  if (sideNav) {
-    // Force offset before rendering
-    sideNav.setAttribute('offset-height', '96');
-    sideNav.removeAttribute('hidden'); // now render after attribute applied
-  }
-</script>
-
           </div>
         </div>
       </aside>
