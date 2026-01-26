@@ -1,65 +1,63 @@
 site_name: Docs
 
 theme:
-    name: carbon
-    logo: assets/MSD.LIVE.STACK.png
-    favicon: assets/favicon.ico
-    theme_toggle: true
-    custom_dir: docs/overrides
+        name: carbon
+        logo: assets/MSD.LIVE.STACK.png
+        favicon: assets/favicon.ico
+        theme_toggle: true
+        custom_dir: docs/overrides
 
 plugins:
-    - search
-    - glightbox:
-          shadow: true
-          caption_position: bottom
-          auto_caption: true
-          touchNavigation: false
-          background: black
+        - search
+        - glightbox:
+                  shadow: true
+                  caption_position: bottom
+                  auto_caption: true
+                  touchNavigation: false
+                  background: black
 
 extra:
-    favicon: assets/favicon.ico
+        favicon: assets/favicon.ico
 
-# extra_css:
 extra_css:
-    - styles/carbon-customizations.css
-#   # - styles/nav.css
-#   - styles/msd-customizations.css
-# extra_javascript:
-#   - javascripts/nav-toggle.js
+        - styles/carbon-customizations.css
+
+extra_javascript:
+        - javascripts/carbon-nav-scroll-fix.js
 
 nav:
-    # - Home: index.md
-    - Getting Started:
-          - Intro: getting_started.md
-    - CLI:
-          - Intro: cli/index.md
-          - Virtual Environment: cli/venv.md
-          - Installation: cli/installation.md
-          - Commands: cli/cli_usage.md
-          - Proxy Setup: cli/proxy_run_cli.md
-    - Dataset Notebooks:
-          - Intro: dataset_notebooks/index.md
-          - Overview: dataset_notebooks/overview.md
-          - Dataset Authors:
-                - Enable File Exploration: dataset_notebooks/enable_exploration.md
-                - Notebook Lab: dataset_notebooks/notebook_lab.md
-                - Notebook Lab Storage: dataset_notebooks/notebook_lab_storage.md
-                - Providing Pre-Packaged Notebooks: dataset_notebooks/prepackaged_code.md
-          - Downstream Users:
-                - Explore Data in Notebooks: dataset_notebooks/using_notebooks.md
-                - Working with Data: dataset_notebooks/working_with_data.md
-                - Manage Your Scratch Directory: dataset_notebooks/scratch_directory.md
-                - Download Files via CLI: dataset_notebooks/download_scratch_cli.md
-    - Dataset Metadata:
-          - Spatial Metadata:
-                - Intro: spatial_metadata.md
-    - Learning Resources:
-          - Video Tutorials: tutorials.md
-          - Articles: articles.md
-          - Webinars: webinars.md
+        - Getting Started:
+                  - Intro: index.md
+                  - Getting Started: getting_started.md
+        - CLI:
+                  - Intro: cli/index.md
+                  - Virtual Environment: cli/venv.md
+                  - Installation: cli/installation.md
+                  - Commands: cli/cli_usage.md
+                  - Proxy Setup: cli/proxy_run_cli.md
+        - Dataset Notebooks:
+                  - Intro: dataset_notebooks/index.md
+                  - Overview: dataset_notebooks/overview.md
+                  - Dataset Authors:
+                            - Enable File Exploration: dataset_notebooks/enable_exploration.md
+                            - Notebook Lab: dataset_notebooks/notebook_lab.md
+                            - Notebook Lab Storage: dataset_notebooks/notebook_lab_storage.md
+                            - Providing Pre-Packaged Notebooks: dataset_notebooks/prepackaged_code.md
+                  - Downstream Users:
+                            - Explore Data in Notebooks: dataset_notebooks/using_notebooks.md
+                            - Working with Data: dataset_notebooks/working_with_data.md
+                            - Manage Your Scratch Directory: dataset_notebooks/scratch_directory.md
+                            - Download Files via CLI: dataset_notebooks/download_scratch_cli.md
+        - Dataset Metadata:
+                  - Spatial Metadata:
+                            - Intro: spatial_metadata.md
+        - Learning Resources:
+                  - Video Tutorials: tutorials.md
+                  - Articles: articles.md
+                  - Webinars: webinars.md
 
 # Extensions
 markdown_extensions:
-    - admonition
-    - toc:
-          permalink: true
+        - admonition
+        - toc:
+                  permalink: true
