@@ -1,4 +1,4 @@
-name: Deploy MkDocs (GitHub Pages Artifact)
+name: Deploy MkDocs (Docs + Embed)
 
 on:
   push:
@@ -31,9 +31,15 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Build MkDocs
+      - name: Build normal docs
         run: |
           mkdocs build --strict
+
+      - name: Build embed (headless) docs
+        run: |
+          mkdocs build \
+            -f mkdocs.embed.yml \
+            -d site/embed
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
