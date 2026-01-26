@@ -1,0 +1,36 @@
+/* Remove Carbon chrome */
+cds-header,
+.md-sidebar--primary,
+.md-sidebar--secondary,
+.md-footer,
+.md-footer-nav,
+.md-breadcrumbs,
+.md-theme-toggle {
+    display: none !important;
+}
+
+/* Layout fixes */
+.md-container {
+    max-width: none !important;
+    margin-top: 0 !important;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+:root[data-carbon-theme="g90"],
+:root[data-carbon-theme="g100"] {
+    --cds-background: #ffffff !important;
+    --cds-layer: #ffffff !important;
+}
+
+.md-content__inner {
+    padding: 0px;
+}
+
+.md-content__inner {
+    padding: 0 !important;
+    margin: 0 !important;
+}
