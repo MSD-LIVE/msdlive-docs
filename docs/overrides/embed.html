@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+
+    {# MkDocs styles only #}
+    {% for css in config.extra_css %}
+    <link rel="stylesheet" href="{{ css | url }}">
+    {% endfor %}
+
+    {{ mkdocs_page_meta }}
+</head>
+
+<body class="docs-embed">
+    {{ page.content }}
+</body>
+
+</html>
