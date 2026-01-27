@@ -29,7 +29,7 @@ Click **"Explore the data"** to start exploring:
 
 - If the dataset author provided pre-packaged code, you will be directed to a README explaining how to use the notebooks.
 - If no README is available, you will need to create your own notebook to interact with the data.  
-  See [How to Create Dataset Notebooks](create_notebooks.md) for instructions.
+  See [Creating Notebooks](creating_notebooks.md) for instructions.
 
 ---
 
@@ -82,7 +82,7 @@ For an example dataset with file exploration enabled, see:
 
 ## Contributing Notebooks Back
 
-MSD-LIVE encourages users to contribute improvements back to the platform through its powerful collaboration features. You can submit a GitHub Pull Request (PR) to share new notebooks, updates, or useful analyses and visualizations so that others can benefit from your work.
+MSD-LIVE encourages users to contribute improvements back to the platform through its powerful collaboration features. You can submit a GitHub Pull Request (PR) to share new notebooks, updates, or useful analyses and visualizations so that others can benefit from your work. Once your PR is approved, your notebook will become available to all future users who explore the dataset. This creates a collaborative ecosystem where the exploration experience continuously improves through community contributions.
 
 
 ### Submitting a Pull Request
@@ -109,7 +109,7 @@ MSD-LIVE encourages users to contribute improvements back to the platform throug
 - Browse the dataset’s notebook repository on GitHub.  
 - View notebook history, existing issues, and discussions.
 
-> **Remember:** All contributions are reviewed by the dataset author before being available to others. Contributing helps improve the experience for the entire research community.
+> **Remember:** All contributions are reviewed before being available to others. Contributing helps improve the experience for the entire research community.
 
 ---
 

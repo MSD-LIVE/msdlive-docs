@@ -44,32 +44,8 @@ Or from the File Exploration section once your GitHub repository is linked:
 
 ### Creating New Notebooks
 
-After the environment loads, right-click in the file explorer and select **New Notebook**.
-![New Notebook Menu Item](../assets/dataset_notebooks/newnotebookmenuitem.png)
+For detailed instructions on creating new notebooks, including screenshots of the notebook creation dialog and options, see [Creating Notebooks](creating_notebooks.md).
 
-When creating a notebook, you’ll be asked to choose where it lives. This determines how it’s shared and reviewed.
-
-- **If the dataset has a linked GitHub repository:**
-    - Choose a notebook location:
-        - *Community Notebooks* for general or cross-dataset notebooks
-        - *Dataset Notebooks* for dataset-specific notebooks
-    - Optionally select **Create notebook with starter code and dataset guidance**
-
-- **If the dataset does not have a linked repository:**
-    - Only the starter code option is available
-    - Select it to pre-fill the notebook with examples and environment guidance
-
-
-![New Notebook Dialog](../assets/dataset_notebooks/newnotebookdialog.png)
-
-
-### Saving and Syncing Notebooks with GitHub
-
-Notebook Lab includes built-in GitHub integration to manage your work.
-
-#### Automatic Repository Setup
-- The first time you launch Notebook Lab for a dataset, MSD-LIVE automatically clones the linked GitHub repository
-- The repository is placed in your home directory under the `notebooks` folder
 
 #### Editing and Persisting Notebooks
 - Create and edit notebooks inside the `notebooks` folder
