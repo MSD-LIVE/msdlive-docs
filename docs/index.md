@@ -25,6 +25,7 @@ If you would like to upload or download files directly from your computer termin
 ## Issues
 
 If you find problems with any of the MSD-LIVE tools, please first check our [**Known Issues**](https://github.com/MSD-LIVE/issues/issues) page to see if your problem has already been reported.  
+
 If so, the issue will describe any workarounds that can be used to mitigate the problem in the interim, and it may also include a target date by which we hope to resolve the issue.
 
 If you have an issue that hasn’t been reported, please create a new issue using the GitHub interface or contact us using the address provided below.
