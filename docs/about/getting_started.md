@@ -1,4 +1,4 @@
-# Getting Started Guide
+## Getting Started Guide
 
 Welcome to **MSD-LIVE**, a one-stop shop for finding software, data, workflows, and tools used by the [MultiSector Dynamics Community](https://multisectordynamics.org/). 
 

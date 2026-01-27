@@ -27,17 +27,17 @@ extra_javascript:
         - javascripts/carbon-nav-scroll-fix.js
 
 nav:
-        - Getting Started:
-                  - Intro: index.md
-                  - Getting Started: getting_started.md
+        - About:
+                  - Introduction: index.md
+                  - Getting Started: about/getting_started.md
         - CLI:
-                  - Intro: cli/index.md
+                  - Introduction: cli/index.md
                   - Virtual Environment: cli/venv.md
                   - Installation: cli/installation.md
                   - Commands: cli/cli_usage.md
                   - Proxy Setup: cli/proxy_run_cli.md
         - Dataset Notebooks:
-                  - Intro: dataset_notebooks/index.md
+                  - Introduction: dataset_notebooks/index.md
                   - Overview: dataset_notebooks/overview.md
                   - Dataset Authors:
                             - Enable File Exploration: dataset_notebooks/enable_exploration.md
@@ -50,8 +50,7 @@ nav:
                             - Manage Your Scratch Directory: dataset_notebooks/scratch_directory.md
                             - Download Files via CLI: dataset_notebooks/download_scratch_cli.md
         - Dataset Metadata:
-                  - Spatial Metadata:
-                            - Intro: spatial_metadata.md
+                  - Spatial Metadata: dataset_metadata/spatial_metadata.md
         - Learning Resources:
                   - Video Tutorials: tutorials.md
                   - Articles: articles.md
@@ -62,3 +61,4 @@ markdown_extensions:
         - admonition
         - toc:
                   permalink: true
+                  toc_depth: 2
