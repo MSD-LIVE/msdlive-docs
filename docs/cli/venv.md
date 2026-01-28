@@ -6,49 +6,56 @@ A Python virtual environment is a self-contained directory that contains a speci
 
 Python provides a built-in module called venv to create and manage virtual environments. The steps to create a virtual environment depend upon the operating system you are using:
 
-=== "Windows"
+<cds-tabs trigger-content="Select an item" value="windows">
+    <cds-tab id="windows-create-tab" target="panel-windows-create" value="windows">Windows</cds-tab>
+    <cds-tab id="unix-create-tab" target="panel-unix-create" value="unix">Unix-based systems (Linux/macOS)</cds-tab>
+</cds-tabs>
 
-    Open the command prompt (Note: our instructions are for "Command Prompt" not "Windows PowerShell" as PowerShell might need additional configurations).
+<div>
+    <div id="panel-windows-create" role="tabpanel" aria-labelledby="windows-create-tab" hidden>
+        Open the command prompt (Note: our instructions are for "Command Prompt" not "Windows PowerShell" as PowerShell might need additional configurations).
 
-    Enter the following command:
+        Enter the following command:
 
-    ```
-    python -m venv %HOMEPATH%\venvs\msdlive
-    ```
+        <pre><code class="language-bash">python -m venv %HOMEPATH%\venvs\msdlive</code></pre>
+    </div>
 
-=== "Unix-based systems (Linux/macOS)"
+    <div id="panel-unix-create" role="tabpanel" aria-labelledby="unix-create-tab" hidden>
+        Open a terminal.
 
-    Open a terminal.
+        Enter the following command:
 
-    Enter the following command:
-
-    ```
-    python3 -m venv ~/venvs/msdlive
-    ```
+        <pre><code class="language-bash">python3 -m venv ~/venvs/msdlive</code></pre>
+    </div>
+</div>
 
 ## Activating a Virtual Environment
 Once you have created a virtual environment, you need to activate it in order to use it. The steps depend upon the operating system you are using:
 
-=== "Windows"
+<cds-tabs trigger-content="Select an item" value="windows">
+    <cds-tab id="windows-activate-tab" target="panel-windows-activate" value="windows">Windows</cds-tab>
+    <cds-tab id="unix-activate-tab" target="panel-unix-activate" value="unix">Unix-based systems (Linux/macOS)</cds-tab>
+</cds-tabs>
 
-    Open the command prompt.
+<div class="tabs-wrapper">
+    <div id="panel-windows-activate" role="tabpanel" aria-labelledby="windows-activate-tab" hidden>
+        Open the command prompt.
 
-    Enter the following command:
-    ```
-    %HOMEPATH%\venvs\msdlive\Scripts\activate
-    ```
+        Enter the following command:
 
-=== "Unix-based systems (Linux/macOS)"
+        <pre><code class="language-bash">%HOMEPATH%\venvs\msdlive\Scripts\activate</code></pre>
+    </div>
 
-    Open a terminal.
+    <div id="panel-unix-activate" role="tabpanel" aria-labelledby="unix-activate-tab" hidden>
+        Open a terminal.
 
-    Enter the following command:
+        Enter the following command:
     
-    ```
-    source ~/venvs/msdlive/bin/activate
-    ```
+        <pre><code class="language-bash">source ~/venvs/msdlive/bin/activate</code></pre>
+    </div>
+</div>
 
-    After executing the appropriate command, you should see that the virtual environment is activated. The prompt in your command prompt or terminal will change to indicate that you are now working within the virtual environment. You can then install packages or run Python scripts within this activated venv.
+After executing the appropriate command, you should see that the virtual environment is activated. The prompt in your command prompt or terminal will change to indicate that you are now working within the virtual environment. You can then install packages or run Python scripts within this activated venv.
 
 ## Deactivating a Virtual Environment
 Once you have finished working in your virtual environment, you can deactivate it to restore your system's default Python environment:

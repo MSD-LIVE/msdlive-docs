@@ -12,7 +12,7 @@ In Jupyter Notebooks, you can install and use external packages directly from wi
   <cds-tab id="julia-tab" target="panel-julia" value="julia">Julia</cds-tab>
 </cds-tabs>
 
-<div>
+<div class="tabs-wrapper">
 <div id="panel-python" role="tabpanel" aria-labelledby="Python-Tab">
   <h3>Install the package (run this in a Python cell)</h3>
   <pre><code class="language-bash">!pip install polars --quiet</code></pre>
