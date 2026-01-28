@@ -29,7 +29,14 @@ extra_javascript:
 nav:
         - About:
                   - Introduction: index.md
-                  - Getting Started: about/getting_started.md
+                  - Getting Started:
+                        - Introduction: about/index.md
+                        - Create an Account: about/create_account.md
+                        - Log In: about/log_in.md
+                        - Find Data: about/find_data.md
+                        - Join a Project: about/join_project.md
+                        - Set Up Compute Resources: about/compute_resources.md
+                        - Publish Code or Data: about/publish.md
         - CLI:
                   - Introduction: cli/index.md
                   - Virtual Environment: cli/venv.md
