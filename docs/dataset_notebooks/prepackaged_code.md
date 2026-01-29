@@ -1,6 +1,6 @@
 # Providing Pre-Packaged Notebooks
 
-The second component of MSD-LIVE's dataset notebooks feature is the ability to provide pre-packaged code written by the dataset author. See [Exploring Datasets via Jupyter Notebooks](/dataset_notebooks/overview) for an overview of related dataset notebook features.
+The second component of MSD-LIVE's dataset notebooks feature is the ability to provide pre-packaged code written by the dataset author. See [Exploring Datasets via Jupyter Notebooks](overview.md) for an overview of related dataset notebook features.
 
 
 
@@ -98,7 +98,7 @@ After your data has been uploaded to your MSD-LIVE dataset and the notebook GitH
 
 - No need to download/upload files manually
 
-Follow [these instructions](/dataset_notebooks/notebook_lab/) to create your dataset notebooks using the Notebook Lab environment.
+Follow [these instructions](notebook_lab.md) to create your dataset notebooks using the Notebook Lab environment.
 
 ## Best Practices
 - Include a comprehensive README.md explaining how to use the notebooks

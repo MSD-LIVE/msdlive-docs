@@ -6,7 +6,7 @@ Use the MSD-LIVE command-line interface (CLI) to download your scratch directory
 
 To get started:
 
-1. Follow these instructions to install the [**Command-Line Interface (CLI)**](/cli/installation/).
+1. Follow these instructions to install the [**Command-Line Interface (CLI)**](../cli/installation.md).
 
 2. Log in by running:
 ```

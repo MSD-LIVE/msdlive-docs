@@ -12,7 +12,7 @@ MSD-LIVE allows users to **interactively explore data** in the MSD-LIVE data rep
 
 Dataset authors adding data to the MSD-LIVE data repository can link the dataset to a code repository with pre-packaged Jupyter notebooks to explore the data.  
 
-Downstream users can also open blank Jupyter Notebooks and write their own analysis, visualization, or subsetting routines. Subsets or processed data can be downloaded directly from the cloud via the Jupyter Notebook user interface or MSD-LIVE's [**Command-Line Interface (CLI)**](/cli).
+Downstream users can also open blank Jupyter Notebooks and write their own analysis, visualization, or subsetting routines. Subsets or processed data can be downloaded directly from the cloud via the Jupyter Notebook user interface or MSD-LIVE's [**Command-Line Interface (CLI)**](../cli/index.md).
 
 ---
 

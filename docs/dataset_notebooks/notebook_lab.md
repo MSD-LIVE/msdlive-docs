@@ -1,6 +1,6 @@
 # Notebook Lab for Dataset Authors
 
-This guide is intended for **dataset authors** who want to create and maintain example notebooks using MSD-LIVE’s cloud-based Notebook Lab. See [Exploring Datasets via Jupyter Notebooks](/dataset_notebooks/overview) for an overview of all dataset notebook features.
+This guide is intended for **dataset authors** who want to create and maintain example notebooks using MSD-LIVE’s cloud-based Notebook Lab. See [Exploring Datasets via Jupyter Notebooks](overview.md) for an overview of all dataset notebook features.
 
 ![Dataset Notebooks](../assets/dataset_notebooks/datasetnotebookstep2-custom.png)
 

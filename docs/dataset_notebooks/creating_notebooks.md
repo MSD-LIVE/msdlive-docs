@@ -109,5 +109,6 @@ Where the PR goes depends on the notebook folder:
 ![PR Button 2](../assets/dataset_notebooks/pr2.png)
 
 For more information on contributing notebooks, see:
+
 - [Notebook Lab for Dataset Authors](notebook_lab.md)
 - [Explore Data in Notebooks](using_notebooks.md#contributing-notebooks-back)

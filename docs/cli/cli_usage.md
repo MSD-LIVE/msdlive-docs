@@ -11,7 +11,7 @@ Watch this video for a full walkthrough of installing and using the CLI:
   </iframe>
 </div>
 
-## help
+## Help
 If you can't remember the command syntax, use the built-in help to get the list of commands that are available.
 
 ```
@@ -31,7 +31,7 @@ msdlive download --help
 
 ---
 
-## login
+## Login
 Before you can upload any files to your draft dataset or download files from a protected dataset, you must login first:
 
 ```
@@ -42,7 +42,7 @@ Once logged in, your credentials will last for two days. If you want to continue
 
 ---
 
-## download
+## Download
 The msdlive download command allows you to download files either from a published dataset or from your scratch directory. The general syntax depends on the source.
 
 ### Dataset
@@ -89,7 +89,7 @@ Suppresses normal output and only shows errors—useful for silent or scripted o
 
 ---
 
-## upload
+## Upload
 The msdlive upload command allows you to upload a file or folder to a given dataset. The general syntax is as follows:
 
 ```
