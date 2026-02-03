@@ -23,16 +23,29 @@ Each dataset workspace includes 50 GB of personal storage. Files mounted from 
 
 ## Automated Cleanup
 
-=== "What gets deleted"
-Temporary artifacts (.tmp, .log, .cache, .bak), intermediate data (.csv, .json, .pkl, .zip, etc.), any file over 100 MB, and items named “temp”, “cache”, or “backup”.
+<cds-tabs trigger-content="Select an item" value="deleted">
+    <cds-tab id="tab-deleted" target="panel-deleted" value="deleted">What gets deleted</cds-tab>
+    <cds-tab id="tab-protected" target="panel-protected" value="protected">What's protected</cds-tab>
+    <cds-tab id="tab-warning" target="panel-warning" value="warning">Advance warning</cds-tab>
+</cds-tabs>
 
-=== "What's protected"
-Configuration directories (.jupyter, .ssh, .git, etc.), recently accessed notebooks, files touched within 7 days, and dataset mounts at /data.
+<div class="tabs-wrapper">
+    <div id="panel-deleted" role="tabpanel" aria-labelledby="tab-deleted" hidden>
+        Temporary artifacts (.tmp, .log, .cache, .bak), intermediate data (.csv, .json, .pkl, .zip, etc.), any file over 100 MB, and items named “temp”, “cache”, or “backup”.
+    </div>
 
-=== "Advance warning"
-1. Quota-breach emails prompt cleanup.
-2. A notice arrives 3 days before deletion.
-3. Opening or editing a file before that deadline resets its protection window.
+    <div id="panel-protected" role="tabpanel" aria-labelledby="tab-protected" hidden>
+        Configuration directories (.jupyter, .ssh, .git, etc.), recently accessed notebooks, files touched within 7 days, and dataset mounts at /data.
+    </div>
+
+    <div id="panel-warning" role="tabpanel" aria-labelledby="tab-warning" hidden>
+        <ol>
+            <li>Quota-breach emails prompt cleanup.</li>
+            <li>A notice arrives 3 days before deletion.</li>
+            <li>Opening or editing a file before that deadline resets its protection window.</li>
+        </ol>
+    </div>
+</div>
 
 !!! tip "Retention Highlights"
     Only files idle for 7 days are candidates. Touching a file restarts its timer, and mounted dataset content under `/data` is always preserved.
