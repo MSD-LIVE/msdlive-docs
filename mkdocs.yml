@@ -5,7 +5,7 @@ theme:
   name: carbon
   logo: assets/MSD.LIVE.STACK.png
   favicon: assets/favicon.ico
-  theme_toggle: true
+  theme_toggle: false
   custom_dir: docs/overrides
 
 plugins:
