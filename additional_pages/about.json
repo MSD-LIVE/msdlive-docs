@@ -1,0 +1,941 @@
+{
+    "story": {
+        "name": "About",
+        "created_at": "2024-08-06T23:04:37.014Z",
+        "published_at": "2026-01-15T20:54:52.717Z",
+        "updated_at": "2026-01-15T20:54:52.732Z",
+        "id": 9948218,
+        "uuid": "b170b8c6-9f72-42cf-833b-6ea8b1d8878d",
+        "content": {
+            "_uid": "52911d81-1897-469a-a5c5-271e8032c99d",
+            "body": [
+                {
+                    "_uid": "405f0723-85a3-46ac-af21-ce057e20a0a3",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "MSD-LIVE, the MultiSector Dynamics – Living Intuitive Value-adding Environment, is a flexible and scalable data and code management system combined with an advanced computing platform that enables MSD researchers to document and archive their data, run their models and analysis tools, and share their data, software, and multi-model workflows within a robust ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "Community of Practice",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "https://multisectordynamics.org/",
+                                                    "uuid": null,
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "url"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": ". Launched originally in August of 2022, MSD-LIVE is facilitating a new open, collaborative, resource-rich, technology-facilitated, community-driven way of doing MSD research. MSD-LIVE accelerates progress, facilitates and incentivizes collaboration, and enhances the scientific impact and visibility of the MSD community. The platform is built around four core principles:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "component": "richText"
+                },
+                {
+                    "_uid": "0f170227-d891-47cc-9cee-06633b1f7254",
+                    "component": "principleList",
+                    "principles": [
+                        {
+                            "_uid": "57c50d4e-6b50-4261-a740-516efc298187",
+                            "title": "Living",
+                            "svgIcon": {
+                                "id": 820846,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019230/150x150/261440ed67/heart-pulse-solid.svg",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_external_url": false
+                            },
+                            "component": "principle",
+                            "description": "There should be continuous interaction with the platform throughout the data and code lifecycle rather than only storage of the final product."
+                        },
+                        {
+                            "_uid": "7ecc21aa-1233-4d20-9936-fe8cb7f7bd74",
+                            "title": "Intuitive",
+                            "svgIcon": {
+                                "id": 820848,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019230/150x150/abac59ed67/head-side-virus-solid.svg",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_private": false,
+                                "is_external_url": false
+                            },
+                            "component": "principle",
+                            "description": "Using the platform should not require a steep learning curve."
+                        },
+                        {
+                            "_uid": "cadb9864-46e8-4153-b046-4423a5666d7e",
+                            "title": "Value-adding",
+                            "svgIcon": {
+                                "id": 820849,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019230/169x150/c918eed03f/hand-holding-medical-solid.svg",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_private": false,
+                                "is_external_url": false
+                            },
+                            "component": "principle",
+                            "description": "There should be tools built into the platform that enhance the ability of the MSD community to do their work."
+                        },
+                        {
+                            "_uid": "462098d0-bdd4-4df1-a545-d0963d6d59d1",
+                            "title": "Environment",
+                            "svgIcon": {
+                                "id": 820850,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019230/188x150/debb0754d3/laptop-code-solid.svg",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_private": false,
+                                "is_external_url": false
+                            },
+                            "component": "principle",
+                            "description": "The platform should include a computational component that delivers an integrated data-work environment as opposed to a stand-alone data repository."
+                        }
+                    ]
+                },
+                {
+                    "_uid": "38922cbf-46d6-4992-bc91-1ddcd371d565",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "As in many other communities, MSD researchers struggle with data and code management — from finding storage to making it easy for others to find, share, and re-use data and code. However, the extraordinary diversity of MSD research, encapsulated in the “multi-” descriptor that applies to basically every aspect of what we do, exacerbates these challenges and demands a state-of-the-science solution. We used the first phase of the MSD-LIVE project to develop a cloud-based core data repository that can be used to store, share, and document MSD data. Using the capabilities now available on Version 3 of the platform, MSD projects are able to do the following:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "ordered_list",
+                                "attrs": {
+                                    "order": 1
+                                },
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Quickly and easily find datasets produced by other users and projects.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Permanently archive small (\u003c250 MB), medium (250 MB-50 GB), and large (50 GB-20 TB) final-form datasets and generate data Digital Object Identifiers to meet journal requirements for data sharing.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Use an intuitive web-based user interface to document and share versioned datasets and associate data with the code used to produce it.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Train new team members on MSD projects to effectively manage data and code and capture the institutional knowledge of members that leave a project.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Create and manage teams that cross institutions to quickly and easily grant access to data and code without having to obtain multiple sets of institutional credentials.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Share working datasets across multiple institutions collaborating on a project in real time.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Run light-weight analysis and data processing codes (e.g., subsetting, regridding, visualization) on any publicly available dataset stored in MSD-LIVE.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Longer-range plans for the platform focus on leveraging the power of the cloud to deliver an advanced computing environment that will grant MSD projects the following capabilities:",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "ordered_list",
+                                "attrs": {
+                                    "order": 1
+                                },
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Create, execute, document, and publish multi-model workflows where component models run on computational resources at different institutions.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Virtually assemble data lakes and execute ML/AI algorithms on large pools of data that may be physically located in different places.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Easily deploy models to run on new computational resources and make it easy for users to bring their code to the data when transferring data is infeasible.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 2,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Funding",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "MSD-LIVE is being developed with support from the ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "MultiSector Dynamics",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "https://eesm.science.energy.gov/program-area/multisector-dynamics",
+                                                    "uuid": null,
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "url"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " program area within the ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "Earth and Environmental Systems Modeling",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "https://eesm.science.energy.gov/",
+                                                    "uuid": null,
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "url"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " program of the ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "U.S. Department of Energy’s Office of Science",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "https://www.energy.gov/science/office-science",
+                                                    "uuid": null,
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "url"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": ". Scoping and brainstorming for MSD-LIVE was also supported by the ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "Data Management",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "https://science.osti.gov/ber/Research/eessd/Data-Management",
+                                                    "uuid": null,
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "url"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " program.",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 2,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Team",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "MSD-LIVE is being developed by a team led by scientists at the DOE’s Pacific Northwest National Laboratory. The team is composed of MSD researchers, data scientists, and software engineers.",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                }
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                },
+                {
+                    "_uid": "cd897cde-9bb2-4d7f-8f15-77ac18cfd638",
+                    "people": [
+                        {
+                            "_uid": "2d331594-0333-4722-95ad-8f80dd3178c6",
+                            "name": "Casey Burleyson",
+                            "role": "Principle Investigator",
+                            "email": "",
+                            "avatar": {
+                                "id": 820911,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019230/123x169/4383907f47/casey.png",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_external_url": false
+                            },
+                            "component": "person",
+                            "organization": "PNNL,https://www.pnnl.gov/"
+                        },
+                        {
+                            "_uid": "66e85192-913e-4f76-ac77-7e7d097ca797",
+                            "name": "Carina Lansing",
+                            "role": "Lead Software Architect",
+                            "email": "",
+                            "avatar": {
+                                "id": 820987,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019230/800x1200/0384cff52f/carina_lansing.jpg",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_external_url": false
+                            },
+                            "component": "person",
+                            "organization": "PNNL,https://www.pnnl.gov/"
+                        },
+                        {
+                            "_uid": "f0eb3b0f-d873-40d0-97ff-7b0509cf7305",
+                            "name": "Zoë Guillen",
+                            "role": "Data Repository Lead",
+                            "email": "",
+                            "avatar": {
+                                "id": 820988,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019230/800x1200/8b3d26c4e8/zoe_guillen.jpg",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_external_url": false
+                            },
+                            "component": "person",
+                            "organization": "PNNL,https://www.pnnl.gov/"
+                        },
+                        {
+                            "_uid": "5ad8378b-f901-47fc-9d4d-dd3d64b00c54",
+                            "name": "Jon Weers",
+                            "role": "Senior Cloud Advisor",
+                            "email": "",
+                            "avatar": {
+                                "id": 820990,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019230/350x425/23725371ac/jon_weers.jpeg",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_external_url": false
+                            },
+                            "component": "person",
+                            "organization": "NLR,http://nrel.gov/"
+                        },
+                        {
+                            "_uid": "36ac235c-ffec-4779-911d-b4be5c4368a9",
+                            "name": "Bekah Mars",
+                            "role": "Software Engineer",
+                            "email": "",
+                            "avatar": {
+                                "id": 96202091180611,
+                                "alt": "",
+                                "name": "",
+                                "focus": "",
+                                "title": "",
+                                "source": "",
+                                "filename": "https://a-us.storyblok.com/f/1019473/526x669/cedd7e2f1b/rebekah_mars_profile.jpg",
+                                "copyright": "",
+                                "fieldtype": "asset",
+                                "meta_data": {},
+                                "is_external_url": false
+                            },
+                            "component": "person",
+                            "organization": "PNNL,https://www.pnnl.gov/"
+                        }
+                    ],
+                    "component": "personList"
+                },
+                {
+                    "_uid": "1930281d-648f-4ada-a38f-2f10b68e9e3e",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 2
+                                },
+                                "content": [
+                                    {
+                                        "text": "Stakeholder Group",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "MSD-LIVE is supported by an active and valuable stakeholder group made up of project representatives from across the MSD community. The stakeholder group reviews progress and provides continuous input that can help guide development. They also act as liaisons between MSD-LIVE and their respective projects.",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "rgba(0, 0, 0, 0.87)"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                },
+                {
+                    "_uid": "d0fa0308-a316-47ac-b9a9-58cc2954d615",
+                    "people": [
+                        {
+                            "_uid": "7bb19fab-eb02-48f1-92f4-054a15e738ba",
+                            "name": "Brent Daniel",
+                            "role": "",
+                            "email": "https://icom.pnnl.gov/",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "ICoM,https://icom.pnnl.gov/"
+                        },
+                        {
+                            "_uid": "35bf6973-4e25-4784-8a06-3f7333695619",
+                            "name": "Ying Zhang",
+                            "role": "",
+                            "email": "",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "InterFACE,https://climatemodeling.science.energy.gov/projects/interface-interdisciplinary-research-arctic-coastal-environments"
+                        },
+                        {
+                            "_uid": "010bea8e-f7d6-4b3d-90fc-ce85688b9c72",
+                            "name": "Rob Nicholas",
+                            "role": "",
+                            "email": "",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "PCHES-ADAPT,https://www.pches.psu.edu/"
+                        },
+                        {
+                            "_uid": "be2c5e69-aa14-44bb-8038-4374b5ca94ec",
+                            "name": "Pralit Patel",
+                            "role": "",
+                            "email": "",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "GCIMS,https://gcims.pnnl.gov/"
+                        },
+                        {
+                            "_uid": "51a32726-1d29-4583-a990-4b201d5097d5",
+                            "name": "Stefan Rahimi-Esfarjani",
+                            "role": "",
+                            "email": "",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "HyperFACETS,https://hyperfacets.ucdavis.edu/"
+                        },
+                        {
+                            "_uid": "35e95f1d-8157-4f83-bae5-318e1f73e538",
+                            "name": "Pat Reed",
+                            "role": "",
+                            "email": "",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "IM3,https://im3.pnnl.gov/"
+                        },
+                        {
+                            "_uid": "b833be21-e9eb-41de-af0a-f9b2a2734a9c",
+                            "name": "Adam Schlosser",
+                            "role": "",
+                            "email": "",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "MIT,https://globalchange.mit.edu/"
+                        },
+                        {
+                            "_uid": "14f32686-e3e7-4d78-8091-4c16d922a85f",
+                            "name": "Chris Vernon",
+                            "role": "",
+                            "email": "",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "IM3,https://im3.pnnl.gov/"
+                        },
+                        {
+                            "_uid": "9ca8b91e-6d53-4ab6-b272-dc3ddab65c54",
+                            "name": "Chris Forest",
+                            "role": "",
+                            "email": "",
+                            "avatar": {
+                                "id": null,
+                                "alt": null,
+                                "name": "",
+                                "focus": null,
+                                "title": null,
+                                "source": null,
+                                "filename": "",
+                                "copyright": null,
+                                "fieldtype": "asset",
+                                "meta_data": {}
+                            },
+                            "component": "person",
+                            "organization": "BSEC,https://bsec.21cc.jhu.edu/"
+                        }
+                    ],
+                    "component": "personList"
+                }
+            ],
+            "header": "What is MSD-LIVE?",
+            "svgIcon": {
+                "id": null,
+                "alt": null,
+                "name": "",
+                "focus": null,
+                "title": null,
+                "source": null,
+                "filename": "",
+                "copyright": null,
+                "fieldtype": "asset",
+                "meta_data": {}
+            },
+            "component": "page",
+            "svgIconAlt": "",
+            "description": "",
+            "useGradientBanner": false
+        },
+        "slug": "about",
+        "full_slug": "about",
+        "sort_by_date": null,
+        "position": 40,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 0,
+        "meta_data": null,
+        "group_id": "eaafd9b4-3918-42c8-b058-2eec2a979249",
+        "first_published_at": "2024-07-16T17:09:48.795Z",
+        "release_id": null,
+        "lang": "default",
+        "path": null,
+        "alternates": [],
+        "default_full_slug": null,
+        "translated_slugs": null
+    },
+    "cv": 1768929128,
+    "rels": [],
+    "links": []
+}

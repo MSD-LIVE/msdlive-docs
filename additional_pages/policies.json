@@ -1,0 +1,434 @@
+{
+    "story": {
+        "name": "Policies",
+        "created_at": "2024-04-02T17:51:33.574Z",
+        "published_at": "2026-01-10T00:31:20.593Z",
+        "updated_at": "2026-01-10T00:31:20.607Z",
+        "id": 5279249,
+        "uuid": "fe051c30-0bfe-4771-a669-ec4f987e0406",
+        "content": {
+            "_uid": "cece5ff1-ea42-4c58-97d5-39e91de9473f",
+            "body": [
+                {
+                    "_uid": "fae2193b-a827-4e43-a3a4-c43649f5bcf5",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "General Use Policies",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "This is a Federal computer system and is the property of the United States Government. It is for authorized use only. Users (authorized or unauthorized) have no explicit or implicit expectation of privacy. Any or all uses of this system and all files on this system may be intercepted, monitored, recorded, copied, audited, inspected, and disclosed to authorized site, Department of Energy, and law enforcement personnel, as well as authorized officials of other agencies, both domestic and foreign. By using this system, the user consents to such interception, monitoring, recording, copying, auditing, inspection, and disclosure at the discretion of authorized site or Department of Energy personnel. Unauthorized or improper use of this system may result in administrative disciplinary action and civil and criminal penalties. By continuing to use this system you indicate your awareness of and consent to these terms and conditions of use. LOG OFF IMMEDIATELY if you do not agree to the conditions stated in this warning.",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#000000"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Data Repository Policies",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "anchor",
+                                                "attrs": {
+                                                    "id": "data-repo-policies"
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Anyone can register for a user account and download data from MSD-LIVE.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "To upload new data, you must be associated with one or more MSD ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": "“Projects”",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "link",
+                                                                "attrs": {
+                                                                    "href": "/projects",
+                                                                    "uuid": null,
+                                                                    "anchor": null,
+                                                                    "target": "_self",
+                                                                    "linktype": "url"
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ". Please see the ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": "“Get Started”",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "link",
+                                                                "attrs": {
+                                                                    "href": "get-started",
+                                                                    "uuid": null,
+                                                                    "anchor": null,
+                                                                    "target": "_self",
+                                                                    "linktype": "url"
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " page for instructions on how to join a project. Requests to join a project will be reviewed and approved by project administrators.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Any data uploaded to MSD-LIVE should be directly funded by and relevant to an MSD project. To affirm relevance and support of the project, all new datasets will be reviewed by one or more curators for each project. If the dataset is associated with more than one project, then the user can select which project does the review during the upload process.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "No data uploaded to MSD-LIVE will include protected personally identifiable (PPI) information (e.g., Social Security numbers, financial, or heath data).",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "No data uploaded to MSD-LIVE  will include information subject to U.S. export control regulations (e.g., encryption technology, defense-related data, or other technical information restricted from foreign access).",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Under certain conditions, published datasets can be removed from MSD-LIVE. If you published data in MSD-LIVE and need it to be removed, please contact ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": "info@msdlive.org",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "link",
+                                                                "attrs": {
+                                                                    "href": "mailto:info@msdlive.org",
+                                                                    "uuid": null,
+                                                                    "anchor": null,
+                                                                    "target": null,
+                                                                    "linktype": "url"
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " with the name of the dataset and the justification. If the dataset was assigned a DOI, then we will retain the DOI and URL of the original object but will replace the content on the dataset landing page with a tombstone page explaining that the dataset has been removed and explaining why. Removing data should be considered an extraordinary action.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Jupyter Notebook Policies",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "anchor",
+                                                "attrs": {
+                                                    "id": "jupyter-notebook-policies"
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "You are accessing a U.S. Government system.",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": "#000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "System usage may be monitored, recorded, and subject to audit.",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": "#000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Unauthorized use of the system is prohibited and subject to criminal and civil penalties.",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": "#000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Use of the system indicates consent to monitoring and recording.",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": "#000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                }
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                }
+            ],
+            "header": "Policies",
+            "svgIcon": {
+                "id": null,
+                "alt": null,
+                "name": "",
+                "focus": null,
+                "title": null,
+                "source": null,
+                "filename": "",
+                "copyright": null,
+                "fieldtype": "asset",
+                "meta_data": {}
+            },
+            "component": "page",
+            "svgIconAlt": "",
+            "description": "",
+            "useGradientBanner": false
+        },
+        "slug": "policies",
+        "full_slug": "policies",
+        "sort_by_date": null,
+        "position": 110,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 0,
+        "meta_data": null,
+        "group_id": "1ef6aa30-9c65-4689-af2e-d6c315a4a2c8",
+        "first_published_at": "2024-08-05T17:47:54.454Z",
+        "release_id": null,
+        "lang": "default",
+        "path": null,
+        "alternates": [],
+        "default_full_slug": null,
+        "translated_slugs": null
+    },
+    "cv": 1768929128,
+    "rels": [],
+    "links": []
+}

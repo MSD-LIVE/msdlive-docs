@@ -1,0 +1,201 @@
+{
+    "story": {
+        "name": "Events",
+        "created_at": "2024-08-06T23:04:44.326Z",
+        "published_at": "2025-09-23T22:10:28.997Z",
+        "updated_at": "2025-09-23T22:10:29.005Z",
+        "id": 9948220,
+        "uuid": "1ccf554d-01c7-4075-90b0-6aee7af452f6",
+        "content": {
+            "_uid": "4cf78197-39f0-44dc-8e9e-5d8ad3238b4c",
+            "body": [
+                {
+                    "_uid": "853cf210-e9cf-49d0-b969-b5a4fb52f6c8",
+                    "events": [
+                        {
+                            "_uid": "b0e6a9ca-455f-4f49-ab23-dd86d12f46f7",
+                            "date": "2025-09-23 00:00",
+                            "type": "v3 Release of MSD-LIVE",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Version 3 of MSD-LIVE launches to the MSD community"
+                        },
+                        {
+                            "_uid": "36614509-be8a-4d58-b238-cb56664b4390",
+                            "date": "2025-06-03 00:00",
+                            "type": "Training Workshop",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Hands-on model training sessions at the GCAM Annual Meeting"
+                        },
+                        {
+                            "_uid": "fffba865-343f-4616-bd86-351a401fdeeb",
+                            "date": "2025-05-12 00:00",
+                            "type": "Stakeholder Group Meeting",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Meeting of the MSD-LIVE Stakeholder Group"
+                        },
+                        {
+                            "_uid": "128cb285-95da-4e4b-9150-1890e365ffec",
+                            "date": "2024-12-12 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Talk on using MSD-LIVE’s interactive model training notebooks at the AGU Fall Meeting"
+                        },
+                        {
+                            "_uid": "6d4f01b8-2dfc-4d45-82f2-74d796c5d541",
+                            "date": "2024-10-23 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Demonstration of MSD-LIVE’s interactive Jupyter notebooks at the DOE Data Days Meeting"
+                        },
+                        {
+                            "_uid": "bed6f630-35c8-4bf9-bc42-7dfe94a60c7a",
+                            "date": "2024-08-07 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Poster presentation and talk on MSD-LIVE at the DOE EESM PI Meeting"
+                        },
+                        {
+                            "_uid": "68eb3f7b-3ec9-4c79-810c-8fe295a7a5a5",
+                            "date": "2024-07-02 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Presentation on MSD-LIVE as part of a PNNL briefing to DOE BER program managers"
+                        },
+                        {
+                            "_uid": "a1f5da68-3046-4cae-9664-20d05848eda9",
+                            "date": "2024-06-18 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Presentation on MSD-LIVE to the Integrated Hydro-Terrestrial Modeling (IHTM) interagency working group"
+                        },
+                        {
+                            "_uid": "8a374b72-1595-484a-8a56-449afe79868a",
+                            "date": "2024-05-06 00:00",
+                            "type": "Training Workshop",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Hands-on model training sessions at the GCAM Annual Meeting"
+                        },
+                        {
+                            "_uid": "d2026cca-d0b8-4599-b0b1-884046faa134",
+                            "date": "2024-03-18 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Presentation on MSD-LIVE as part of a PNNL briefing to DOE BER program managers"
+                        },
+                        {
+                            "_uid": "54a34058-cc86-4869-ba21-1d1a5ff7515f",
+                            "date": "2024-02-29 00:00",
+                            "type": "Training Workshop",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Presentation on MSD-LIVE and hands-on UC eBook training session at the IM3 Annual Meeting"
+                        },
+                        {
+                            "_uid": "1b8b99f6-1f99-40b1-a333-d32d7271f2c8",
+                            "date": "2024-02-22 00:00",
+                            "type": "Training Workshop",
+                            "component": "event",
+                            "customType": "",
+                            "description": "MSD Community of Practice webinar on using MSD-LIVE and meta-repositories to support open MSD science"
+                        },
+                        {
+                            "_uid": "3e266d15-3029-45b5-b40d-e36c988a9e3e",
+                            "date": "2024-02-09 00:00",
+                            "type": "Stakeholder Group Meeting",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Meeting of the MSD-LIVE Stakeholder Group"
+                        },
+                        {
+                            "_uid": "bee6f822-34e8-4051-8111-f4bb4b72bc33",
+                            "date": "2023-10-24 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Presentation on MSD-LIVE at the DOE Data Days Workshop"
+                        },
+                        {
+                            "_uid": "7743731b-fbbb-478c-b101-cd822a0c7d9a",
+                            "date": "2023-10-04 00:00",
+                            "type": "Training Workshop",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Hands-on data repository training session at the MSD Community of Practice Meeting"
+                        },
+                        {
+                            "_uid": "99de76d5-f346-4eeb-a1b9-378faef8e9dd",
+                            "date": "2023-07-18 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "Presentation on MSD-LIVE as part of PNNL's TechFest"
+                        },
+                        {
+                            "_uid": "f6aa8941-4619-4001-be03-06661b271337",
+                            "date": "2023-06-28 00:00",
+                            "type": "",
+                            "component": "event",
+                            "customType": "v2 Release of MSD-LIVE",
+                            "description": "Version 2 of MSD-LIVE launches to the MSD community"
+                        },
+                        {
+                            "_uid": "e8ad091c-31c8-475f-88b0-65f4696ce818",
+                            "date": "2023-06-27 00:00",
+                            "type": "Outreach Presentation",
+                            "component": "event",
+                            "customType": "",
+                            "description": "MSD-LIVE v2 release preview at the Snowmass Energy Modeling Forum"
+                        }
+                    ],
+                    "component": "eventList"
+                }
+            ],
+            "header": "Events",
+            "svgIcon": {
+                "id": null,
+                "alt": null,
+                "name": "",
+                "focus": null,
+                "title": null,
+                "source": null,
+                "filename": "",
+                "copyright": null,
+                "fieldtype": "asset",
+                "meta_data": {}
+            },
+            "component": "page",
+            "svgIconAlt": "",
+            "description": "",
+            "useGradientBanner": false
+        },
+        "slug": "events",
+        "full_slug": "events",
+        "sort_by_date": null,
+        "position": 70,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 0,
+        "meta_data": null,
+        "group_id": "ea7709f2-60db-4c0b-8f7a-a91fbfe70b77",
+        "first_published_at": "2024-07-16T16:05:22.695Z",
+        "release_id": null,
+        "lang": "default",
+        "path": null,
+        "alternates": [],
+        "default_full_slug": null,
+        "translated_slugs": null
+    },
+    "cv": 1768929128,
+    "rels": [],
+    "links": []
+}

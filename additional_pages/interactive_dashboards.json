@@ -1,0 +1,124 @@
+{
+    "story": {
+        "name": "Interactive Data Dashboards",
+        "created_at": "2024-04-02T17:51:05.757Z",
+        "published_at": "2025-09-29T20:26:35.607Z",
+        "updated_at": "2025-09-29T20:26:35.624Z",
+        "id": 5279229,
+        "uuid": "c6a1c198-2f79-4cfe-8fd2-3fa2641aa16e",
+        "content": {
+            "_uid": "672b81ea-e0fa-4c40-9334-1b4010f1c811",
+            "title": "Interactive Data Dashboards",
+            "images": [
+                {
+                    "id": 525036,
+                    "alt": "",
+                    "name": "",
+                    "focus": "",
+                    "title": "",
+                    "source": "",
+                    "filename": "https://a-us.storyblok.com/f/1019473/1154x632/375b3b2d97/lafferty.png",
+                    "copyright": "",
+                    "fieldtype": "asset",
+                    "meta_data": {}
+                },
+                {
+                    "id": 843445,
+                    "alt": "",
+                    "name": "",
+                    "focus": "",
+                    "title": "",
+                    "source": "",
+                    "filename": "https://a-us.storyblok.com/f/1019467/1562x1024/b835a49fa5/raft2.png",
+                    "copyright": "",
+                    "fieldtype": "asset",
+                    "meta_data": {}
+                }
+            ],
+            "svgIcon": {
+                "id": 489938,
+                "alt": "",
+                "name": "",
+                "focus": "",
+                "title": "",
+                "source": "",
+                "filename": "https://a-us.storyblok.com/f/1019467/150x150/06d03cb5c0/magnifying-glass-chart-solid.svg",
+                "copyright": "",
+                "fieldtype": "asset",
+                "meta_data": {},
+                "is_external_url": false
+            },
+            "component": "resourceCategory",
+            "linkedUrl": "interactive-data-dashboards",
+            "resources": [
+                {
+                    "_uid": "bc645056-1d4c-42af-b05c-aeb4401874dc",
+                    "link": "https://lafferty-sriver-2023-downscaling-uncertainty.msdlive.org",
+                    "image": {
+                        "id": 525036,
+                        "alt": "",
+                        "name": "",
+                        "focus": "",
+                        "title": "",
+                        "source": "",
+                        "filename": "https://a-us.storyblok.com/f/1019473/1154x632/375b3b2d97/lafferty.png",
+                        "copyright": "",
+                        "fieldtype": "asset",
+                        "meta_data": {},
+                        "is_private": false,
+                        "is_external_url": false
+                    },
+                    "title": "lafferty-sriver-2023-downscaling-uncertainty",
+                    "authors": [],
+                    "component": "textResource",
+                    "description": "This interactive data dashboard allows users to create different visualizations of the dataset underpinning the Lafferty and Sriver 2023 paper published in NPJ Climate and Atmospheric Science."
+                },
+                {
+                    "_uid": "e7be0f23-7348-44cb-8e41-d41041abe6ba",
+                    "link": "https://raft-hurricane-projections.msdlive.org/",
+                    "image": {
+                        "id": 843445,
+                        "alt": "",
+                        "name": "",
+                        "focus": "",
+                        "title": "",
+                        "source": "",
+                        "filename": "https://a-us.storyblok.com/f/1019467/1562x1024/b835a49fa5/raft2.png",
+                        "copyright": "",
+                        "fieldtype": "asset",
+                        "meta_data": {},
+                        "is_private": false,
+                        "is_external_url": false
+                    },
+                    "title": "ICoM RAFT Hurricane Projections Dataset",
+                    "authors": [],
+                    "component": "textResource",
+                    "description": "This dashboard visualizes any of the 620 historic tropical cyclones from 1979 to 2018 replayed under eight different future climate scenarios."
+                }
+            ],
+            "svgIconAlt": "Gauge",
+            "description": "MSD-LIVE users have the ability to create interactive data dashboards which enable downstream users to explore and visualize datasets in MSD-LIVE without having to download the underlying data.",
+            "displayNotFound": false,
+            "useGradientBanner": true
+        },
+        "slug": "interactive-data-dashboards",
+        "full_slug": "computational-resources/interactive-data-dashboards",
+        "sort_by_date": null,
+        "position": 10,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 5279227,
+        "meta_data": null,
+        "group_id": "1c873861-3419-4d9c-a07e-b55dc2ef3890",
+        "first_published_at": "2024-08-05T18:10:21.463Z",
+        "release_id": null,
+        "lang": "default",
+        "path": null,
+        "alternates": [],
+        "default_full_slug": null,
+        "translated_slugs": null
+    },
+    "cv": 1768929128,
+    "rels": [],
+    "links": []
+}
