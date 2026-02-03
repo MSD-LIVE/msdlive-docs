@@ -7,7 +7,13 @@ These video tutorials are designed to help people understand and implement open 
 
 Best practices for creating useful and informative README files when adding data to MSD-LIVE.
 
-- **[Video](https://youtu.be/Vi1s1O_FJjg)**
+<div>
+  <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/Vi1s1O_FJjg"
+      frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+
 - **[PowerPoint](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/README+Best+Practices.pptx)**
 - **[Summary (PDF)](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/README+Best+Practices.pdf)**
 
@@ -17,7 +23,13 @@ Best practices for creating useful and informative README files when adding data
 
 Best practices for using Digital Object Identifiers (DOIs) for creating permanent references to your data.
 
-- **[Video](https://youtu.be/sdKXoUGdPWY)**
+<div>
+  <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/sdKXoUGdPWY"
+      frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+
 - **[PowerPoint](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/msdlive_doi_slides.pptx)**
 - **[Summary (PDF)](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/msdlive_doi_onepage.pdf)**
 
@@ -27,7 +39,13 @@ Best practices for using Digital Object Identifiers (DOIs) for creating permanen
 
 Guidance on which dataset license to choose when adding your data to MSD-LIVE.
 
-- **[Video](https://youtu.be/-LSPktkUjYI)**
+<div>
+  <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/-LSPktkUjYI"
+      frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+
 - **[PowerPoint](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/Choosing+A+License.pptx)**
 - **[Summary (PDF)](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/Choosing+A+License.pdf)**
 
@@ -37,7 +55,13 @@ Guidance on which dataset license to choose when adding your data to MSD-LIVE.
 
 Guidance which software license to choose when adding your code to MSD-LIVE.
 
-- **[Video](https://youtu.be/pX94W0sgnD0)**
+<div>
+  <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/pX94W0sgnD0"
+      frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+
 - **[PowerPoint](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/msdlive_software_license_slides.pptx)**
 - **[Summary (PDF)](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/msdlive_software_license_onepage.pdf)**
 
@@ -47,7 +71,13 @@ Guidance which software license to choose when adding your code to MSD-LIVE.
 
 Guidance on how to cite datasets used in your publications.
 
-- **[Video](https://youtu.be/sNa-oJFCu0A)**
+<div>
+  <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/sNa-oJFCu0A"
+      frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+
 - **[PowerPoint](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/msdlive_data_citation_slides.pptx)**
 - **[Summary (PDF)](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/msdlive_data_citation_onepage.pdf)**
 
@@ -57,6 +87,12 @@ Guidance on how to cite datasets used in your publications.
 
 Useful tips and trips for creating meaningful and interpretable file names.
 
-- **[Video](https://youtu.be/cbaP6uCQnyk)**
+<div>
+  <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/cbaP6uCQnyk"
+      frameborder="0" allowfullscreen>
+  </iframe>
+</div>
+
 - **[PowerPoint](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/File+Naming+Conventions.pptx)**
 - **[Summary (PDF)](https://msdlive-landing-page-attachments.s3.us-west-2.amazonaws.com/File+Naming+Conventions.pdf)**
