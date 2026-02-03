@@ -1,0 +1,40 @@
+/* hopefully this will work in the near future, see https://github.com/durera/mkdocs-carbon/issues/4 */
+/* :root {
+    --header-height: 108px;
+    --sidebar-width: 356px;
+} */
+
+
+.header-logo {
+    height: 24px;
+    margin-right: 0.75rem;
+    vertical-align: middle;
+}
+
+
+
+/* Needed in order to indent nested navigation menus */
+cds-side-nav-menu cds-side-nav-menu {
+    margin-left: 1rem;
+}
+
+/* Adds vertical spacing between nav items */
+/* cds-side-nav-menu-item[role="button"] {
+    padding: 0.5rem 0.0rem;
+} */
+
+cds-side-nav-menu {
+    margin-bottom: 0.5rem;
+}
+
+/* can hide the page TOC with this */
+/* @media (min-width: 1280px) {
+    .md-sidebar--secondary {
+        display: none;
+    }
+} */
+
+/* hide the breadcrumb */
+.md-breadcrumbs {
+    display: none !important;
+}

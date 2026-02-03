@@ -2,64 +2,94 @@ site_name: Docs
 site_url: https://msd-live.github.io/msdlive-docs/
 
 theme:
-        name: carbon
-        logo: assets/MSD.LIVE.STACK.png
-        favicon: assets/favicon.ico
-        theme_toggle: true
-        custom_dir: docs/overrides
+  name: carbon
+  logo: assets/MSD.LIVE.STACK.png
+  favicon: assets/favicon.ico
+  theme_toggle: true
+  custom_dir: docs/overrides
 
 plugins:
-        - search
-        - glightbox:
-                  shadow: true
-                  caption_position: bottom
-                  auto_caption: true
-                  touchNavigation: false
-                  background: black
+  - search
+  - glightbox:
+      shadow: true
+      caption_position: bottom
+      auto_caption: true
+      touchNavigation: false
+      background: black
 
 extra:
-        favicon: assets/favicon.ico
+  favicon: assets/favicon.ico
 
 extra_css:
-        - styles/carbon-customizations.css
+  - styles/carbon-customizations.css
 
 extra_javascript:
-        - javascripts/carbon-nav-scroll-fix.js
+  - javascripts/carbon-nav-scroll-fix.js
 
 nav:
-        - About:
-                  - Introduction: index.md
-                  - Getting Started: about/getting_started.md
-        - CLI:
-                  - Introduction: cli/index.md
-                  - Virtual Environment: cli/venv.md
-                  - Installation: cli/installation.md
-                  - Commands: cli/cli_usage.md
-                  - Proxy Setup: cli/proxy_run_cli.md
-        - Dataset Notebooks:
-                  - Introduction: dataset_notebooks/index.md
-                  - Overview: dataset_notebooks/overview.md
-                  - Creating Notebooks: dataset_notebooks/creating_notebooks.md
-                  - Dataset Authors:
-                            - Enable File Exploration: dataset_notebooks/enable_exploration.md
-                            - Notebook Lab: dataset_notebooks/notebook_lab.md
-                            - Notebook Lab Storage: dataset_notebooks/notebook_lab_storage.md
-                            - Providing Pre-Packaged Notebooks: dataset_notebooks/prepackaged_code.md
-                  - Downstream Users:
-                            - Explore Data in Notebooks: dataset_notebooks/using_notebooks.md
-                            - Working with Data: dataset_notebooks/working_with_data.md
-                            - Manage Your Scratch Directory: dataset_notebooks/scratch_directory.md
-                            - Download Files via CLI: dataset_notebooks/download_scratch_cli.md
-        - Dataset Metadata:
-                  - Spatial Metadata: dataset_metadata/spatial_metadata.md
-        - Learning Resources:
-                  - Video Tutorials: tutorials.md
-                  - Articles: articles.md
-                  - Webinars: webinars.md
+  - Getting Started:
+      - About: platform_community/about.md
+      - Quick Start: index.md
+      - Create an Account: about/create_account.md
+      - Log In and Join a Project: about/login_join_project.md
+      - Policies: platform_community/policies.md
+
+      # - Find and Explore Data: getting_started/find_explore_data.md
+      # - Download Data: getting_started/download_data.md
+  - For Data Users:
+      - Find Data:
+          - Dataset Search: for_data_users/what_you_can_doxx.md
+      - Explore Data:
+          - About: for_data_users/what_you_can_do.md
+          - Launch the Environment: for_data_users/launch_environment.md
+          - Create Notebooks: for_data_users/create_notebook.md
+          - Share Notebooks: for_data_users/contribute_back.md
+          # - Install Dependencies: for_data_users/install_dependencies.md
+          # - Load Data: for_data_users/load_data.md
+          # - Analyze and Visualize: for_data_users/analyze_visualize.md
+          - Access Multiple Datasets: for_data_users/access_multiple_datasets.md
+          - Use the Scratch Directory: for_data_users/use_scratch_directory.md
+      - Download Data:
+          - Download Published Datasets: for_data_users/download_datasets.md
+          - Download Notebook Results: for_data_users/download_notebook_results.md
+          # - Advanced Options: for_data_users/download_advanced_options.md
+  - For Data Providers:
+      - Create a Dataset: for_data_providers/spatial_metadata.md
+      - Upload Your Dataset: for_data_providers/upload_dataset.md
+      - Enable Exploration:
+          - About: for_data_providers/overview.md
+          - Enable Data Exploration: for_data_providers/enable_exploration.md
+          - Set Up a Notebook Repository: for_data_providers/setup_notebook_repository.md
+          - Launch the Environment: for_data_providers/use_notebook_lab.md
+          - Create Notebooks: for_data_providers/create_example_notebooks.md
+          # - Install Dependencies: for_data_providers/install_dependencies.md
+          # - Load Data: for_data_providers/load_data.md
+          # - Work with Data in Notebooks: for_data_providers/work_with_data.md
+          - Share Notebooks: for_data_users/pushing_back_to_github.md #ask for wording help for this, it's to tell data providers how to save their notebooks back to github (either our PR button or download/save to repo manually). Include the instructions that says to include README.md etc.
+          - Manage Storage: for_data_providers/save_manage_storage.md
+
+  # - Platform & Community:
+  # - About MSD-LIVE: platform_community/about.md
+
+  # - Events: platform_community/events.md Removing until we've updated
+  - Tools & Services:
+      - Command Line Tool (CLI):
+          - Installing the CLI: tools_services/cli_installation.md
+          - Using the CLI: tools_services/cli_authenticate.md
+          # - Virtual Environments: tools_services/cli_virtual_environments.md
+          - Running Behind a Proxy: tools_services/cli_proxy_setup.md
+      - Computational Resources: tools_services/computational_resources.md
+      - Interactive Dashboards: tools_services/interactive_dashboards.md
+      - Model Training Notebooks: tools_services/model_training_notebooks.md
+
+  - Learning Resources:
+      - Video Tutorials: learning_resources/tutorials.md
+      - Articles: learning_resources/articles.md
+      - Webinars: learning_resources/webinars.md
 
 # Extensions
 markdown_extensions:
-        - admonition
-        - toc:
-                  permalink: true
-                  toc_depth: 2
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 2

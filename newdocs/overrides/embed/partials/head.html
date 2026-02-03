@@ -1,0 +1,12 @@
+<script>
+    // Force Carbon light theme BEFORE Carbon components load
+    (function () {
+        try {
+            localStorage.setItem("cds-theme", "white");
+            localStorage.setItem("carbon-theme", "white");
+        } catch (e) { }
+
+        document.documentElement.setAttribute("data-carbon-theme", "white");
+        document.documentElement.setAttribute("data-theme", "white");
+    })();
+</script>
