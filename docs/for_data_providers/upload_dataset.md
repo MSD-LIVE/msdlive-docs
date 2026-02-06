@@ -1,47 +1,24 @@
 # Upload Your Dataset
 
-The MSD-LIVE CLI allows you to upload files to your dataset from the command line.
+You can upload datasets to the MSD-LIVE Data Repository using the web interface.
 
-## When to Use the CLI
+## How to Upload
 
-The CLI provides better performance and is recommended for uploading files that are:
+1. Navigate to the [Data Repository](https://data.msdlive.org/uploads/new)
+2. Log in with your MSD-LIVE account
+3. Fill out the upload form with metadata about your dataset
+4. Select the project(s) to associate with your submission
+5. Designate a "Reviewing Project" for curation
+6. Upload your data files
+7. Mark your submission as Public or Restricted
+8. Submit for review
 
-- **Large** (in size or quantity)
-- **Remote** (reside on another computer without a web browser)
+## Uploading Files from the Command Line
 
-## Upload Command
+For large files or batches of files, you can use the MSD-LIVE CLI. The CLI offers better performance for large uploads and works on machines without a web browser.
 
-The msdlive upload command allows you to upload a file or folder to a given dataset. The general syntax is as follows:
-
-```
-msdlive upload --dataset-id $YOUR_DATASET_ID --src-dir $PATH_TO_LOCAL_FOLDER
-```
-
-## Required Parameters
-
-**--dataset-id $YOUR_DATASET_ID**
-
-Replace $YOUR_DATASET_ID with the dataset id that you get from the MSD-LIVE Data Repository web interface. From your dataset's web page, click the 'Upload files from the command line...' link to get the exact command which includes the dataset id.
-
-**--src-dir $PATH_TO_LOCAL_FOLDER**
-
-The --src-dir parameter specifies the folder you want to upload. Replace $PATH_TO_LOCAL_FOLDER with the path to a folder on your local computer. By default, all the contents of that folder will be uploaded to your dataset. If you only want to upload certain files, use the optional parameter --filter-file.
-
-## Optional Parameters
-
-**--filter-file $PATH_TO_FILE**
-
-If you only want to upload certain files from the source directory, add the --filter-file parameter. Replace $PATH_TO_FILE with the path to a file on your local computer. The filter file contains special syntax describing which files to exclude and which to include. See [Advanced Options](../for_data_users/download_advanced_options.md) for details on the file syntax.
-
-**--quiet**
-
-When you include the --quiet parameter, it suppresses the standard output and only displays error messages. This can be helpful if you want to run the synchronization process silently without being overwhelmed by the detailed progress information.
-
-**--delete**
-
-If you upload the same directory to your dataset more than once, the command will compare files in your dataset with those in your source folder and only upload the new or modified files to reduce the amount of data transferred. By default, files that have been deleted from your source folder will not be deleted in the remote dataset. If the --delete option is specified, then the command also deletes any files from your dataset that no longer exist in your source folder.
+See the [Uploading Files](../tools_services/cli/usage.md#uploading-files) section of the CLI documentation for complete instructions on using the `msdlive upload` command.
 
 ## Next Steps
 
-- Add [spatial metadata](spatial_metadata.md) to your dataset
-- [Enable notebook exploration](enable_exploration.md) for your dataset
+After uploading, a curator from the Reviewing Project will verify that your submission meets our policies and follows best practices. Once approved, your dataset will be available in the MSD-LIVE community.

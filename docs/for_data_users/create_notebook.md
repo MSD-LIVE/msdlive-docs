@@ -1,4 +1,8 @@
-# Create a Notebook
+# Create Notebooks
+
+Follow these steps to create custom notebooks for exploring your data.
+
+## Creating Notebooks
 
 After logging in to your notebook environment, right-click in the file explorer panel and select **"New Notebook"**.
 
@@ -6,26 +10,30 @@ After logging in to your notebook environment, right-click in the file explorer 
 
 ![New Notebook Dialog](../assets/dataset_notebooks/newnotebookdialog.png)
 
-## Choosing the Notebook Location
+- Optionally check "Create notebook with starter code and dataset guidance" to pre-fill your notebook with examples and environment tips.
 
-### If the dataset has a linked repository:
+## Importing Packages
 
-- Choose the notebook folder:
-    - **Community Notebooks** – for general or cross-dataset notebooks
-    - **Dataset Notebooks** – for notebooks specific to this dataset
+In your new notebook, start by importing the necessary libraries. For example using Python:
 
-- Optionally check **"Create notebook with starter code and dataset guidance"** to pre-fill your notebook with examples and environment tips
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+```
 
-### If the dataset does not have a linked repository:
+Click the documentation pages for detailed examples on how to import libraries in Python, Julia, and R.
 
-- Only the starter code option appears
-- Check it to pre-fill your notebook with examples and environment guidance
+## Accessing Data
 
-## Next Steps
+Use the **"DATA_DIR"** environment variable to access the location where a copy of your data is stored.
 
-Once you've created a notebook:
+```python
+import os
+from pathlib import Path
 
-1. [Install any dependencies you need](install_dependencies.md)
-2. [Load and access the dataset](load_data.md)
-3. [Analyze and visualize your data](analyze_visualize.md)
-4. (Optional) [Contribute your notebook back to the community](contribute_back.md)
+data_dir = Path(os.environ['DATA_DIR'])
+print('DATA_DIR =', data_dir)
+```
+
+Now you're ready to write custom code to visualize/analyze the data or to create workflows for subsetting the data in space and time.

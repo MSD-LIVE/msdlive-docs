@@ -1,43 +1,28 @@
 # Download Notebook Results
 
-After processing or subsetting data in your notebook, you can download files from your scratch directory using the MSD-LIVE CLI.
+Once you've processed or subsetted large data in your Jupyter notebook, you can download your results to your local machine or a remote computer.
 
-## Download from Scratch Directory
+## Download via Jupyter Web Interface
 
-To download files you've staged in your personal scratch directory (e.g., during interactive data exploration), use:
+For smaller files, you can right-click in the Jupyter file browser and select **Download**.
 
-```
-msdlive download --scratch --output-dir $YOUR_LOCAL_DIRECTORY
-```
+## Download via Scratch Directory and CLI
 
-## Required Parameter
+For larger files or when working on a machine without a browser, copy your results to your scratch directory and download them using the [MSD-LIVE CLI](../tools_services/cli/usage.md).
 
-**--output-dir $YOUR_LOCAL_DIRECTORY**
+### Step 1: Copy to Scratch Directory
 
-Replace $YOUR_LOCAL_DIRECTORY with the folder path where you want the scratch files saved.
+1. Open the File Browser (left sidebar in Jupyter)
+2. Select the files and/or folders you want to copy
+3. Click the blue cloud button in the toolbar
+4. Wait for the copy job to complete
 
-## Optional Parameters
+### Step 2: Download from Scratch Directory
 
-**--filter-file $PATH_TO_FILE**
+Use the MSD-LIVE CLI to download files from your scratch directory to your local machine.
 
-Download only specific files by providing a filter file. This file contains rules for including or excluding files. See the [Advanced Options](download_advanced_options.md) section for syntax details.
-
-**--quiet**
-
-Suppresses normal output and only shows errors—useful for silent or scripted operations.
-
-## Workflow
-
-1. [Create and run analysis in a notebook](create_notebook.md)
-2. [Copy results to your scratch directory](use_scratch_directory.md)
-3. Download files using the command above
-4. Results are available on your local machine
+See the [Downloading Files](../tools_services/cli/usage.md#downloading-files) section of the CLI documentation for complete instructions on using the `msdlive download --scratch` command.
 
 !!! warning "Scratch Directory Cleanup"
 
     Files in your scratch directory will be automatically deleted after 24 hours. Be sure to download anything you need before then.
-
-## Next Steps
-
-- Learn more about the [scratch directory](use_scratch_directory.md)
-- Explore [advanced download options](download_advanced_options.md)

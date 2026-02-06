@@ -1,68 +1,49 @@
 # Create Example Notebooks
 
-After your data has been uploaded to your MSD-LIVE dataset and the notebook GitHub repository has been linked, you can create example notebooks for your users.
+Learn how to create and maintain example notebooks for your dataset.
 
-## Watch a Video Tutorial
+## Creating New Notebooks
 
-<div>
-  <iframe width="560" height="315"
-      src="https://youtube.com/embed/sImLLAIGmhk"
-      frameborder="0" allowfullscreen>
-  </iframe>
-</div>
+For detailed instructions on creating new notebooks, follow these steps:
 
-## Two Options for Creating Notebooks
+1. Launch the Notebook Lab from your dataset's landing page
+2. Right-click in the file explorer and select **New Notebook**
+3. Choose the notebook folder and kernel language
+4. Optionally check "Create notebook with starter code and dataset guidance"
 
-!!! tip
-    Most authors should use **Notebook Lab** unless they already maintain notebooks locally.
+## Editing and Persisting Notebooks
 
-### Option 1: Use Notebook Lab (Recommended)
+- Create and edit notebooks inside the `notebooks` folder
+- Files persist across Notebook Lab sessions for the same dataset
+- Sessions expire after 3 hours, so save often
 
-- Access our specialized authoring environment by clicking "Launch Notebook Lab" from your dataset in MSD-LIVE
-- Your dataset's data will be automatically mounted and accessible
-- Built-in GitHub integration allows you to create pull requests directly from the Jupyter Notebook environment
-- No need to download/upload files manually
+## Creating a Pull Request
 
-See [Use Notebook Lab](use_notebook_lab.md) for more information.
+- Click the **Pull Request** button in the Notebook Lab interface
+- On first use, authorize MSD-LIVE to access your GitHub repository
+- MSD-LIVE creates a pull request containing your new or updated notebooks
 
-### Option 2: Upload Notebooks Directly
+## Importing Packages
 
-- Create notebooks locally or in your preferred environment
-- Upload them directly to your GitHub repository
+Start by importing the necessary libraries in an empty cell. For example using Python:
 
-## Creating a New Notebook
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+```
 
-After logging in to Notebook Lab, right-click in the file explorer panel and select **"New Notebook"**.
+See the [Working with Data](../for_data_users/working_with_data.md) page for detailed examples on how to import libraries in Python, Julia, and R.
 
-![New Notebook Menu Item](../assets/dataset_notebooks/newnotebookmenuitem.png)
-![New Notebook Dialog](../assets/dataset_notebooks/newnotebookdialog.png)
+## Accessing Data
 
-- Choose the **notebooks** folder for dataset-specific notebooks
-- Optionally check **"Create notebook with starter code and dataset guidance"** to pre-fill your notebook with examples and environment tips
+Use the **"DATA_DIR"** environment variable to access your dataset files:
 
-## Building Your Notebook
+```python
+import os
+from pathlib import Path
 
-Once you've created a notebook:
+data_dir = Path(os.environ['DATA_DIR'])
+```
 
-1. [Install any dependencies needed](install_dependencies.md)
-2. [Load and access your dataset](load_data.md)
-3. [Work with the data](work_with_data.md) to create visualizations and examples
-4. Update the README to document your notebook
-
-## Best Practices
-
-- Include a comprehensive README.md explaining how to use the notebooks
-- Start with a data overview notebook that shows the structure and contents of your dataset
-- Provide examples for common analysis tasks
-- Document dependencies in the requirements.txt file
-- Test your notebooks before publishing to ensure they work correctly
-
-## Submitting Your Notebooks
-
-After you have completed your notebooks and updated the README.md file, commit changes back to the repository via a GitHub pull request (PR):
-
-1. CTRL-click to select all the files you have changed
-2. Click the pull request (PR) button to submit your changes
-3. Review and merge the PR on GitHub
-
-![PR Button 2](../assets/dataset_notebooks/pr2.png)
+Now you're ready to create example notebooks for your dataset!

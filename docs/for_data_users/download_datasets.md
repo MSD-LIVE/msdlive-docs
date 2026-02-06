@@ -1,36 +1,16 @@
 # Download Published Datasets
 
-The MSD-LIVE CLI allows you to download files from published datasets using the command line.
+You can download files from published datasets using the MSD-LIVE Data Repository web interface or the command-line interface (CLI).
 
-## Download Command
+## Download via Web Interface
 
-To download one or more files from a specific dataset, use:
+1. Navigate to the dataset you want to download from in the [Data Repository](https://data.msdlive.org/search)
+2. Click the download button or link on the dataset's landing page
+3. Select the files you want to download
+4. Complete the download
 
-```
-msdlive download --dataset-id $YOUR_DATASET_ID --output-dir $YOUR_LOCAL_DIRECTORY
-```
+## Download via CLI
 
-## Required Parameters
+You can use the MSD-LIVE command-line interface to download datasets. The CLI offers better performance for large files and works on machines without a web browser.
 
-**--dataset-id $YOUR_DATASET_ID**
-
-Replace $YOUR_DATASET_ID with the dataset ID, which you can find on the MSD-LIVE Data Repository web interface. From your dataset's page, click **"Download files from the command line..."** to get a pre-filled command with the correct dataset ID.
-
-**--output-dir $YOUR_LOCAL_DIRECTORY**
-
-Replace $YOUR_LOCAL_DIRECTORY with the path to a folder on your local computer. All files from the dataset will be downloaded to this location.
-
-## Optional Parameters
-
-**--filter-file $PATH_TO_FILE**
-
-Download only specific files by providing a filter file. This file contains rules for including or excluding files. See the [Advanced Options](download_advanced_options.md) section for syntax details.
-
-**--quiet**
-
-Suppresses normal output and only shows errors—useful for silent or scripted operations.
-
-## Next Steps
-
-- Learn about [filtering files and advanced options](download_advanced_options.md)
-- Download [results from your notebook analysis](download_notebook_results.md)
+See the [Downloading Files](../tools_services/cli/usage.md#downloading-files) section of the CLI documentation for complete instructions on using the `msdlive download` command.
