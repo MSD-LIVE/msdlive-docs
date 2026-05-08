@@ -3,7 +3,7 @@ name: Deploy MkDocs (Docs + Embed)
 on:
   push:
     branches:
-      - main
+      - feature/complete-overhaul
 
 permissions:
   contents: read
@@ -57,3 +57,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+

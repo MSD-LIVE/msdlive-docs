@@ -6,6 +6,7 @@ theme:
   logo: assets/MSD.LIVE.STACK.png
   favicon: assets/favicon.ico
   theme_toggle: false
+  theme_default: white
   custom_dir: docs/overrides
 
 plugins:
