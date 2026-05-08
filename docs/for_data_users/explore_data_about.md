@@ -1,9 +1,34 @@
-# Explore Data - About
 
-This page provides an overview of how the dataset notebook feature works from the perspective of a data user.
-For step-by-step instructions, see the [Explore Data Quick Start](explore_data_quick_start.md).
+# Dataset Notebooks
 
-![Overview of Dataset Notebooks](../assets/dataset_notebooks/overview-bordered.png)
+Dataset Notebooks are pre-configured **Jupyter Notebooks** associated with a specific dataset in MSD-LIVE.
+
+They allow users to quickly explore, visualize, subset, and analyze data directly within the MSD-LIVE cloud environment without needing to first download the dataset to their local computer. 
+
+Dataset Notebooks are typically created by the dataset authors or project teams and may include:
+
+- Example analyses and visualizations  
+- Data loading and preprocessing workflows  
+- Model execution examples  
+- Recommended usage patterns for the dataset  
+- Prerequisite dependencies and libraries  
+
+These notebooks provide a fast way to understand how a dataset is organized and how it can be used for analysis or modeling.
+
+## Why Use a Dataset Notebook?
+
+Dataset Notebooks help users:
+
+- Start working with data immediately  
+- Avoid downloading large datasets locally  
+- Reproduce published workflows and analyses  
+- Learn recommended methods directly from dataset authors  
+- Share interactive analyses with collaborators  
+
+Because notebooks run within MSD-LIVE's cloud computing environment, users can work with large datasets and scalable compute resources directly through their web browser.
+
+
+## Video Walkthrough
 
 Watch this video for an overview of the workflow for using MSD-LIVE's dataset notebooks feature:
 
@@ -13,24 +38,3 @@ Watch this video for an overview of the workflow for using MSD-LIVE's dataset no
       frameborder="0" allowfullscreen>
   </iframe>
 </div>
-
----
-
-## Exploring the Data
-
-Data users can explore data in MSD-LIVE by browsing the data repository. If a dataset in the repository supports interactive dataset notebooks, you'll see an "Explore the Data" button on the dataset's landing page. What happens when you click the link?
-
-- A Jupyter Notebook environment spins up in the AWS cloud.
-- The dataset's files are accessible in a mounted `data/` folder.
-- If provided by the dataset author, the GitHub repo containing the pre-packaged code is cloned into the environment.
-
-![Explore Small Datasets](../assets/dataset_notebooks/exploredatasmall.png)
-
-## Using the Jupyter Notebook Environment
-
-Once in your Jupyter Notebook environment there are multiple ways to explore the data and interact with it via code:
-
-- Open example notebooks and follow the provided instructions.
-- Write your own notebooks using Python, R, or Julia.
-- Visualize, analyze, or subset the data.
-- Copy files to your scratch directory and download them via the MSD-LIVE command-line interface.

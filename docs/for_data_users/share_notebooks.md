@@ -1,18 +1,14 @@
-# Share Notebooks
+# Contributing Back
 
-MSD-LIVE encourages users to contribute improvements back to the platform through its powerful collaboration features. You can submit a GitHub Pull Request (PR) to share new notebooks, updates, or useful analyses and visualizations so that others can benefit from your work. Once your PR is approved, your notebook will become available to all future users who explore the dataset. This creates a collaborative ecosystem where the exploration experience continuously improves through community contributions.
+You can contribute notebooks and improvements back to the dataset via a GitHub pull request (PR).  After you have completed your edits, use the following steps to submit a PR:
 
-## Contributing Changes
 
-After you have completed edits to your notebooks, you can contribute them back:
+1. CTRL-click to select all the files you have changed.
 
-- CTRL-click to select all the files you have changed.
+2. Click the pull request (PR) button to submit your changes.
+    ![PR Button](../assets/dataset_notebooks/pr2.png)
+3. Add a brief description of your changes.
 
-- Click the pull request (PR) button to submit your changes.
-
-- Add a brief description of your changes.
-
-![PR Button](../assets/dataset_notebooks/pr2.png)
 
 ## Where Your PR Goes
 
@@ -22,8 +18,5 @@ Contributions are reviewed before being available to others. The destination of 
 
 - **notebooks** — PRs are sent to the dataset owner.
 
-## Browsing the Source Code Repository
-
-You can also browse the dataset's notebook repository on GitHub to view notebook history, existing issues, and discussions.
 
 > **Remember:** All contributions are reviewed before being available to others. Contributing helps improve the experience for the entire research community.

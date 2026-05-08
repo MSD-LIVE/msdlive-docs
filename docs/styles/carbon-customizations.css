@@ -38,3 +38,16 @@ cds-side-nav-menu {
 .md-breadcrumbs {
     display: none !important;
 }
+
+/* Force visible emphasis; base theme uses a light-weight body face */
+.md-content strong,
+.md-content b {
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 700;
+}
+
+.md-content h2,
+.md-content h1 {
+    font-family: 'roboto';
+    padding-top: 15px;
+}

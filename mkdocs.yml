@@ -36,13 +36,12 @@ nav:
   - For Data Users:
       - Find Data: for_data_users/dataset_search.md
       - Explore Data:
-          - About: for_data_users/explore_data_about.md
-          - Quick Start: for_data_users/explore_data_quick_start.md
-          - Launch the Environment: for_data_users/launch_environment.md
-          - Create Notebooks: for_data_users/create_notebook.md
-          - Share Notebooks: for_data_users/share_notebooks.md
-          - Access Multiple Datasets: for_data_users/access_multiple_datasets.md
-          - Use the Scratch Directory: for_data_users/use_scratch_directory.md
+          - Dataset Notebooks: for_data_users/explore_data_about.md
+          - Using Notebooks: for_data_users/using_notebooks.md
+          - Creating Notebooks: for_data_users/create_notebook.md
+          - Accessing Dataset Data: for_data_users/access_multiple_datasets.md
+          - Contributing Notebooks: for_data_users/share_notebooks.md
+          - Using the Scratch Directory: for_data_users/use_scratch_directory.md
       - Download Data:
           - Download Published Datasets: for_data_users/download_datasets.md
           - Download Notebook Results: for_data_users/download_notebook_results.md

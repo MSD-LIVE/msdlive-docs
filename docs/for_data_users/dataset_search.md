@@ -1,5 +1,19 @@
-# Dataset Search
+# Find Data
 
-Please go to the Data Repository's [Search](https://data.msdlive.org/search) page to find data or code to use for your research. The search page allows you to search across all the datasets and code stored in MSD-LIVE using the same metadata properties captured in the upload form. 
+Use the MSD-LIVE <a href="https://data.msdlive.org/search" target="_blank" rel="noopener noreferrer">**Search**</a> page to discover datasets, files, and other records available in the platform. Use our <a href="https://data.msdlive.org/help/search" target="_blank" rel="noopener noreferrer">**Search Guide**</a> for advanced query syntax. 
 
-Note that you will only be able to see datasets for which you have the correct permissions. Over the next year we are working to add the ability to connect data hosted in the Data Repository to cloud computing resources in MSD-LIVE.
+## Data Access and Permissions
+
+Dataset visibility in MSD-LIVE is based on your account permissions.
+
+- Some datasets are publicly available  
+- Others are restricted to specific **project members only**
+
+If you cannot find a dataset you expect to see:
+
+- Make sure you are **logged in**  
+- Verify that you have the appropriate **project membership**
+
+If you still do not have access, contact the dataset owner or your project administrator.
+
+
