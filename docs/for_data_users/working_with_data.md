@@ -66,9 +66,9 @@ Converts the pandas DataFrame (df) to a Polars DataFrame (pl_df), displays the f
 import os
 from pathlib import Path
 
-# PUBLIC_DATA_DIR points to all public datasets with file exploration enabled
-public_dir = Path(os.environ['PUBLIC_DATA_DIR'])
-print("PUBLIC_DATA_DIR =", public_dir)
+# OTHER_DATASETS_DIR points to all public datasets with file exploration enabled
+public_dir = Path(os.environ['OTHER_DATASETS_DIR'])
+print("OTHER_DATASETS_DIR =", public_dir)
 
 # Access another dataset by its Record ID
 other_dataset_id = "6yawb-zyx60"

@@ -40,6 +40,7 @@ If no notebooks are provided, you can create your own.
 ## Session Limits
 
 - Notebook sessions may have time limits (e.g., ~1 hour)  
-- Pay attention to the **bottom-right of the status bar** to see the remaining time for your session  
-- Save your work frequently  
+- Pay attention to the **bottom-right of the status bar** to see the remaining time for your session
+   <!-- instead of, "Save your work frequently" link to scrach dir page and anchor showing how in progress work can be saved to the scrach dir for use in a subsequent session  -->
  
+![Remaining Session Time](../assets/dataset_notebooks/session_time.png)

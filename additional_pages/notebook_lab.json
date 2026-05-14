@@ -1,0 +1,2164 @@
+{
+    "story": {
+        "name": "Using MSD-LIVE's Notebook Lab",
+        "created_at": "2025-09-23T15:37:54.953Z",
+        "published_at": "2025-09-23T23:00:26.845Z",
+        "updated_at": "2025-09-23T23:00:26.866Z",
+        "id": 94012518256413,
+        "uuid": "bbcc9eda-2e10-47c5-b96e-b0dac7d4ff33",
+        "content": {
+            "_uid": "173bd9a5-8f33-4f74-99cb-184a7ac0971f",
+            "body": [
+                {
+                    "_uid": "5b70dd05-c9f5-4ec7-a817-74bea9f914b5",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "The second component of MSD-LIVE's dataset notebooks feature is the ability to provide pre-packaged code written by the dataset author. See ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "Exploring Datasets via Jupyter Notebooks",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "/dataset-notebooks",
+                                                    "uuid": "d05cba1e-6847-46a9-8ae7-755b2ffc6901",
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "story"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " for an overview of related dataset notebook features.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 91273693559938,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019230/453x300/1237184c7c/datasetnotebookstep2-custom.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "768e13e4-6d5e-4ab6-9ce1-2b6278d99451",
+                                    "body": [
+                                        {
+                                            "_uid": "ee7fe6b8-81fa-4ceb-a21b-3789fd567a35",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "67f3579a-e3b5-42a5-ad31-27d002ff8eb2",
+                                    "body": [
+                                        {
+                                            "_uid": "c916f6f1-9b5e-49e0-9940-155ab1e20acb",
+                                            "title": "Watch this video to see how to use the Notebook Lab environment",
+                                            "authors": [],
+                                            "videoUrl": "https://www.youtube.com/embed/00Rm65PTsn8?si=6aaSGmDdZmiZQ-z4",
+                                            "component": "videoResource",
+                                            "attachments": [],
+                                            "description": ""
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "768e13e4-6d5e-4ab6-9ce1-2b6278d99451",
+                                    "body": [
+                                        {
+                                            "_uid": "71072710-8cff-4fbd-beaf-2e55a91c0e72",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 2,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "rocket",
+                                            "emoji": "🚀",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f680.png"
+                                        }
+                                    },
+                                    {
+                                        "text": "Features of the Notebook Lab",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "No local setup required: ",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": "The authoring environment automatically spawns a fully-configured Jupyter server for you in the cloud - no need to install Python, Jupyter, or any dependencies locally",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Pre-mounted data",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ": Your dataset files are automatically available",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Instant access: ",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": "Start coding and executing cells immediately - everything you need is already set up",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "GitHub integration",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ": Create pull requests directly from the Jupyter Notebook environment and share notebooks with project members for review",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "5230d96d-2d17-4950-b014-7239c935ff21",
+                                    "body": [
+                                        {
+                                            "_uid": "a2335867-1306-4469-bfa4-161ebe0a82dc",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "How To Use MSD-LIVE's Notebook Lab:",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "toolbox",
+                                            "emoji": "🧰",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f9f0.png"
+                                        }
+                                    },
+                                    {
+                                        "text": "Prerequisites",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": ""
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "A draft or published dataset in MSD-LIVE with:",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "attrs": {
+                                                                    "textAlign": null
+                                                                },
+                                                                "content": [
+                                                                    {
+                                                                        "text": "The data uploaded",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "attrs": {
+                                                                    "textAlign": null
+                                                                },
+                                                                "content": [
+                                                                    {
+                                                                        "text": "File exploration enabled",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "link",
+                                                                                "attrs": {
+                                                                                    "href": "/help/resources/quick-guides/enabling-file-exploration",
+                                                                                    "uuid": "7e842593-d40b-4444-a2a2-320d73ca4da2",
+                                                                                    "anchor": null,
+                                                                                    "target": "_self",
+                                                                                    "linktype": "story"
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": " on the dataset",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "attrs": {
+                                                                    "textAlign": null
+                                                                },
+                                                                "content": [
+                                                                    {
+                                                                        "text": "A GitHub repository linked",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Basic knowledge of Jupyter Notebooks and your chosen programming language",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "5230d96d-2d17-4950-b014-7239c935ff21",
+                                    "body": [
+                                        {
+                                            "_uid": "0a7454e6-7da4-445d-a468-61ee062c5251",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "1. ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": ""
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": "▶️",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": " Launch the Notebook Lab ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": ""
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "ordered_list",
+                                "attrs": {
+                                    "order": 1
+                                },
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Log in to MSD-LIVE's ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": "data repository",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "link",
+                                                                "attrs": {
+                                                                    "href": "https://data.msdlive.org",
+                                                                    "uuid": null,
+                                                                    "anchor": null,
+                                                                    "target": "_self",
+                                                                    "linktype": "url"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Navigate to your draft or published dataset that has file exploration enabled",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Click \"Launch Notebook Lab\"",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Log in with your MSD-LIVE credentials",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                },
+                {
+                    "_uid": "c260b4a1-17e0-408d-8e00-ca52465497c3",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "227d8410-1001-4008-a879-4806a7c2eee9",
+                                    "body": [
+                                        {
+                                            "_uid": "d5aee760-375d-4d31-8e05-a7d1b070d0be",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Your Notebook Lab can be launched from a published or draft dataset's landing page:",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 77817435175000,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019230/4046x2722/f208014108/launchfromlanding.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "5230d96d-2d17-4950-b014-7239c935ff21",
+                                    "body": [
+                                        {
+                                            "_uid": "e8f673cc-94af-490d-bc2c-a65b6c533c0c",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Or, from the File Exploration section of your draft once your GitHub repo has been linked:",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 91289795255453,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019230/3499x2246/15c5aebdb4/launchfromdraft.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "227d8410-1001-4008-a879-4806a7c2eee9",
+                                    "body": [
+                                        {
+                                            "_uid": "0a5e3da8-9ba5-4909-abaf-54b242973c0d",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                },
+                {
+                    "_uid": "addcd709-2ee5-4882-8c7c-251bdfc0cf38",
+                    "severity": "warning",
+                    "component": "alert",
+                    "description": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Important:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#000000"
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Your MSD-LIVE's Notebook Lab session is limited to 3 hours",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": "#000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Be sure to save often",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": "#000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_uid": "96bb98d5-da19-4957-bdda-14fb0ef93325",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "cd6cdd70-2591-48bf-b5a7-b10cd425b11a",
+                                    "body": [
+                                        {
+                                            "_uid": "bf137e95-ed34-424e-94fd-4fd5f55f6750",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4
+                                },
+                                "content": [
+                                    {
+                                        "text": "2. ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "writing_hand",
+                                            "emoji": "✍",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/270d-fe0f.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " Create Notebooks",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "Create notebooks following the steps in ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "this guide.",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "/help/resources/quick-guides/creating-dataset-notebooks",
+                                                    "uuid": "be6f9607-e8c6-4145-a6cf-97b12ba3a71d",
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "story"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "dc2308b3-3f47-4fc0-8049-37c4314f89df",
+                                    "body": [
+                                        {
+                                            "_uid": "2b57048d-ff3a-4c44-abc8-efc00d781ce9",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4
+                                },
+                                "content": [
+                                    {
+                                        "text": "3. ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "link",
+                                            "emoji": "🔗",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f517.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "Save Your Notebooks to Your GitHub Repository",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "Your Notebook Lab environment comes with the following GitHub integrations.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "ordered_list",
+                                "attrs": {
+                                    "order": 1
+                                },
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "content": [
+                                                    {
+                                                        "text": "Automatic repository setup:",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "When your Notebook Lab launches for a dataset for the ",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "textStyle",
+                                                                                "attrs": {
+                                                                                    "color": ""
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": "first time",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "textStyle",
+                                                                                "attrs": {
+                                                                                    "color": ""
+                                                                                }
+                                                                            },
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": ", we automatically clone the GitHub repository you specified in the \"File Exploration\" section",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "textStyle",
+                                                                                "attrs": {
+                                                                                    "color": ""
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "The repository is cloned into your home directory under the ",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "textStyle",
+                                                                                "attrs": {
+                                                                                    "color": ""
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": "notebooks",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "code"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": " folder",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "textStyle",
+                                                                                "attrs": {
+                                                                                    "color": ""
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "content": [
+                                                    {
+                                                        "text": "Create and edit notebooks:",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "Work on your notebooks inside the ",
+                                                                        "type": "text"
+                                                                    },
+                                                                    {
+                                                                        "text": "notebooks",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "code"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": " folder",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "Your files persist across notebook sessions for this dataset - you won't lose your work when you close and reopen the environment",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "Your Jupyter Notebook server session is limited to ",
+                                                                        "type": "text"
+                                                                    },
+                                                                    {
+                                                                        "text": "3 hours",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "italic"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": " so be sure to ",
+                                                                        "type": "text"
+                                                                    },
+                                                                    {
+                                                                        "text": "save often",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "content": [
+                                                    {
+                                                        "text": " ",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": ""
+                                                                }
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": "Push changes to GitHub:",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "When your notebooks are complete, click the \"Pull Request\" button in the interface",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "If this is your first time, you'll be prompted to authorize MSD-LIVE to access your GitHub repository",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "Once authorized, MSD-LIVE will create a pull request on your behalf with your new files and changes",
+                                                                        "type": "text"
+                                                                    },
+                                                                    {
+                                                                        "type": "image",
+                                                                        "attrs": {
+                                                                            "id": 77798866614300,
+                                                                            "alt": "",
+                                                                            "src": "https://a-us.storyblok.com/f/1019230/1023x372/78d9fd1e4e/prbutton.png",
+                                                                            "title": "",
+                                                                            "source": "",
+                                                                            "copyright": "",
+                                                                            "meta_data": {}
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "content": [
+                                                    {
+                                                        "text": "Authorization process:",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "The first time you use the pull request feature, you'll need to grant MSD-LIVE permission to make pull requests to your repository",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "This is a one-time setup that allows MSD-LIVE to push your notebook changes directly to your GitHub repo",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "content": [
+                                                                    {
+                                                                        "text": "You maintain full control - you can review and merge the pull requests as usual on GitHub",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "2a59507e-423f-45ba-ae51-db450e370c89",
+                                    "body": [
+                                        {
+                                            "_uid": "8ede5e6d-d543-4e05-837e-5fe07decac1b",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4
+                                },
+                                "content": [
+                                    {
+                                        "text": "4. ",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "file_folder",
+                                            "emoji": "📁",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f4c1.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " Manage Your Home Directory",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "anchor",
+                                                "attrs": {
+                                                    "id": "manage-home-dir"
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                },
+                {
+                    "_uid": "1fa5f21a-b81d-47af-b106-21ff76ec3bfb",
+                    "severity": "warning",
+                    "component": "alert",
+                    "description": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4
+                                },
+                                "content": [
+                                    {
+                                        "text": "Important:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            },
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#000000"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "content": [
+                                                    {
+                                                        "text": "Your home directory has a 50 GB quota",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": "#000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "content": [
+                                                    {
+                                                        "text": "Files older than 7 days in your home directory are automatically deleted",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "textStyle",
+                                                                "attrs": {
+                                                                    "color": "#000000"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "_uid": "b7416705-d7df-4b27-a549-746c8b4fdfad",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "227d8410-1001-4008-a879-4806a7c2eee9",
+                                    "body": [
+                                        {
+                                            "_uid": "94c75887-5f59-4074-9b3b-e8f4f4bcdccd",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "bar_chart",
+                                            "emoji": "📊",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f4ca.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " Storage Quota",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Limit: 50 GB",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " per user per dataset",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Dataset files (files mounted under /data and symlinked in your home folder as data) are excluded from the quota",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "MSD-LIVE has daily monitoring with email alerts if exceeded",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "You can manage your storage quota usage by cleaning up old files",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "227d8410-1001-4008-a879-4806a7c2eee9",
+                                    "body": [
+                                        {
+                                            "_uid": "64d18acf-1b65-40f5-97a2-77b52c551339",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 4,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "broom",
+                                            "emoji": "🧹",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f9f9.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "Automated Cleanup",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Files ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "older than 7 days",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " are automatically deleted to maintain system performance.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "wastebasket",
+                                            "emoji": "🗑",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/1f5d1-fe0f.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "What gets deleted:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Temporary files (",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".tmp",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".log",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".cache",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".bak",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ")",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Data files (",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".csv",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".json",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".pkl",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".zip",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", etc.)",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Large files over 100 MB",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Files with \"temp\", \"cache\", or \"backup\" in the name",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "white_check_mark",
+                                            "emoji": "✅",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/2705.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " What's protected:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Configuration directories (",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".jupyter",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".ssh",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": ".git",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": ", etc.)",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Recently accessed Jupyter Notebooks",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Any file accessed within 7 days",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Your dataset's data mounted at ",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": "/data",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " is never deleted",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "alarm_clock",
+                                            "emoji": "⏰",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/23f0.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " Advance warning:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "MSD-LIVE will send you email notification 3 days before deletion",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Simply open a file to protect it for another 7 days",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "emoji",
+                                        "attrs": {
+                                            "name": "sparkles",
+                                            "emoji": "✨",
+                                            "fallbackImage": "https://cdn.jsdelivr.net/npm/emoji-datasource-apple/img/apple/64/2728.png"
+                                        }
+                                    },
+                                    {
+                                        "text": " Best practices:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Use the Pull Request button to push changes back to your GitHub repo ",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Complete your dataset notebook development within 1 week",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                }
+            ],
+            "header": "Using MSD-LIVE's Notebook Lab",
+            "component": "page",
+            "useGradientBanner": false
+        },
+        "slug": "notebook-lab",
+        "full_slug": "help/resources/quick-guides/notebook-lab",
+        "sort_by_date": null,
+        "position": -20,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 94011435286280,
+        "meta_data": null,
+        "group_id": "2489ed2d-c217-44cc-b2ef-2db13cf59d13",
+        "first_published_at": "2025-09-23T15:38:23.838Z",
+        "release_id": null,
+        "lang": "default",
+        "path": null,
+        "alternates": [],
+        "default_full_slug": null,
+        "translated_slugs": null
+    },
+    "cv": 1778697729,
+    "rels": [],
+    "links": []
+}

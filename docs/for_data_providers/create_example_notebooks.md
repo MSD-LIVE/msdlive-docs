@@ -1,49 +1,49 @@
 # Create Example Notebooks
 
-Learn how to create and maintain example notebooks for your dataset.
+Example notebooks (pre-packaged code) help users understand how to work with your dataset. You can create them either in Notebook Lab or in your local development environment.
 
-## Creating New Notebooks
+## Option A: Create Notebooks Locally
 
-For detailed instructions on creating new notebooks, follow these steps:
+If you prefer to build notebooks in your own environment, you can use your normal Git workflow:
 
-1. Launch the Notebook Lab from your dataset's landing page
-2. Right-click in the file explorer and select **New Notebook**
-3. Choose the notebook folder and kernel language
-4. Optionally check "Create notebook with starter code and dataset guidance"
+1. Clone your [linked GitHub notebook repository](setup_notebook_repository.md)
+2. Create or edit notebooks in your preferred local editor or IDE 
+3. Test notebooks with your dataset
+4. Commit and push your changes to GitHub
 
-## Editing and Persisting Notebooks
+Once merged, the notebooks are available to users via **Explore the Data**.
 
-- Create and edit notebooks inside the `notebooks` folder
-- Files persist across Notebook Lab sessions for the same dataset
-- Sessions expire after 3 hours, so save often
+## Option B: Create Notebooks in Notebook Lab (Recommended)
 
-## Creating a Pull Request
+Use [Notebook Lab](launch_notebook_environment.md) to create and test notebooks directly with your mounted data.
 
-- Click the **Pull Request** button in the Notebook Lab interface
-- On first use, authorize MSD-LIVE to access your GitHub repository
-- MSD-LIVE creates a pull request containing your new or updated notebooks
+### Automatic Repository Setup
 
-## Importing Packages
+- The first time Notebook Lab launches for a dataset, MSD-LIVE automatically clones the GitHub repository you configured in [Set Up a Notebook Repository](setup_notebook_repository.md)
+- The repository is cloned into your home directory under the `notebooks/` folder
+- Files in this environment persist across Notebook Lab sessions for the same dataset
 
-Start by importing the necessary libraries in an empty cell. For example using Python:
+### Create and Edit Notebooks
 
-```python
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-```
+1. [Launch Notebook Lab](launch_notebook_environment.md) from your dataset landing page
+2. Open the `notebooks/` folder in the file explorer
+3. Right-click and select **New Notebook**
+4. Choose the kernel language (Python, R, or Julia)
+5. Optionally check "Create notebook with starter code and dataset guidance" for a template
+6. Test your notebook code against your mounted dataset
 
-See the [Working with Data](../for_data_users/working_with_data.md) page for detailed examples on how to import libraries in Python, Julia, and R.
+![New notebook](../assets/dataset_notebooks/newnotebookmenuitem.png)
 
-## Accessing Data
+### Accessing Your Data and Importing Packages
 
-Use the **"DATA_DIR"** environment variable to access your dataset files:
+Your dataset is automatically mounted — no downloads needed. For code examples covering data access and package imports in Python, R, and Julia, see [Working with Notebooks](../learning_resources/working-with-notebooks.md).
 
-```python
-import os
-from pathlib import Path
 
-data_dir = Path(os.environ['DATA_DIR'])
-```
+## Best Practices
 
-Now you're ready to create example notebooks for your dataset!
+- **Write clear explanations** — Use markdown cells to document what each section does
+- **Test thoroughly** — Run notebooks against real data before publishing
+- **Keep notebooks focused** — One notebook per analysis or workflow
+- **Include examples** — Show users how to subset, filter, and transform data
+- **Save frequently** — If using Notebook Lab, save often (3-hour session limit)
+- **Document dependencies** — List required packages or external data

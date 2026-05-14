@@ -18,6 +18,11 @@ cds-side-nav-menu cds-side-nav-menu {
     margin-left: 1rem;
 }
 
+/* Hide footer until layout overlap is resolved */
+footer {
+    display: none;
+}
+
 /* Adds vertical spacing between nav items */
 /* cds-side-nav-menu-item[role="button"] {
     padding: 0.5rem 0.0rem;

@@ -1,39 +1,20 @@
-# Create Notebooks
+# Creating Notebooks
 
-Follow these steps to create custom notebooks for exploring your data.
-
-## Creating Notebooks
-
-After logging in to your notebook environment, right-click in the file explorer panel and select **"New Notebook"**.
+After logging in to your notebook environment, right-click in the file explorer panel and select **"New Notebook"** to create custom notebooks for exploring your data.
 
 ![New Notebook Menu Item](../assets/dataset_notebooks/newnotebookmenuitem.png)
 
+## Notebook Location Options
+
 ![New Notebook Dialog](../assets/dataset_notebooks/newnotebookdialog.png)
 
-- Optionally check "Create notebook with starter code and dataset guidance" to pre-fill your notebook with examples and environment tips.
+**If the dataset has a linked repository**, you'll be prompted to choose a folder:
 
-## Importing Packages
+- **/community_notebooks** — For general or cross-dataset notebooks shared openly with the MSD-LIVE community (tutorials, alternative analyses, learning materials)
+- **/notebooks** — For notebooks specific to this dataset that become an official, maintained part of the dataset materials (data validation, canonical analyses, examples the dataset should ship with)
 
-In your new notebook, start by importing the necessary libraries. For example using Python:
+**If the dataset does not have a linked repository**, only the starter code option appears.
 
-```python
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-```
+In both cases, you can optionally check **"Create notebook with starter code and dataset guidance"** to pre-fill your notebook with examples and environment tips.
 
-Click the documentation pages for detailed examples on how to import libraries in Python, Julia, and R.
-
-## Accessing Data
-
-Use the **"DATA_DIR"** environment variable to access the location where a copy of your data is stored.
-
-```python
-import os
-from pathlib import Path
-
-data_dir = Path(os.environ['DATA_DIR'])
-print('DATA_DIR =', data_dir)
-```
-
-Now you're ready to write custom code to visualize/analyze the data or to create workflows for subsetting the data in space and time.
+See [Working with Notebooks](../../learning_resources/working-with-notebooks) for detailed guidance on importing packages, accessing your data, and getting started with your analysis.

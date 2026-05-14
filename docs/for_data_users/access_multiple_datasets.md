@@ -1,3 +1,8 @@
+<!--
+ TODO see if there is a markdown or mkdocs way of 'tagging' these files as either
+for data users or for data producers
+ -->
+
 # Accessing Dataset Data
 
 Dataset files are automatically available in your notebook environment via the `DATA_DIR` environment variable.
@@ -32,15 +37,15 @@ Dataset files are automatically available in your notebook environment via the `
 
 You can access multiple datasets from within your Jupyter notebook environment.
 
-The `PUBLIC_DATA_DIR` environment variable points to all public datasets with file exploration enabled. You can access another dataset by its Record ID:
+The `OTHER_DATASETS_DIR` environment variable points to all public datasets with file exploration enabled. You can access another dataset by its Record ID:
 
 ```python
 import os
 from pathlib import Path
 
-# PUBLIC_DATA_DIR points to all public datasets with file exploration enabled
-public_dir = Path(os.environ['PUBLIC_DATA_DIR'])
-print("PUBLIC_DATA_DIR =", public_dir)
+# OTHER_DATASETS_DIR points to all public datasets with file exploration enabled
+public_dir = Path(os.environ['OTHER_DATASETS_DIR'])
+print("OTHER_DATASETS_DIR =", public_dir)
 
 # Access another dataset by its Record ID
 other_dataset_id = "6yawb-zyx60"

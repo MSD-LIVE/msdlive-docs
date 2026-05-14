@@ -1,38 +1,31 @@
 # Enable Data Exploration
 
-The first component of MSD-LIVE's dataset notebooks feature is uploading raw data files and enabling this feature on a dataset.
+Enabling file exploration marks your dataset as explorable, allowing users to browse and analyze your files through **Explore the Data** in a notebook environment. 
 
-Watch this video to see how to enable file exploration:
+## Before You Start
 
+- All dataset files must be uploaded to the MSD-LIVE data repository first
+- Files must be in their original format (not zipped)
+- File types must be readable in Jupyter Notebooks, such as `.csv`, `.netcdf`, `.txt`, and similar formats
+- You must be the dataset author/owner
+
+## How to Enable File Exploration
+
+1. Navigate to your dataset's edit page
+2. Find the **File Exploration** section
+3. Select **Yes** to enable interactive file exploration for users
+4. (Optional) If you want to provide example notebooks, set up a linked GitHub repository — see [Set Up a Notebook Repository](setup_notebook_repository.md)
+5. Submit your dataset for review and publication through the standard MSD-LIVE workflow
+
+
+![Enable File Exploration](../assets/dataset_notebooks/enable_explore.png)
+
+## Video Walkthrough
+
+Watch this video for a quick overview of the full workflow:
 <div>
   <iframe width="560" height="315"
       src="https://www.youtube.com/embed/GjbYZ12k2aM"
       frameborder="0" allowfullscreen>
   </iframe>
 </div>
-
-## Requirements
-
-If you're the dataset author—the person who creates the dataset record and uploads files—you have the option to enable interactive file exploration for your dataset using Jupyter Notebooks. All of your dataset files should be uploaded first.
-
-!!! note
-
-    Only datasets with files uploaded directly into the MSD-LIVE data repository can have file exploration enabled.
-
-    **Important:**
-
-    - Upload files in their original format — do not zip them.
-
-    - File types must be readable and parsable by Jupyter Notebooks, such as .csv, .netcdf, and similar supported formats.
-
-## Steps to Enable File Exploration
-
-1. Navigate to your dataset's edit page
-
-2. Find the "File Exploration" section
-
-3. Select "Yes" to provide users notebook functionality
-
-4. Choose your preferred kernel (Python, R, or Julia)
-
-5. (Optional) Setup the dataset notebook GitHub repository to house notebooks you provide

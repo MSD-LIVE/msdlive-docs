@@ -1,0 +1,302 @@
+{
+    "story": {
+        "name": "Spatial Metadata",
+        "created_at": "2025-04-04T00:52:09.220Z",
+        "published_at": "2025-04-22T21:05:20.967Z",
+        "updated_at": "2025-04-22T21:05:20.989Z",
+        "id": 27125355,
+        "uuid": "69e4db98-ca3c-470a-ba63-e4c5f0e9d0f5",
+        "content": {
+            "_uid": "81ab2485-e89f-41f1-91f7-306663f6c531",
+            "body": [
+                {
+                    "_uid": "33037e54-a439-4b09-a885-3faf2aeaa94f",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "Adding spatial metadata helps downstream users understand where your data was collected or applied.",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#404040"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "hard_break"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 2
+                                },
+                                "content": [
+                                    {
+                                        "text": "Selecting Common Locations",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "This video shows you how to add commonly used locations (for example, the Contiguous United States or 'CONUS') to your draft dataset:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#404040"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "9b8bd0a5-4da2-43e5-a38d-9e9abb8a833f",
+                                    "body": [
+                                        {
+                                            "_uid": "i-b2e8efe5-41dc-4a9f-befd-e10c0c3339a3",
+                                            "link": "https://a-us.storyblok.com/f/1019230/1280x916/8e94025c68/spatial_catalog_search.gif",
+                                            "text": "Selecting Common Locations",
+                                            "component": "textWithLink"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "whitespace",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#FFFFFF"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "spacer text",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#FFFFFF"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 2
+                                },
+                                "content": [
+                                    {
+                                        "text": "Searching the Catalog for Locations",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "Here's how you can search the MSD-LIVE data repository catalog for data in a specific location:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#404040"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "db4636ec-f695-4bbe-9395-6b2af67ee7c1",
+                                    "body": [
+                                        {
+                                            "_uid": "fb7d19c5-d47d-4d03-b6b4-aebbf6e8773f",
+                                            "link": "https://a-us.storyblok.com/f/1019230/1280x916/8e94025c68/spatial_catalog_search.gif",
+                                            "text": "Searching the Catalog for Locations",
+                                            "component": "textWithLink"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "spacer text",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#FFFFFF"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": " You can also enter custom locations if you need to define the spatial coverage yourself:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#404040"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "db4636ec-f695-4bbe-9395-6b2af67ee7c1",
+                                    "body": [
+                                        {
+                                            "_uid": "168d3848-d822-4afc-b88c-740ba4295e55",
+                                            "link": "https://a-us.storyblok.com/f/1019230/1280x916/b3dfd22507/spatial_custom.gif",
+                                            "text": "Entering Custom Locations",
+                                            "component": "textWithLink"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "spacer text",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "textStyle",
+                                                "attrs": {
+                                                    "color": "#FFFFFF"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "content": [
+                                    {
+                                        "text": "Finally, you can add spatial metadata to an already published dataset:",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph"
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "db4636ec-f695-4bbe-9395-6b2af67ee7c1",
+                                    "body": [
+                                        {
+                                            "_uid": "995b5fc1-2fca-4e85-8f94-d409c0ba5686",
+                                            "link": "https://a-us.storyblok.com/f/1019230/1280x916/e2277bb24b/add_spatial_to_published.gif",
+                                            "text": "Adding Spatial Metadata to a Published Record",
+                                            "component": "textWithLink"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "paragraph"
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                }
+            ],
+            "header": "Spatial Metadata How-Tos",
+            "component": "page",
+            "useGradientBanner": false
+        },
+        "slug": "spatial-metadata",
+        "full_slug": "help/resources/quick-guides/spatial-metadata",
+        "sort_by_date": null,
+        "position": 80,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 27125353,
+        "meta_data": null,
+        "group_id": "e1ed89ad-f2ca-4846-afec-1b110530cdb0",
+        "first_published_at": "2025-04-04T19:44:30.984Z",
+        "release_id": null,
+        "lang": "default",
+        "path": null,
+        "alternates": [],
+        "default_full_slug": null,
+        "translated_slugs": null
+    },
+    "cv": 1778518552,
+    "rels": [],
+    "links": []
+}

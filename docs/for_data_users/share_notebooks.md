@@ -12,7 +12,7 @@ You can contribute notebooks and improvements back to the dataset via a GitHub p
 
 ## Where Your PR Goes
 
-Contributions are reviewed before being available to others. The destination of your PR depends on the notebook folder:
+Contributions are reviewed before being available to others. The destination of your PR depends is determined by the parent folder of the files you select:
 
 - **community_notebooks** — PRs are sent to MSD-LIVE administrators for review and approval.
 

@@ -29,7 +29,7 @@ Click **"Explore the data"** to start exploring.
 
 Once your environment opens, you can access the **MSD-LIVE AI Assistant** from the right sidebar. The AI Assistant helps with:
 
-- **MSD-LIVE features:** Using the scratch directory, referencing `DATA_DIR` and `PUBLIC_DATA_DIR`, and working in the environment.  
+- **MSD-LIVE features:** Using the scratch directory, referencing `DATA_DIR` and `OTHER_DATASETS_DIR`, and working in the environment.  
 - **JupyterLab help:** Running cells, managing notebooks, and navigating the interface.  
 - **Code assistance:** Writing Python, R, or Julia code to load, inspect, analyze, and visualize your data.  
 - **Notebook best practices:** Organizing workflow, debugging, and improving notebook quality.

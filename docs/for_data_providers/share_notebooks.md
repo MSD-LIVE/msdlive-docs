@@ -1,29 +1,24 @@
-# Share Notebooks
+# Save Notebooks to GitHub
 
-Once you've created example notebooks for your dataset, you can share them with data users through GitHub pull requests.
+When working in Notebook Lab, your notebooks are saved back to your [linked GitHub repository](setup_notebook_repository.md) via pull requests (PRs). This keeps your example notebooks version-controlled and makes them available to users when they click **Explore the Data**.
 
-## Contributing Changes
+## How It Works
 
-After you have completed edits to your notebooks and the README.md file, commit changes back to the repository via a GitHub pull request (PR):
+Notebook Lab does not push directly to your repository's `main` branch. Instead, it opens a pull request so you can review changes before they go live.
 
-- CTRL-click to select all the files you have changed.
+## Submitting a Pull Request
 
-- Click the pull request (PR) button to submit your changes.
+After you have finished editing your notebooks and the README.md file:
 
-- Add a brief description of your changes.
+1. CTRL-click to select all the files you have changed
+2. Click the **Pull Request** button to submit your changes
+3. Add a brief description of your changes
 
 ![PR Button](../assets/dataset_notebooks/pr2.png)
 
-## Updating the README
+Once the PR is merged on GitHub, your notebooks are live for users.
 
-If your notebook will be saved to GitHub through a pull request (PR), update the README.md file to include your new notebook and a short description of what it does.
 
-- If you are the dataset author creating the first notebook, be sure to replace all placeholders marked with {{ }} in the README.md.
+## GitHub Authorization
 
-- If you are adding additional notebooks, add an entry describing your new notebook so other users know what it provides.
-
-## GitHub Authorization and Permissions
-
-- Authorization is required the first time you use the pull request feature
-- This is a one-time setup that allows MSD-LIVE to push changes on your behalf
-- You retain full control—review and merge pull requests directly on GitHub
+The first time you use the pull request feature, you will be prompted to authorize MSD-LIVE to access your GitHub account. This is a one-time setup that allows MSD-LIVE to open pull requests on your behalf. You retain full control — review and merge pull requests directly on GitHub.

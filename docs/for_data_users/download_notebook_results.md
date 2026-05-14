@@ -17,6 +17,8 @@ For larger files or when working on a machine without a browser, copy your resul
 3. Click the blue cloud button in the toolbar
 4. Wait for the copy job to complete
 
+![Copy To Scrach Button](../assets/dataset_notebooks/copy_to_scratch_button.png)
+
 ### Step 2: Download from Scratch Directory
 
 Use the MSD-LIVE CLI to download files from your scratch directory to your local machine.

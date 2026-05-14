@@ -1,38 +1,39 @@
-# Manage Storage
+# Manage Notebook Lab Files
 
-Reference information for managing storage in your Notebook Lab environment.
+This guidance applies only to files in the Notebook Lab environment launched by MSD-LIVE.
 
-## Quick Reference
+## File Quota
 
-| Item | Details |
-| --- | --- |
-| Storage quota | 50 GB per user per dataset |
-| Auto-deletion window | Files inactive for 7 days |
-| Exclusions | Dataset mounts at `/data`, config dirs (.jupyter, .ssh, .git, etc.) |
-| Notifications | Email alert if quota exceeded + 3-day warning before cleanup |
+- Limit: 50 GB per user per dataset
+- Dataset files mounted under `/data` (and symlinked in your home folder as `data`) are excluded from the quota
+- MSD-LIVE monitors usage daily and sends email alerts if the quota is exceeded
+- Manage usage by cleaning up old files and intermediate outputs
 
-## Storage Quota
+## Automatic File Cleanup
 
-Each dataset workspace includes 50 GB of personal storage. Files mounted from `/data` (and their home-folder symlinks) never count toward the limit. MSD-LIVE checks usage daily, emails when you exceed quota, and expects you to archive or delete stale artifacts.
+Files older than 7 days are automatically deleted to maintain system performance.
 
-## Automated Cleanup
+### What Gets Deleted
 
-**What gets deleted:**
-Temporary artifacts (.tmp, .log, .cache, .bak), intermediate data (.csv, .json, .pkl, .zip, etc.), any file over 100 MB, and items named "temp", "cache", or "backup".
+- Temporary files (`.tmp`, `.log`, `.cache`, `.bak`)
+- Data files (`.csv`, `.json`, `.pkl`, `.zip`, and similar intermediates)
+- Large files over 100 MB
+- Files with `temp`, `cache`, or `backup` in the name
 
-**What's protected:**
-Configuration directories (.jupyter, .ssh, .git, etc.), recently accessed notebooks, files touched within 7 days, and dataset mounts at /data.
+### What Is Protected
 
-**Advance warning:**
-1. Quota-breach emails prompt cleanup.
-2. A notice arrives 3 days before deletion.
-3. Opening or editing a file before that deadline resets its protection window.
+- Configuration directories (`.jupyter`, `.ssh`, `.git`, and similar)
+- Recently accessed Jupyter notebooks
+- Any file accessed within the last 7 days
+- Dataset data mounted at `/data` (never deleted)
+
+### Advance Warning
+
+1. MSD-LIVE sends an email notification 3 days before deletion.
+2. Open or edit a file to protect it for another 7 days.
 
 ## Best Practices
 
-- Push updates via the Pull Request button before ending a session.
-- Keep notebooks active or finish work within a week.
-- Routinely prune checkpoints, caches, and bulky intermediates.
-
-!!! tip "Retention Highlights"
-    Only files idle for 7 days are candidates. Touching a file restarts its timer, and mounted dataset content under `/data` is always preserved.
+- Use the Pull Request button to push notebook updates back to your GitHub repository.
+- Complete notebook development work within 1 week when possible.
+- Regularly remove stale checkpoints, caches, and large intermediate files.

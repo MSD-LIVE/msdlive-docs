@@ -1,6 +1,6 @@
 # Create a Dataset
 
-## Step 4: Publish Code or Data
+## Publish Code or Data
 
 If you have project datasets or code to share with the MSD-LIVE community or the general public, you can upload them to the [Data Repository](https://data.msdlive.org/uploads/new).
 
@@ -26,4 +26,4 @@ You may mark submissions as:
 
 The MSD-LIVE Data Repository is built upon the [Invenio Research Data Management (RDM) platform](https://inveniosoftware.org/products/rdm/), which is in turn based upon a refactoring of the popular [Zenodo research data repository](https://zenodo.org/).  
 
-Many new RDM features are planned over the next year and, where appropriate, we will incorporate them into the MSD-LIVE Data Repository as soon as they are released.
+MSD-LIVE is continuously updated with new features from the RDM platform as well as custom implementations tailored to the needs of the MSD research community.

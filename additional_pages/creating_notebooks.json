@@ -1,0 +1,1216 @@
+{
+    "story": {
+        "name": "Creating Dataset Notebooks",
+        "created_at": "2025-09-23T15:36:13.811Z",
+        "published_at": "2025-11-20T19:51:39.695Z",
+        "updated_at": "2025-11-20T19:51:39.717Z",
+        "id": 94012103991066,
+        "uuid": "eb1dddac-760d-4d41-a50a-40b659928d70",
+        "content": {
+            "_uid": "7a9223a3-73e7-47c1-9202-1934c9715438",
+            "body": [
+                {
+                    "_uid": "12220884-cd75-49cc-8c67-469a6c4d3ae6",
+                    "content": {
+                        "type": "doc",
+                        "content": [
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Follow these steps to quickly launch your Jupyter Notebook environment and start working with your data.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "b6ad991f-6183-48fc-82be-ec0a96847434",
+                                    "body": [
+                                        {
+                                            "_uid": "bfd9f471-593d-446a-9158-fa78c012ec82",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Step 1: Launch your environment",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Downstream users should click ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": "“Explore the data”",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " to launch the Jupyter Notebook environment.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "If the dataset author linked a GitHub repository, the provided notebooks will be automatically cloned.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Dataset authors should click ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": "“Launch Notebook Lab”",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " to create notebooks associated with the dataset.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Use your MSD-LIVE account to authenticate.",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "type": "image",
+                                                        "attrs": {
+                                                            "id": 77816292694098,
+                                                            "alt": "",
+                                                            "src": "https://a-us.storyblok.com/f/1019230/4046x2722/835dce537e/explorelinklandingpage.png",
+                                                            "title": "",
+                                                            "source": "",
+                                                            "copyright": "",
+                                                            "meta_data": {}
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "image",
+                                                        "attrs": {
+                                                            "id": 77817435175000,
+                                                            "alt": "",
+                                                            "src": "https://a-us.storyblok.com/f/1019230/4046x2722/f208014108/launchfromlanding.png",
+                                                            "title": "",
+                                                            "source": "",
+                                                            "copyright": "",
+                                                            "meta_data": {}
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "00b950d5-a109-4966-b5fe-ce61af439f61",
+                                    "body": [
+                                        {
+                                            "_uid": "342552b1-6c2e-40cf-a85e-2eed87793206",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Step 2: Using the MSD-LIVE AI Assistant (optional)",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "anchor",
+                                                "attrs": {
+                                                    "id": "chatbot"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 114598725014160,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019473/1527x947/8956957c68/chatbot.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "You can also open the ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "MSD-LIVE AI Assistant",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " from the right sidebar at any time.",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "type": "hard_break"
+                                    },
+                                    {
+                                        "text": "This built-in chatbot is designed to help you write high-quality dataset notebooks. It can assist with:",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "MSD-LIVE features",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " – how to use the scratch drive, reference the ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": "data/",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "code"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " directory, and work within the MSD-LIVE environment",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "JupyterLab basics",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " – managing notebooks, running cells, and navigating the interface",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Code assistance",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " – writing Python code to parse, analyze, and visualize your dataset",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Best practices",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " – organizing notebooks, debugging, and improving workflow efficiency",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Use it whenever you need quick guidance or examples while developing your notebooks.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                }
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "03d32ee4-5f6e-4151-87be-c40de585bebb",
+                                    "body": [
+                                        {
+                                            "_uid": "i-a88eb6ea-c2e2-414b-a6d2-c0b33be12fc6",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Step 3: Create notebooks",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "After logging in to your notebook environment, right-click in the file explorer panel and select ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "“New Notebook”",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": ".",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 113569693947360,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019473/608x538/3d15c68a6c/newnotebookmenuitem.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 113569763493345,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019473/711x366/6d3a3da168/newnotebookdialog.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "If the dataset has a linked repository:",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "attrs": {
+                                                                    "textAlign": null
+                                                                },
+                                                                "content": [
+                                                                    {
+                                                                        "text": "Choose the notebook folder: ",
+                                                                        "type": "text"
+                                                                    },
+                                                                    {
+                                                                        "text": "Community Notebooks",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": " (for general or cross-dataset notebooks) or ",
+                                                                        "type": "text"
+                                                                    },
+                                                                    {
+                                                                        "text": "Dataset Notebooks",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": " (for notebooks specific to this dataset).",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "attrs": {
+                                                                    "textAlign": null
+                                                                },
+                                                                "content": [
+                                                                    {
+                                                                        "text": "Optionally check ",
+                                                                        "type": "text"
+                                                                    },
+                                                                    {
+                                                                        "text": "“Create notebook with starter code and dataset guidance”",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": " to pre-fill your notebook with examples and environment tips.",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "If the dataset does not have a linked repository:",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "type": "bullet_list",
+                                                "content": [
+                                                    {
+                                                        "type": "list_item",
+                                                        "content": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "attrs": {
+                                                                    "textAlign": null
+                                                                },
+                                                                "content": [
+                                                                    {
+                                                                        "text": "Only the ",
+                                                                        "type": "text"
+                                                                    },
+                                                                    {
+                                                                        "text": "starter code",
+                                                                        "type": "text",
+                                                                        "marks": [
+                                                                            {
+                                                                                "type": "bold"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "text": " option appears. Check it to pre-fill your notebook with examples and environment guidance.",
+                                                                        "type": "text"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                }
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "00b950d5-a109-4966-b5fe-ce61af439f61",
+                                    "body": [
+                                        {
+                                            "_uid": "ae949868-7a20-4b94-8735-56fef48dd6d5",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Step 4: Import required packages",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "In your new notebook, start by importing the necessary libraries from an empty cell. For example using python:",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 1460476,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019230/1080x866/34402ab5b8/install_pkgs.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    },
+                                    {
+                                        "text": "Click HERE",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "https://msdlive.org/help/resources/quick-guides/using-dataset-notebooks#package",
+                                                    "uuid": null,
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "url"
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " for detailed examples on how to import libraries in Python, Julia, and R.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "00b950d5-a109-4966-b5fe-ce61af439f61",
+                                    "body": [
+                                        {
+                                            "_uid": "5b50eebb-b948-487c-8597-acc0714b921d",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Step 5: Access data",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Use the ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "\"DATA_DIR\"",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " environment variable to access the location where a copy of your data is stored.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 1460473,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019230/1080x866/2b8d366086/access_data.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "00b950d5-a109-4966-b5fe-ce61af439f61",
+                                    "body": [
+                                        {
+                                            "_uid": "5c99c14f-5190-49b1-9119-1551244ecf8d",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Step 6: Complete your notebook(s)",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Now you're ready to write custom code to visualize/analyze the data or to create workflows for subsetting the data in space and time.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                }
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "41755971-a2ab-4879-ad5e-93af7779fb56",
+                                    "body": [
+                                        {
+                                            "_uid": "2a95b337-95b5-4933-80e9-a2a85b2e5e45",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Step 7: Update README.md file",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "If your notebook will be saved to GitHub through a pull request (PR), update the README.md file to include your new notebook and a short description of what it does.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "If you are the dataset author creating the first notebook,",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " be sure to replace all placeholders marked with {{ }} in the README.md.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "If you are adding additional notebooks,",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " add an entry describing your new notebook so other users know what it provides.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                }
+                            },
+                            {
+                                "type": "blok",
+                                "attrs": {
+                                    "id": "418ece92-f467-4610-afe4-192fdad635e5",
+                                    "body": [
+                                        {
+                                            "_uid": "80670f1c-9a31-4743-bf20-e0fa686114af",
+                                            "component": "verticalSpacer"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "heading",
+                                "attrs": {
+                                    "level": 3,
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Step 8: Contributing changes",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "After you have completed edits to your notebooks and the ",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "text": "README.md",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "code"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " file, commit changes back to the repository via a GitHub pull request (PR):",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "CTRL-click to select all the files you have changed.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "Click the ",
+                                                        "type": "text"
+                                                    },
+                                                    {
+                                                        "text": "pull request (PR)",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " button to submit your changes.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "text": "Where the PR goes depends on the notebook folder:",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "bullet_list",
+                                "content": [
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "community_notebooks",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " — PRs are sent to MSD-LIVE administrators for review and approval.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "list_item",
+                                        "content": [
+                                            {
+                                                "type": "paragraph",
+                                                "attrs": {
+                                                    "textAlign": null
+                                                },
+                                                "content": [
+                                                    {
+                                                        "text": "notebooks",
+                                                        "type": "text",
+                                                        "marks": [
+                                                            {
+                                                                "type": "bold"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "text": " — PRs are sent to the dataset owner.",
+                                                        "type": "text"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "paragraph",
+                                "attrs": {
+                                    "textAlign": null
+                                },
+                                "content": [
+                                    {
+                                        "type": "image",
+                                        "attrs": {
+                                            "id": 93794930710744,
+                                            "alt": "",
+                                            "src": "https://a-us.storyblok.com/f/1019230/1794x1021/0cf49ebd79/pr2.png",
+                                            "title": "",
+                                            "source": "",
+                                            "copyright": "",
+                                            "meta_data": {}
+                                        }
+                                    },
+                                    {
+                                        "text": "Click HERE",
+                                        "type": "text",
+                                        "marks": [
+                                            {
+                                                "type": "link",
+                                                "attrs": {
+                                                    "href": "https://msdlive.org/help/resources/quick-guides/using-dataset-notebooks#contributing",
+                                                    "uuid": null,
+                                                    "anchor": null,
+                                                    "target": "_self",
+                                                    "linktype": "url"
+                                                }
+                                            },
+                                            {
+                                                "type": "bold"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "text": " for more information on using MSD-LIVE's PR tool.",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "component": "richText",
+                    "continueOrderedList": false
+                }
+            ],
+            "header": "Creating Dataset Notebooks",
+            "svgIcon": {
+                "id": null,
+                "alt": null,
+                "name": "",
+                "focus": null,
+                "title": null,
+                "source": null,
+                "filename": "",
+                "copyright": null,
+                "fieldtype": "asset",
+                "meta_data": {}
+            },
+            "component": "page",
+            "svgIconAlt": "",
+            "description": "",
+            "useGradientBanner": false
+        },
+        "slug": "creating-dataset-notebooks",
+        "full_slug": "help/resources/quick-guides/creating-dataset-notebooks",
+        "sort_by_date": null,
+        "position": -10,
+        "tag_list": [],
+        "is_startpage": false,
+        "parent_id": 94011435286280,
+        "meta_data": null,
+        "group_id": "4f20514d-9295-4d35-9b18-02812330651d",
+        "first_published_at": "2025-09-23T15:37:14.659Z",
+        "release_id": null,
+        "lang": "default",
+        "path": null,
+        "alternates": [],
+        "default_full_slug": null,
+        "translated_slugs": null
+    },
+    "cv": 1778697729,
+    "rels": [],
+    "links": []
+}
