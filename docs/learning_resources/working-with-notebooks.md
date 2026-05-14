@@ -109,8 +109,8 @@ This allows you to combine data from multiple datasets in your analysis.
 ## Next Steps
 
 Once you've imported packages and loaded your data, you're ready to:
+
 - Visualize and explore your data
 - Create workflows for subsetting data in space and time
 - Develop analysis pipelines specific to your research questions
 
-For more guidance on data exploration and analysis workflows, see the tutorials and articles in the learning resources section.
