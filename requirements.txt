@@ -11,3 +11,4 @@ mkdocs-carbon==2.0.1
 mkdocs-glightbox  
 mkdocs-redirects  
 pyyaml
+pymdown-extensions

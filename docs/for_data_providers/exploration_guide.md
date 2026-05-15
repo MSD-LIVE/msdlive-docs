@@ -4,14 +4,12 @@ As part of creating an MSD-LIVE dataset, data providers can enable file explorat
 
 ## What Exploration Includes
 
-When you enable exploration for your dataset:
-
 - **Interactive file browsing** — users can see and preview dataset files in a Jupyter Notebook environment
 - **Pre-packaged notebooks** — you can provide example analyses (visualization, subsetting, statistical summaries) that users can run or modify
 - **Custom analysis tools** — users can write their own code to explore and transform the data
 - **Multiple languages** — choose between Python, R, or Julia for your analysis environment
 
-## The Provider Workflow
+## How to Enable Dataset Exploration
 
 Enabling dataset exploration has one required step, and you can optionally provide example notebooks:
 

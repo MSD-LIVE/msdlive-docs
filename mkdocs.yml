@@ -38,27 +38,24 @@ nav:
       - Find Data: for_data_users/dataset_search.md
       - Explore Data:
           - Dataset Notebooks: for_data_users/explore_data_about.md
-          - Using Notebooks: for_data_users/using_notebooks.md
-          - Creating Notebooks: for_data_users/create_notebook.md
-          # - Accessing Dataset Data: for_data_users/access_multiple_datasets.md
-          - Contributing Notebooks: for_data_users/share_notebooks.md
-          - Using the Scratch Directory: for_data_users/use_scratch_directory.md
+          - Use Notebooks: for_data_users/using_notebooks.md
+          - Create Notebooks: for_data_users/create_notebook.md
+          - Contribute Notebooks: for_data_users/share_notebooks.md
+          - Use the Scratch Directory: for_data_users/use_scratch_directory.md
       - Download Data:
           - Download Published Datasets: for_data_users/download_datasets.md
           - Download Notebook Results: for_data_users/download_notebook_results.md
   - For Data Providers:
       - Create a Dataset: for_data_providers/create_dataset.md
-      - Upload Your Dataset: for_data_providers/upload_dataset.md
+      - Upload Your Data: for_data_providers/upload_dataset.md
       - Spatial Metadata: for_data_providers/spatial_metadata.md
       - Enable Exploration:
-          - About (Original): for_data_providers/exploration_overview.md
-          - About (New): for_data_providers/exploration_guide.md
           - Enable Data Exploration: for_data_providers/enable_exploration.md
           - Set Up a Notebook Repository: for_data_providers/setup_notebook_repository.md
           - Launch Notebook Lab: for_data_providers/launch_notebook_environment.md
           - Create Notebooks: for_data_providers/create_example_notebooks.md
           - Save Notebooks to GitHub: for_data_providers/share_notebooks.md
-          - Notebook Lab Files: for_data_providers/manage_storage.md
+          - Notebook Lab Workspace: for_data_providers/manage_storage.md
   - Tools & Services:
       - Command Line Tool (CLI):
           - Installing the CLI: tools_services/cli/installation.md
@@ -68,7 +65,7 @@ nav:
       - Interactive Dashboards: tools_services/interactive_dashboards.md
       - Model Training Notebooks: tools_services/model_training_notebooks.md
   - Learning Resources:
-      - Working with Notebooks: learning_resources/working-with-notebooks.md
+      - Writing Notebooks: learning_resources/working-with-notebooks.md
       - Video Tutorials: learning_resources/tutorials.md
       - Articles: learning_resources/articles.md
       - Webinars: learning_resources/webinars.md
@@ -76,6 +73,8 @@ nav:
 # Extensions
 markdown_extensions:
   - admonition
+  - pymdownx.details
+  - md_in_html
   - toc:
       permalink: true
       toc_depth: 2

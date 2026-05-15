@@ -1,29 +1,45 @@
 # Create a Dataset
 
-## Publish Code or Data
 
-If you have project datasets or code to share with the MSD-LIVE community or the general public, you can upload them to the [Data Repository](https://data.msdlive.org/uploads/new).
 
-Our upload form provides a rich set of metadata to help others find your data. It also gives you the opportunity to mint a DOI for your data if desired.
+If you have project datasets or code to share with the MSD-LIVE community or the general public, you can add a dataset to the [Data Repository](https://data.msdlive.org/uploads/new).
 
-## Requirements
 
-- You must belong to at least one project
-- The dataset must be directly funded by and relevant to that project
-- When uploading your data, you must select one or more projects to associate your submission with
-- One project is assigned the special role of "Reviewing Project"
+!!! warning "In order to create a dataset in MSD-LIVE:"
 
-## Review and Publication
+    - You must belong to at least one project
+    - The dataset must be directly funded by and relevant to that project
+    - When uploading your data, you must select one or more projects to associate your submission with
+    - One project is assigned the special role of "Reviewing Project"
 
-A curator from the Reviewing Project will verify that your submission meets [MSD-LIVE Policies](../platform_community/policies.md) and follows best practices.
+## Set Dataset Permissions
 
 You may mark submissions as:
 
 - **Public** — visible to everyone  
 - **Restricted** — visible only to members of the associated projects  
 
-## Technology
 
-The MSD-LIVE Data Repository is built upon the [Invenio Research Data Management (RDM) platform](https://inveniosoftware.org/products/rdm/), which is in turn based upon a refactoring of the popular [Zenodo research data repository](https://zenodo.org/).  
 
-MSD-LIVE is continuously updated with new features from the RDM platform as well as custom implementations tailored to the needs of the MSD research community.
+## Enrich Your Dataset
+
+To make your dataset more discoverable and useful to others, consider enriching it with additional metadata and features:
+
+- [Spatial Metadata](spatial_metadata.md) — add location information to help others understand where your data was collected or applied
+- [Enable Exploration](enable_exploration.md) — allow users to browse and preview your dataset files directly in the platform
+- [Create Example Notebooks](create_example_notebooks.md) — provide sample notebooks that demonstrate how to work with your data
+
+
+## Mint a DOI with OSTI
+
+When you create or edit a dataset in msd-live, you have the option to assign a Digital Object Identifier (DOI) through OSTI. A DOI provides a permanent, citable link to your dataset, making it easier for others to find and reference your work.
+
+To mint a DOI:
+
+1. While filling out the dataset upload form, enable the DOI option
+2. Provide the required metadata (title, authors, description, etc.)
+3. Submit or publish your dataset
+
+## Publish Your Dataset
+
+When you are ready to publish your dataset, click **Submit For Review**. A curator from the **Reviewing Project** will verify that your submission meets [MSD-LIVE Policies](../platform_community/policies.md) and follows best practices. If changes are needed, the curator will contact you. After approval, your dataset is published and the DOI is minted automatically.

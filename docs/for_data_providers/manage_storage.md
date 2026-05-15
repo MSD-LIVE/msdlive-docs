@@ -1,39 +1,61 @@
-# Manage Notebook Lab Files
+## Notebook Lab Workspace
 
-This guidance applies only to files in the Notebook Lab environment launched by MSD-LIVE.
+Each dataset in MSD-LIVE includes its own **Notebook Lab workspace**, giving you an isolated environment to build notebooks to explore and analyze your data.
 
-## File Quota
 
-- Limit: 50 GB per user per dataset
-- Dataset files mounted under `/data` (and symlinked in your home folder as `data`) are excluded from the quota
-- MSD-LIVE monitors usage daily and sends email alerts if the quota is exceeded
-- Manage usage by cleaning up old files and intermediate outputs
 
-## Automatic File Cleanup
+## Workspace Structure
 
-Files older than 7 days are automatically deleted to maintain system performance.
+Your workspace contains three main areas:
 
-### What Gets Deleted
+- **`notebooks/`**  
+  Pre-populated from the linked GitHub repository. This is where you create and edit your notebook files.
 
-- Temporary files (`.tmp`, `.log`, `.cache`, `.bak`)
-- Data files (`.csv`, `.json`, `.pkl`, `.zip`, and similar intermediates)
-- Large files over 100 MB
-- Files with `temp`, `cache`, or `backup` in the name
+- **`data/`**  
+  Linked directly to your dataset’s files. This folder is read-only and reflects your dataset contents.
 
-### What Is Protected
+- **Other files**  
+  You can create additional files and directories as needed within your workspace.
 
-- Configuration directories (`.jupyter`, `.ssh`, `.git`, and similar)
-- Recently accessed Jupyter notebooks
-- Any file accessed within the last 7 days
-- Dataset data mounted at `/data` (never deleted)
 
-### Advance Warning
 
-1. MSD-LIVE sends an email notification 3 days before deletion.
-2. Open or edit a file to protect it for another 7 days.
+## Storage and Quota
 
-## Best Practices
+- Your workspace (excluding the `data/` folder) has a **50 GB storage limit**
+- MSD-LIVE monitors workspace usage
+- You will receive an **email notification** if you exceed the quota
 
-- Use the Pull Request button to push notebook updates back to your GitHub repository.
-- Complete notebook development work within 1 week when possible.
-- Regularly remove stale checkpoints, caches, and large intermediate files.
+
+
+## Persistence and Cleanup
+
+Your workspace is designed for **active work, not long-term storage**.
+
+- Files in `notebooks/` are **not automatically saved permanently**
+- To persist notebook changes:
+     - Submit a **Pull Request** to the linked GitHub repository
+
+Any files that are not persisted will be:
+
+- **Automatically deleted after 7 days**
+- This includes:
+    - Notebook changes not submitted via Pull Request  
+    - Temporary files and intermediate outputs  
+
+
+
+> ### Best Practices
+> 
+> - Save important work by submitting Pull Requests regularly  
+> - Avoid using the workspace for long-term file storage  
+> - Keep large intermediate files to a minimum to stay within quota  
+
+
+
+## Summary
+
+- One workspace per dataset  
+- `notebooks/` → your working notebooks  
+- `data/` → your dataset (read-only)  
+- 50 GB quota (excluding data)  
+- Uncommitted work is deleted after 7 days  

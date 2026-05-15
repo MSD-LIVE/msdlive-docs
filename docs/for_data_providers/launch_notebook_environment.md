@@ -2,18 +2,19 @@
 
 Notebook Lab is MSD-LIVE's cloud-based environment for creating and managing example notebooks for your dataset. You can write, test, and share code without installing anything locally, and your dataset files are automatically available.
 
-## Before You Start
 
-- Your dataset files must already be uploaded to MSD-LIVE
-- File exploration must be enabled for your dataset — see [Enable Data Exploration](enable_exploration.md)
-- Your notebook repository must be linked to the dataset — see [Set Up a Notebook Repository](setup_notebook_repository.md)
-- You should have basic familiarity with [Jupyter notebooks](https://docs.jupyter.org/en/latest/) 
+!!! warning "Before you start:"
+ 
+    - Your dataset files must already be uploaded to MSD-LIVE
+    - File exploration must be enabled for your dataset — see [Enable Data Exploration](enable_exploration.md)
+    - Your notebook repository must be linked to the dataset — see [Set Up a Notebook Repository](setup_notebook_repository.md)
+    - You should have basic familiarity with [Jupyter notebooks](https://docs.jupyter.org/en/latest/) 
 
 ## What Notebook Lab Provides
 
 - **No local setup required** — A fully configured Jupyter server launches in the cloud automatically
 - **Pre-mounted dataset files** — Your dataset files are immediately accessible in the notebook environment
-- **Built-in GitHub integration** — Create pull requests directly from the notebook environment to share and version your work
+- **Built-in GitHub integration** — Create pull requests directly from the notebook environment to save and version your work
 - **Instant productivity** — Start writing and executing code as soon as the environment loads
 
 ## How to Launch Notebook Lab
@@ -29,7 +30,8 @@ You can launch Notebook Lab from a published or draft dataset landing page.
 
 ![Launch Notebook Lab Button from Dataset Landing Page](../assets/dataset_notebooks/launchfromlanding.png)
 
-> **Note:** Notebook Lab sessions are limited to **3 hours**. Be sure to save your work frequently.
+!!! warning
+     Notebook Lab sessions are limited to **3 hours**. Be sure to save your work frequently.
 
 <!-- ## Tips for Using Notebook Lab
 

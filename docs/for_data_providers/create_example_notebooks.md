@@ -34,16 +34,18 @@ Use [Notebook Lab](launch_notebook_environment.md) to create and test notebooks 
 
 ![New notebook](../assets/dataset_notebooks/newnotebookmenuitem.png)
 
-### Accessing Your Data and Importing Packages
 
-Your dataset is automatically mounted — no downloads needed. For code examples covering data access and package imports in Python, R, and Julia, see [Working with Notebooks](../learning_resources/working-with-notebooks.md).
+## Writing Notebooks
 
+For detailed guidance on importing packages, accessing your data, and getting started with your analysis, see [Writing Notebooks](../../learning_resources/working-with-notebooks).
 
-## Best Practices
-
-- **Write clear explanations** — Use markdown cells to document what each section does
-- **Test thoroughly** — Run notebooks against real data before publishing
-- **Keep notebooks focused** — One notebook per analysis or workflow
-- **Include examples** — Show users how to subset, filter, and transform data
-- **Save frequently** — If using Notebook Lab, save often (3-hour session limit)
-- **Document dependencies** — List required packages or external data
+> ### Best Practices
+> 
+> - **Keep notebooks focused** — Create one notebook per analysis or workflow
+> - **Write clear explanations** — Use markdown cells and comments to explain each section
+> - **Include practical examples** — Show users how to subset, filter, and transform data
+> - **Test thoroughly** — Run notebooks against real data before publishing
+> - **Document dependencies** — List required packages and any external data
+> - **Use descriptive filenames** — Make notebook purpose clear at a glance
+> - **Update your README** — Briefly describe each example notebook in the repository
+> - **Save frequently** — If using Notebook Lab, save often (3-hour session limit)

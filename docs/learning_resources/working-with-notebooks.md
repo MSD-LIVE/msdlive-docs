@@ -1,6 +1,22 @@
-# Working with Notebooks
+# Writing Notebooks
 
-This guide covers the fundamentals of setting up and working in your notebook environment, including importing packages and accessing datasets.
+Notebooks are the primary way to explore, analyze, and work with your data in MSD-LIVE. They combine code, visualizations, and narrative text in a single, interactive environment.
+
+This guide walks you through the basics of writing notebooks, including how to import packages and access your dataset.
+
+Once you've imported the libraries you need and loaded your data, you're ready to:
+
+- Visualize and explore your data  
+- Create workflows for subsetting data in space and time  
+- Develop analysis pipelines specific to your research questions  
+- **Use the AI Assistant to help you write your code**
+
+As you work, remember that notebooks are meant to be iterative—start simple, explore your data, and build up more complex analyses step by step.
+
+
+!!! warning "Before you start:" 
+    You should have basic familiarity with [Jupyter notebooks](https://docs.jupyter.org/en/latest/) 
+
 
 ## Importing Packages
 
@@ -106,11 +122,29 @@ for f in other_data_path.iterdir():
 
 This allows you to combine data from multiple datasets in your analysis.
 
-## Next Steps
 
-Once you've imported packages and loaded your data, you're ready to:
+## Using the MSD-LIVE AI Assistant
 
-- Visualize and explore your data
-- Create workflows for subsetting data in space and time
-- Develop analysis pipelines specific to your research questions
+You can open the **MSD-LIVE AI Assistant** from the right sidebar while working in your notebook environment.
 
+This built-in chatbot is designed to help you create high-quality dataset notebooks. It can assist with:
+
+- **MSD-LIVE features:** Using the scratch directory, referencing `DATA_DIR` and `OTHER_DATASETS_DIR`, and working in the environment.
+- **JupyterLab help:** Running cells, managing notebooks, and navigating the interface.
+- **Code assistance:** Writing Python, R, or Julia code to load, inspect, analyze, and visualize your data.
+- **Notebook best practices:** Organizing workflow, debugging, and improving notebook quality.
+
+![MSD-LIVE AI Assistant sidebar icon](../assets/dataset_notebooks/small-chatbot.png)
+
+Use the AI Assistant whenever you need quick guidance or examples while developing your notebooks.
+
+> ### Best Practices
+> 
+> - **Keep notebooks focused** — Create one notebook per analysis or workflow
+> - **Write clear explanations** — Use markdown cells and comments to explain each section
+> - **Include practical examples** — Show users how to subset, filter, and transform data
+> - **Test thoroughly** — Run notebooks against real data before publishing
+> - **Document dependencies** — List required packages and any external data
+> - **Use descriptive filenames** — Make notebook purpose clear at a glance
+> - **Update your README** — Briefly describe each example notebook in the repository
+> - **Save frequently** — If using Notebook Lab, save often (3-hour session limit)

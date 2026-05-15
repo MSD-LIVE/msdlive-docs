@@ -1,10 +1,11 @@
 # Download Notebook Results
 
-Once you've processed or subsetted large data in your Jupyter notebook, you can download your results to your local machine or a remote computer.
+Once you've processed or subsetted large data in a dataset notebook, you can download your results to your local machine or a remote computer.
 
 ## Download via Jupyter Web Interface
 
 For smaller files, you can right-click in the Jupyter file browser and select **Download**.
+![Download](../assets/dataset_notebooks/web_download.png)
 
 ## Download via Scratch Directory and CLI
 
@@ -21,7 +22,7 @@ For larger files or when working on a machine without a browser, copy your resul
 
 ### Step 2: Download from Scratch Directory
 
-Use the MSD-LIVE CLI to download files from your scratch directory to your local machine.
+Use the MSD-LIVE CLI to download files from your scratch directory to your local machine or a remote computer.
 
 See the [Downloading Files](../tools_services/cli/usage.md#downloading-files) section of the CLI documentation for complete instructions on using the `msdlive download --scratch` command.
 

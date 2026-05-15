@@ -56,3 +56,8 @@ cds-side-nav-menu {
     font-family: 'roboto';
     padding-top: 15px;
 }
+
+.md-content .resource-collapsible-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}

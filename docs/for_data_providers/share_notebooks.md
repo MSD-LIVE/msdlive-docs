@@ -19,6 +19,7 @@ After you have finished editing your notebooks and the README.md file:
 Once the PR is merged on GitHub, your notebooks are live for users.
 
 
-## GitHub Authorization
 
-The first time you use the pull request feature, you will be prompted to authorize MSD-LIVE to access your GitHub account. This is a one-time setup that allows MSD-LIVE to open pull requests on your behalf. You retain full control — review and merge pull requests directly on GitHub.
+!!! warning "GitHub Authorization"
+
+    The first time you use the pull request feature, you will be prompted to authorize MSD-LIVE to access your GitHub account. This is a one-time setup that allows MSD-LIVE to open pull requests on your behalf. You retain full control — review and merge pull requests directly on GitHub.

@@ -4,3 +4,9 @@ MSD-LIVE, the MultiSector Dynamics – Living Intuitive Value-adding Environment
 
 Launched originally in August of 2022, MSD-LIVE is facilitating a new open, collaborative, resource-rich, technology-facilitated, community-driven way of doing MSD research. MSD-LIVE accelerates progress, facilitates and incentivizes collaboration, and enhances the scientific impact and visibility of the MSD community.
 
+
+### About the Technology
+
+- **Data Repository:** The MSD-LIVE Data Repository is built upon the [Invenio Research Data Management (RDM) platform](https://inveniosoftware.org/products/rdm/), which is in turn based upon a refactoring of the popular [Zenodo research data repository](https://zenodo.org/). MSD-LIVE is continuously updated with new features from the RDM platform as well as custom implementations tailored to the needs of the MSD research community.
+
+- **Compute Platform:** Compute capabilities are delivered through a custom Jupyter platform deployed on AWS.

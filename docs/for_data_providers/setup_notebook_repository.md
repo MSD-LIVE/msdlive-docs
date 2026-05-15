@@ -2,11 +2,11 @@
 
 To provide pre-packaged example notebooks for your dataset, set up and link a GitHub repository from the **File Exploration** section of your record. When users click **Explore the Data**, notebooks from that linked repository are included in their environment.
 
-## Before You Start
+!!! warning "Before you start:"
 
-- You must have a GitHub account
-- You should be familiar with basic Git/GitHub workflows (creating repos, committing code)
-- Refer to the [MSD-LIVE GitHub template repository](https://github.com/MSD-LIVE/template-dataset-jupyter-notebook) for the recommended folder structure and configuration
+    - You must have a GitHub account
+    - You should be familiar with basic Git/GitHub workflows (creating repos, committing code)
+    - Refer to the [MSD-LIVE GitHub template repository](https://github.com/MSD-LIVE/template-dataset-jupyter-notebook) for the recommended folder structure and configuration
 
 ## Create the Repository
 There are two ways to set up your notebook repository. Most users should choose the automated setup (Option A), which creates and links the repository for you. Use the manual setup (Option B) only if you prefer to manage repository creation yourself.
@@ -64,17 +64,12 @@ Our [Notebook Lab](launch_notebook_environment.md) help page provides step-by-st
 ### Reviewing Community Contributions
 
 Users can contribute notebooks back to your dataset via pull requests. You can:
+
 - Review pull requests from users
 - Suggest changes or improvements
 - Merge contributions you want to include
 - Decline contributions that don't fit your dataset
 
-See [Share Notebooks](share_notebooks.md) for more details on the pull request workflow.
+See [Save Notebooks](share_notebooks.md) for more details on the pull request workflow.
 
-### Best Practices
 
-- Keep notebooks focused on specific analyses or workflows
-- Include clear comments and markdown explanations
-- Test notebooks thoroughly before pushing to GitHub
-- Use descriptive filenames for notebooks
-- Update your README with descriptions of each example notebook
