@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Model Training Notebooks
 
 ## TODO

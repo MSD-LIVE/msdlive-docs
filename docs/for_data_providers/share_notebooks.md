@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: notebook_lab 
+---
+
 # Save Notebooks to GitHub
 
 When working in Notebook Lab, your notebooks are saved back to your [linked GitHub repository](setup_notebook_repository.md) via pull requests (PRs). This keeps your example notebooks version-controlled and makes them available to users when they click **Explore the Data**.

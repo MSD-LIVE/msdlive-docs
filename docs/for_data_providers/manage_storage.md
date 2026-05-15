@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: notebook_lab 
+---
+
 ## Notebook Lab Workspace
 
 Each dataset in MSD-LIVE includes its own **Notebook Lab workspace**, giving you an isolated environment to build notebooks to explore and analyze your data.

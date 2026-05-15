@@ -1,4 +1,9 @@
 
+---
+exclude_from_chatbot: false
+noteboook_environment: dataset_notebook, notebook_lab
+---
+
 # Dataset Notebooks
 
 Dataset Notebooks are pre-configured **Jupyter Notebooks** associated with a specific dataset in MSD-LIVE.

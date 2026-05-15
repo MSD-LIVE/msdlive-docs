@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: notebook_lab 
+---
+
 # Set Up a Notebook Repository
 
 To provide pre-packaged example notebooks for your dataset, set up and link a GitHub repository from the **File Exploration** section of your record. When users click **Explore the Data**, notebooks from that linked repository are included in their environment.

@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: dataset_notebook, notebook_lab
+---
+
 # Using the Scratch Directory
 
 Each notebook environment includes a **scratch directory** for temporary storage.

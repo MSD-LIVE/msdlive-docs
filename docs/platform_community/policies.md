@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Policies
 
 ## General Use Policies
@@ -8,7 +12,7 @@ This is a Federal computer system and is the property of the United States Gover
 
 - Anyone can register for a user account and download data from MSD-LIVE.
 
-- To upload new data, you must be associated with one or more <a href="https://msdlive.org/projects" target="_blank" rel="noopener noreferrer">**MSD Projects**</a>. Please see the [**Quick Start**](/) page for instructions. Requests to join a project will be reviewed and approved by project administrators.
+- To upload new data, you must be associated with one or more <a href="https://msdlive.org/projects" target="_blank" rel="noopener noreferrer">**MSD Projects**</a>. Please see the [**Quick Start**](../index.md) page for instructions. Requests to join a project will be reviewed and approved by project administrators.
 
 - Any data uploaded to MSD-LIVE should be directly funded by and relevant to an MSD project. To affirm relevance and support of the project, all new datasets will be reviewed by one or more curators for each project. If the dataset is associated with more than one project, then the user can select which project does the review during the upload process.
 

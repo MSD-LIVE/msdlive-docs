@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: dataset_notebook
+---
+
 # Using Dataset Notebooks
 
 Dataset Notebooks in MSD-LIVE allow you to **interactively explore, analyze, and subset data directly in the cloud** using Jupyter Notebooks.

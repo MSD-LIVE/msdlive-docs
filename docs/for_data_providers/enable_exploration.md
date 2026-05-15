@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: notebook_lab 
+---
+
 # Enable Data Exploration
 
 Enabling file exploration marks your dataset as explorable, allowing users to browse and analyze your files through **Explore the Data** in a notebook environment. 

@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: dataset_notebook
+---
+
 # Creating Notebooks
 
 After logging in to your notebook environment, right-click in the file explorer panel and select **"New Notebook"** to create custom notebooks for exploring your data.
@@ -29,4 +34,4 @@ Use this option when you want a faster starting point with package imports, data
 
 ## Writing Notebooks
 
-For detailed guidance on importing packages, accessing your data, and getting started with your analysis, see [Writing Notebooks](../../learning_resources/working-with-notebooks).
+For detailed guidance on importing packages, accessing your data, and getting started with your analysis, see [Writing Notebooks](../../learning_resources/working_with_notebooks).

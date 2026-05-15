@@ -65,7 +65,7 @@ nav:
       - Interactive Dashboards: tools_services/interactive_dashboards.md
       - Model Training Notebooks: tools_services/model_training_notebooks.md
   - Learning Resources:
-      - Writing Notebooks: learning_resources/working-with-notebooks.md
+      - Writing Notebooks: learning_resources/working_with_notebooks.md
       - Video Tutorials: learning_resources/tutorials.md
       - Articles: learning_resources/articles.md
       - Webinars: learning_resources/webinars.md

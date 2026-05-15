@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Upload Your Data
 
 You can upload files to your dataset using the MSD-LIVE Data Repository web interface or the command-line interface (CLI).

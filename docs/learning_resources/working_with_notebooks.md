@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: dataset_notebook, notebook_lab
+---
+
 # Writing Notebooks
 
 Notebooks are the primary way to explore, analyze, and work with your data in MSD-LIVE. They combine code, visualizations, and narrative text in a single, interactive environment.

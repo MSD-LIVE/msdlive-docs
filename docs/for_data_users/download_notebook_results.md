@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: dataset_notebook, notebook_lab
+---
+
 # Download Notebook Results
 
 Once you've processed or subsetted large data in a dataset notebook, you can download your results to your local machine or a remote computer.

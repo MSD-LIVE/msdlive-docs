@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Spatial Metadata
 
 Adding spatial metadata helps downstream users understand where your data was collected or applied.

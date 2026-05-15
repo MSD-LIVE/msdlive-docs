@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: notebook_lab 
+---
+
 # Create Example Notebooks
 
 Example notebooks (pre-packaged code) help users understand how to work with your dataset. You can create them either in Notebook Lab or in your local development environment.
@@ -37,7 +42,7 @@ Use [Notebook Lab](launch_notebook_environment.md) to create and test notebooks 
 
 ## Writing Notebooks
 
-For detailed guidance on importing packages, accessing your data, and getting started with your analysis, see [Writing Notebooks](../../learning_resources/working-with-notebooks).
+For detailed guidance on importing packages, accessing your data, and getting started with your analysis, see [Writing Notebooks](../../learning_resources/working_with_notebooks).
 
 > ### Best Practices
 > 

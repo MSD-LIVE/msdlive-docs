@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Download Published Datasets
 
 You can download files from published datasets using the MSD-LIVE Data Repository web interface or the command-line interface (CLI).

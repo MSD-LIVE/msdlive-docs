@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Interactive Dashboards
 
 ## TODO

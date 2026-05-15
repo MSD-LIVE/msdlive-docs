@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Computational Resources
 
 MSD-LIVE harnesses the power of Amazon Web Services cloud infrastructure to provide secure, scalable, on-demand computing solutions for MSD projects.

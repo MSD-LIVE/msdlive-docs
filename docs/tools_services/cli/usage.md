@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Using the CLI
 
 The MSD-LIVE CLI provides easy methods to help you upload or download files directly to or from a dataset.

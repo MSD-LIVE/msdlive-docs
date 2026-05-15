@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Create an Account
 
 To get started with MSD-LIVE, create an account on the <a href="https://msdlive.org/sign-up" target="_blank" rel="noopener noreferrer">**Sign Up**</a> page.

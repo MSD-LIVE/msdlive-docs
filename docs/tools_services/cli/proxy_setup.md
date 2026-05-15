@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Running the CLI Behind a Proxy
 
 If you get certificate errors when trying to install or run the CLI, it is likely that your organization is using a web proxy. In order to work with a web proxy, you need to tell your applications that all traffic is being routed through a proxy. Different applications have different ways to communicate this information. Below we show you the steps needed to install the CLI and run commands.

@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: dataset_notebook
+---
+
 # Contributing Back
 
 If you create a community or dataset notebook, you can share it with others by submitting a GitHub pull request (PR). All PRs are reviewed and must be approved before they become available. Reviewers are assigned based on the folder where your notebook is located:

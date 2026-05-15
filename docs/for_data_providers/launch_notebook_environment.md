@@ -1,3 +1,8 @@
+---
+exclude_from_chatbot: false
+noteboook_environment: notebook_lab 
+---
+
 # Launch the Notebook Lab Environment
 
 Notebook Lab is MSD-LIVE's cloud-based environment for creating and managing example notebooks for your dataset. You can write, test, and share code without installing anything locally, and your dataset files are automatically available.

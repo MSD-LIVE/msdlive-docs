@@ -1,3 +1,7 @@
+---
+exclude_from_chatbot: true
+---
+
 # Find Data
 
 Use the MSD-LIVE <a href="https://data.msdlive.org/search" target="_blank" rel="noopener noreferrer">**Search**</a> page to discover datasets, files, and other records available in the platform. Use our <a href="https://data.msdlive.org/help/search" target="_blank" rel="noopener noreferrer">**Search Guide**</a> for advanced query syntax. 
