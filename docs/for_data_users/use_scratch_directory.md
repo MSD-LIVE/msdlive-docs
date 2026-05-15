@@ -7,25 +7,27 @@ noteboook_environment: dataset_notebook, notebook_lab
 
 Each notebook environment includes a **scratch directory** for temporary storage.
 
-Location:
+## When to use it
 
-    ~/scratch/
+Use the scratch directory when it is impractical to download subset output directly from the notebook file browser in your web browser.
+
+This is typically the case when one or more of the following are true:
+
+- The subset contains **many files**, making one-by-one browser downloads tedious
+- The subset includes a **folder hierarchy** that you want to preserve
+- The total download size is **too large** for reliable browser-based downloading
+
+In this situation, scratch acts as a staging area:
+
+1. Copy subset files to scratch using the blue cloud button in the notebook file browser
+2. Download the staged files with the msdlive CLI from your local or remote machine
 
 
 ## What it is
 
-- A temporary workspace backed by cloud storage  
-- Intended for intermediate and output files  
+- A temporary, cloud-backed staging area for files generated in your notebook session
+- Primarily used to stage subsetted dataset files for CLI download
 - Files are **automatically deleted after ~24 hours**
-
-
-## When to use it
-
-Use scratch if:
-
-- You are working with **large files**  
-- You need to download data outside the notebook UI  
-- You are running long or multi-step workflows  
 
 
 !!! warning "Limitations"
@@ -34,20 +36,9 @@ Use scratch if:
     - Write speeds may be slower than writing to your local file system
 
 
-## Scratch Directory Walkthrough
-Watch this video for a walkthrough of copying files to the scratch directory and downloading them.
-
-<div>
-  <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/PQ4aF16puak"
-      frameborder="0" allowfullscreen>
-  </iframe>
-</div>
-
-
 ## How to copy output files to the scratch directory
 
-To copy your processed/subsetted files to the scratch dir from within your notebook do the following:
+To copy your processed/subsetted files to the scratch directory from within your notebook do the following:
 
 1. Open the File Browser (left sidebar)
 
@@ -62,6 +53,23 @@ To copy your processed/subsetted files to the scratch dir from within your noteb
 
 > **Important:** 
     Using the "Copy to Scratch Dir" button in the file explorer is the preferred and supported way to copy files into your scratch directory. While it's technically possible to copy files using code inside notebooks, this is not recommended due to underlying S3 limitations.
+
+
+## How to download files from the scratch directory
+
+For step-by-step instructions on downloading files from scratch with the msdlive CLI, see [Scratch directory usage in the msdlive CLI docs](../../tools_services/cli/usage/#scratch-directory).
+
+
+## Video Walkthrough
+
+Watch this video for a walkthrough of copying files to the scratch directory and downloading them.
+
+<div>
+  <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/PQ4aF16puak"
+      frameborder="0" allowfullscreen>
+  </iframe>
+</div>
 
 
 
