@@ -1,5 +1,5 @@
 ---
-exclude_from_chatbot: false
+include_from_chatbot: true
 noteboook_environment: notebook_lab 
 ---
 

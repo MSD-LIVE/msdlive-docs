@@ -1,5 +1,5 @@
 ---
-exclude_from_chatbot: true
+include_from_chatbot: false
 ---
 
 # Running the CLI Behind a Proxy

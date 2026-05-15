@@ -1,6 +1,6 @@
 
 ---
-exclude_from_chatbot: false
+include_from_chatbot: true
 noteboook_environment: dataset_notebook, notebook_lab
 ---
 
