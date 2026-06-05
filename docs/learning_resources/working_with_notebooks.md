@@ -152,4 +152,3 @@ Use the AI Assistant whenever you need quick guidance or examples while developi
 > - **Document dependencies** — List required packages and any external data
 > - **Use descriptive filenames** — Make notebook purpose clear at a glance
 > - **Update your README** — Briefly describe each example notebook in the repository
-> - **Save frequently** — If using Notebook Lab, save often (3-hour session limit)
