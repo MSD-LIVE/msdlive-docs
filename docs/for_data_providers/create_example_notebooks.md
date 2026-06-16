@@ -1,6 +1,6 @@
 ---
 include_from_chatbot: true
-noteboook_environment: notebook_lab 
+noteboook_environment: notebook_lab
 ---
 
 # Create Example Notebooks
@@ -12,7 +12,7 @@ Example notebooks (pre-packaged code) help users understand how to work with you
 If you prefer to build notebooks in your own environment, you can use your normal Git workflow:
 
 1. Clone your [linked GitHub notebook repository](setup_notebook_repository.md)
-2. Create or edit notebooks in your preferred local editor or IDE 
+2. Create or edit notebooks in your preferred local editor or IDE
 3. Test notebooks with your dataset
 4. Commit and push your changes to GitHub
 
@@ -42,10 +42,10 @@ Use [Notebook Lab](launch_notebook_environment.md) to create and test notebooks 
 
 ## Writing Notebooks
 
-For detailed guidance on importing packages, accessing your data, and getting started with your analysis, see [Writing Notebooks](../../learning_resources/working_with_notebooks).
+For detailed guidance on importing packages, accessing your data, and getting started with your analysis, see [Writing Notebooks](../learning_resources/working_with_notebooks.md).
 
 > ### Best Practices
-> 
+>
 > - **Keep notebooks focused** — Create one notebook per analysis or workflow
 > - **Write clear explanations** — Use markdown cells and comments to explain each section
 > - **Include practical examples** — Show users how to subset, filter, and transform data

@@ -64,12 +64,12 @@ sphinx-autobuild docs docs/_build/html
 
 
 Prefer mkdocs over sphinx because if we want to load the md files in our react landing page app, the sphinx pages will have sphinx only
-tags (like for the nav and TOC) where mkdocs all nav is defined in the yml. OR see if sphinx has better support for headleads rendering of 
+tags (like for the nav and TOC) where mkdocs all nav is defined in the yml. OR see if sphinx has better support for headleads rendering of
 the built html
 
 TODO for embedding in landing page:
 
-- 
+-
 - identify what tags are for mkdocs only
 
 Note:
@@ -78,6 +78,11 @@ no longer will customize embedded video player as that was implemented in landin
 
 building html to embed in iframe on landing page:
 ```
-mkdocs build -f mkdocs.embed.yml -d site-embed --clean
+mkdocs build --strict
+mkdocs build -f mkdocs.embed.yml -d site/embed
+```
 
+Then serve the full site (mirrors the GitHub Pages layout, with `/embed/` available):
+```
+python -m http.server 8001 --directory site
 ```
