@@ -10,7 +10,7 @@ MSD-LIVE, the MultiSector Dynamics – Living Intuitive Value-adding Environment
 
 <ul class="principle-grid">
   <li class="principle-card">
-    <img src="../../assets/icons/heart-pulse-solid.svg" alt="" class="principle-card__icon" aria-hidden="true" />
+    <img src="../../assets/icons/heart-pulse-solid-full.svg" alt="" class="principle-card__icon" aria-hidden="true" />
     <div class="principle-card__text">
       <h3 class="principle-card__title">Living</h3>
       <p class="principle-card__desc">There should be continuous interaction with the platform throughout the data and code lifecycle rather than only storage of the final product.</p>
@@ -18,7 +18,7 @@ MSD-LIVE, the MultiSector Dynamics – Living Intuitive Value-adding Environment
   </li>
 
   <li class="principle-card">
-    <img src="../../assets/icons/head-side-virus-solid.svg" alt="" class="principle-card__icon" aria-hidden="true" />
+    <img src="../../assets/icons/head-side-virus-solid-full.svg" alt="" class="principle-card__icon" aria-hidden="true" />
     <div class="principle-card__text">
       <h3 class="principle-card__title">Intuitive</h3>
       <p class="principle-card__desc">Using the platform should not require a steep learning curve.</p>
@@ -26,7 +26,7 @@ MSD-LIVE, the MultiSector Dynamics – Living Intuitive Value-adding Environment
   </li>
 
   <li class="principle-card">
-    <img src="../../assets/icons/hand-holding-medical-solid.svg" alt="" class="principle-card__icon" aria-hidden="true" />
+    <img src="../../assets/icons/hand-holding-medical-solid-full.svg" alt="" class="principle-card__icon" aria-hidden="true" />
     <div class="principle-card__text">
       <h3 class="principle-card__title">Value-adding</h3>
       <p class="principle-card__desc">There should be tools built into the platform that enhance the ability of the MSD community to do their work.</p>
@@ -34,7 +34,7 @@ MSD-LIVE, the MultiSector Dynamics – Living Intuitive Value-adding Environment
   </li>
 
   <li class="principle-card">
-    <img src="../../assets/icons/laptop-code-solid.svg" alt="" class="principle-card__icon" aria-hidden="true" />
+    <img src="../../assets/icons/laptop-code-solid-full.svg" alt="" class="principle-card__icon" aria-hidden="true" />
     <div class="principle-card__text">
       <h3 class="principle-card__title">Environment</h3>
       <p class="principle-card__desc">The platform should include a computational component that delivers an integrated data-work environment as opposed to a stand-alone data repository.</p>

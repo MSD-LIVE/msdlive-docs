@@ -267,3 +267,57 @@ body,
 .md-footer__link:hover {
     background-color: #1b75bb;
 }
+/* ── Principle card grid ─────────────────────────────────────── */
+.principle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 2rem;
+    margin: 1.5rem 0 2.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+@media (max-width: 640px) {
+    .principle-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.principle-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.25rem;
+    list-style: none;
+}
+
+.principle-card__icon {
+    width: 72px !important;
+    height: 72px !important;
+    min-width: 72px !important;
+    max-width: 72px !important;
+    flex-shrink: 0;
+    display: block;
+    /* Tint black SVG to brand light-blue (#16adfe) */
+    filter: invert(58%) sepia(88%) saturate(2183%) hue-rotate(175deg) brightness(101%) contrast(101%);
+}
+
+.principle-card__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.principle-card__title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    line-height: 1.2;
+}
+
+.principle-card__desc {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
