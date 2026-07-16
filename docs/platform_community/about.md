@@ -40,52 +40,50 @@ MSD-LIVE is being developed with support from the [MultiSector Dynamics](https:/
 
 ## Team
 
-MSD-LIVE is being developed by a team led by scientists at the DOE's Pacific Northwest National Laboratory. The team is composed of MSD researchers, data scientists, and software engineers.
+MSD-LIVE is being developed by a team led by scientists at the DOE's Pacific Northwest
+National Laboratory. The team is composed of MSD researchers, data scientists, and software engineers.
 
-<ul class="person-grid">
-  <li class="person-card">
-    <img class="person-card__photo" src="../../assets/avatars/casey.png" alt="Casey Burleyson" />
-    <div class="person-card__text">
-      <span class="person-card__name">Casey Burleyson</span>
-      <span class="person-card__meta">Principal Investigator - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+<div class="team-grid">
+  <div class="team-card">
+    <img src="../../assets/avatars/casey.png" alt="Casey Burleyson" class="team-avatar" />
+    <div class="team-info">
+      <strong>Casey Burleyson</strong>
+      <span>Principle Investigator - <a href="https://www.pnnl.gov">PNNL</a></span>
     </div>
-  </li>
-  <li class="person-card">
-    <img class="person-card__photo" src="../../assets/avatars/Carina_Lansing.jpg" alt="Carina Lansing" />
-    <div class="person-card__text">
-      <span class="person-card__name">Carina Lansing</span>
-      <span class="person-card__meta">Lead Software Architect - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+  </div>
+
+  <div class="team-card">
+    <img src="../../assets/avatars/Carina_Lansing.jpg" alt="Carina Lansing" class="team-avatar" />
+    <div class="team-info">
+      <strong>Carina Lansing</strong>
+      <span>Lead Software Architect - <a href="https://www.pnnl.gov">PNNL</a></span>
     </div>
-  </li>
-  <li class="person-card">
-    <img class="person-card__photo" src="../../assets/avatars/Zoe_Guillen.jpg" alt="Zoë Guillen" />
-    <div class="person-card__text">
-      <span class="person-card__name">Zoë Guillen</span>
-      <span class="person-card__meta">Data Repository Lead - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+  </div>
+
+  <div class="team-card">
+    <img src="../../assets/avatars/Zoe_Guillen.jpg" alt="Zoë Guillen" class="team-avatar" />
+    <div class="team-info">
+      <strong>Zoë Guillen</strong>
+      <span>Data Repository Lead - <a href="https://www.pnnl.gov">PNNL</a></span>
     </div>
-  </li>
-  <li class="person-card">
-    <img class="person-card__photo" src="../../assets/avatars/Jon_Weers.jpeg" alt="Jon Weers" />
-    <div class="person-card__text">
-      <span class="person-card__name">Jon Weers</span>
-      <span class="person-card__meta">Senior Cloud Advisor - <a href="http://nrel.gov/" target="_blank" rel="noopener">NREL</a></span>
+  </div>
+
+  <div class="team-card">
+    <img src="../../assets/avatars/Jon_Weers.jpeg" alt="Jon Weers" class="team-avatar" />
+    <div class="team-info">
+      <strong>Jon Weers</strong>
+      <span>Senior Cloud Advisor - <a href="https://www.nlr.org">NLR</a></span>
     </div>
-  </li>
-  <li class="person-card">
-    <img class="person-card__photo" src="../../assets/avatars/Bekah_Mars.jpg" alt="Bekah Mars" />
-    <div class="person-card__text">
-      <span class="person-card__name">Bekah Mars</span>
-      <span class="person-card__meta">Software Engineer - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+  </div>
+
+  <div class="team-card">
+    <img src="../../assets/avatars/Bekah_Mars.jpg" alt="Bekah Mars" class="team-avatar" />
+    <div class="team-info">
+      <strong>Bekah Mars</strong>
+      <span>Software Engineer - <a href="https://www.pnnl.gov">PNNL</a></span>
     </div>
-  </li>
-  <li class="person-card">
-    <div class="person-card__initials">CS</div>
-    <div class="person-card__text">
-      <span class="person-card__name">Chandrika Sivaramakrishnan</span>
-      <span class="person-card__meta">Software Engineer - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
-    </div>
-  </li>
-</ul>
+  </div>
+</div>
 
 ## Stakeholder Group
 

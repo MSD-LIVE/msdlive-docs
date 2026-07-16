@@ -4,14 +4,11 @@
     --sidebar-width: 356px;
 } */
 
-
 .header-logo {
     height: 24px;
     margin-right: 0.75rem;
     vertical-align: middle;
 }
-
-
 
 /* Needed in order to indent nested navigation menus */
 cds-side-nav-menu cds-side-nav-menu {
@@ -23,21 +20,9 @@ footer {
     display: none;
 }
 
-/* Adds vertical spacing between nav items */
-/* cds-side-nav-menu-item[role="button"] {
-    padding: 0.5rem 0.0rem;
-} */
-
 cds-side-nav-menu {
     margin-bottom: 0.5rem;
 }
-
-/* can hide the page TOC with this */
-/* @media (min-width: 1280px) {
-    .md-sidebar--secondary {
-        display: none;
-    }
-} */
 
 /* hide the breadcrumb */
 .md-breadcrumbs {
@@ -143,4 +128,141 @@ cds-side-nav-menu {
 
 .person-card__meta a:hover {
     text-decoration: underline;
+}
+
+/* ─── Google Fonts ──────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* ─── Focus outlines ────────────────────────────────────────────── */
+:focus-visible {
+    outline: 3px solid #1b75bb !important;
+    outline-offset: 2px !important;
+}
+
+/* ─── Layout fixes ──────────────────────────────────────────────── */
+.md-container {
+    max-width: none !important;
+    margin-top: 0 !important;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* ─── Carbon CSS token overrides ───────────────────────────────── */
+:root {
+    --cds-interactive-01:      #093e80;
+    --cds-interactive-02:      #1b75bb;
+    --cds-interactive-03:      #16adfe;
+    --cds-interactive-04:      #16adfe;
+    --cds-ui-shell-bg:         #093e80;
+    --cds-ui-shell-header-bg:  #093e80;
+    --cds-side-nav-bg:         #093e80;
+    --cds-text-on-color:       #ffffff;
+    --cds-ui-shell-text-01:    #ffffff;
+    --cds-link-01:             #1b75bb;
+    --cds-link-02:             #093e80;
+    --cds-body-font-family:    'Roboto', sans-serif;
+    --cds-heading-font-family: 'Rubik', sans-serif;
+}
+
+:root[data-carbon-theme="g90"],
+:root[data-carbon-theme="g100"] {
+    --cds-background: #ffffff !important;
+    --cds-layer:      #ffffff !important;
+}
+
+/* ─── Body / content typography ────────────────────────────────── */
+body,
+.md-content,
+.md-typeset {
+    font-family:  'Roboto', sans-serif;
+    font-size:    1.2rem;
+    font-weight:  400;
+}
+
+/* ─── Headings ──────────────────────────────────────────────────── */
+.md-typeset h1,
+.md-typeset h2 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.md-typeset h1 {
+    font-size:     3rem;
+    font-weight:   700;
+    margin-bottom: 2rem;
+}
+
+.md-typeset h2 {
+    font-size:     2.25rem;
+    font-weight:   500;
+    margin-top:    1.5rem;
+    margin-bottom: 1rem;
+}
+
+.md-typeset h3 {
+    font-family:   'Roboto', sans-serif;
+    font-size:     1.5rem;
+    font-weight:   700;
+    margin-bottom: 0.5rem;
+}
+
+.md-typeset h4 {
+    font-size:     1.4rem;
+    margin-top:    1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ─── Links in content ──────────────────────────────────────────── */
+.md-typeset a {
+    color:           #1b75bb;
+    text-decoration: none;
+}
+
+.md-typeset a:hover {
+    color: #093e80;
+}
+
+/* ─── Sidebar nav ───────────────────────────────────────────────── */
+.md-sidebar--primary,
+.md-nav {
+    background-color: #093e80;
+}
+
+.md-nav__link,
+.md-nav__item a {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+}
+
+.md-nav__link:hover,
+.md-nav__item a:hover {
+    color: #16adfe;
+}
+
+.md-nav__link--active {
+    color:       #ffffff;
+    font-weight: 700;
+    border-left: 4px solid #ffffff;
+}
+@media (max-width: 1055px) {
+    .md-sidebar--primary:not(.active) {
+        display: none !important;
+    }
+}
+
+/* ─── Prev / Next footer buttons ────────────────────────────────── */
+.md-footer__link {
+    background-color: #093e80;
+    color:            #ffffff;
+    font-weight:      700;
+    text-transform:   none;
+    border-radius:    0.3rem;
+    font-family:      'Roboto', sans-serif;
+}
+
+.md-footer__link:hover {
+    background-color: #1b75bb;
 }

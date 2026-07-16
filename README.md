@@ -1,10 +1,10 @@
 # MSD-LIVE Docs (mkdocs)
 
-A lightweight local workflow for previewing the MSD-LIVE documentation site built with MkDocs and the Material theme.
+A lightweight local workflow for previewing the MSD-LIVE documentation site built with MkDocs and the Carbon theme. The built site is deployed to GitHub Pages and also loaded inside the MSD-LIVE React landing page via an iframe (`DocsEmbed` component).
 
 ## Prerequisites
 
-- Python 3.8+ (you have Python 3.12 available locally)
+- Python 3.8+ (Python 3.12 recommended)
 - pip
 - Recommended: create and use a virtual environment
 
@@ -23,7 +23,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Run the development server (--livereload is required for WSL otherwise changes to files only show up if you restart the serve command):
+3. Run the development server (`--livereload` is required for WSL — otherwise file changes only appear after restarting):
 
 ```bash
 mkdocs serve --livereload
@@ -35,54 +35,52 @@ mkdocs serve --livereload
 http://127.0.0.1:8000/
 ```
 
+## Building for Production
+
+A single build produces the full site, which is used both for direct browsing and for embedding in the React landing page:
+
+```bash
+mkdocs build --strict
+```
+
+Then serve the built site locally to preview the GitHub Pages layout:
+
+```bash
+python -m http.server 8001 --directory site
+```
+
+Deployment to GitHub Pages is handled automatically by `.github/workflows/deploy-docs.yml` on pushes to `main`.
+
+## Project Structure
+
+- `mkdocs.yml` — MkDocs site configuration (nav, theme, plugins, extensions)
+- `docs/` — Markdown source files
+- `docs/styles/carbon-customizations.css` — All custom styling (Carbon theme overrides, typography, person-card grid, etc.)
+- `docs/overrides/` — Custom theme template overrides
+- `docs/javascripts/carbon-nav-scroll-fix.js` — Nav scroll behavior fix
+- `.github/workflows/deploy-docs.yml` — GitHub Pages deployment workflow
+
+## Embedding in the React Landing Page
+
+The docs site is loaded inside the landing page app via an iframe using the `DocsEmbed` component. It points at the deployed site directly (e.g. `https://msd-live.github.io/msdlive-docs/platform_community/about/`) — there is no separate headless build. This means any styling or nav changes in `mkdocs.yml` / `carbon-customizations.css` are reflected in both contexts automatically.
+
 ## Troubleshooting
 
-- If the server doesn't reflect changes, stop and restart `mkdocs serve`.
+- If the dev server doesn't reflect changes, stop and restart `mkdocs serve --livereload`.
+- If styles look wrong in the embedded iframe but correct standalone (or vice-versa), confirm the class names in your markdown match those defined in `docs/styles/carbon-customizations.css`.
 
 ## Useful Links
 
-- Project docs configuration: `mkdocs.yml`
-- Docs folder: `docs/`
+- Production docs site: https://msd-live.github.io/msdlive-docs/
+- MkDocs config: `mkdocs.yml`
+- Custom styles: `docs/styles/carbon-customizations.css`
 
+---
 
-Dev notes to sort out later:
+## Historical Notes
 
-# Production docs site
-https://msdlive-docs.readthedocs.io/
+**Why MkDocs over Sphinx?**
+Sphinx-generated HTML embeds Sphinx-specific tags for nav and TOC, making headless embedding harder. MkDocs defines navigation entirely in `mkdocs.yml`, which makes the rendered content cleaner and easier to embed in an iframe.
 
-
-To test running with sphinx build with:
-```bash
-sphinx-build -b html docs docs/_build/lhtm
-```
-
-and run with
-```bash
-sphinx-autobuild docs docs/_build/html
-```
-
-
-
-Prefer mkdocs over sphinx because if we want to load the md files in our react landing page app, the sphinx pages will have sphinx only
-tags (like for the nav and TOC) where mkdocs all nav is defined in the yml. OR see if sphinx has better support for headleads rendering of
-the built html
-
-TODO for embedding in landing page:
-
--
-- identify what tags are for mkdocs only
-
-Note:
-no longer will customize embedded video player as that was implemented in landing page app
-
-
-building html to embed in iframe on landing page:
-```
-mkdocs build --strict
-mkdocs build -f mkdocs.embed.yml -d site/embed
-```
-
-Then serve the full site (mirrors the GitHub Pages layout, with `/embed/` available):
-```
-python -m http.server 8001 --directory site
-```
+**Video player customization:**
+No longer handled here — implemented in the landing page app instead.

@@ -1,9 +1,0 @@
-INHERIT: mkdocs.yml
-
-theme:
-  custom_dir: docs/overrides/embed
-  name: carbon
-  theme_default: white
-
-extra_css:
-  - styles/embed.css
