@@ -76,19 +76,20 @@ cds-side-nav-menu {
 }
 
 .person-card__photo {
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
+    width: 75px !important;
+    height: 75px !important;
+    min-width: 72px;
+    border-radius: 50% !important;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
     background: #e0e0e0;
     flex-shrink: 0;
 }
 
 /* Initials placeholder used when no photo is available */
 .person-card__initials {
-    width: 72px;
-    height: 72px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     background: linear-gradient(135deg, #0f62fe, #0043ce);
     color: #ffffff;

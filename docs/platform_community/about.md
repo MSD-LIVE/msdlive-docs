@@ -8,13 +8,39 @@ MSD-LIVE, the MultiSector Dynamics – Living Intuitive Value-adding Environment
 
 ## Principles
 
-**Living** — There should be continuous interaction with the platform throughout the data and code lifecycle rather than only storage of the final product.
+<ul class="principle-grid">
+  <li class="principle-card">
+    <img src="../../assets/icons/heart-pulse-solid.svg" alt="" class="principle-card__icon" aria-hidden="true" />
+    <div class="principle-card__text">
+      <h3 class="principle-card__title">Living</h3>
+      <p class="principle-card__desc">There should be continuous interaction with the platform throughout the data and code lifecycle rather than only storage of the final product.</p>
+    </div>
+  </li>
 
-**Intuitive** — Using the platform should not require a steep learning curve.
+  <li class="principle-card">
+    <img src="../../assets/icons/head-side-virus-solid.svg" alt="" class="principle-card__icon" aria-hidden="true" />
+    <div class="principle-card__text">
+      <h3 class="principle-card__title">Intuitive</h3>
+      <p class="principle-card__desc">Using the platform should not require a steep learning curve.</p>
+    </div>
+  </li>
 
-**Value-adding** — There should be tools built into the platform that enhance the ability of the MSD community to do their work.
+  <li class="principle-card">
+    <img src="../../assets/icons/hand-holding-medical-solid.svg" alt="" class="principle-card__icon" aria-hidden="true" />
+    <div class="principle-card__text">
+      <h3 class="principle-card__title">Value-adding</h3>
+      <p class="principle-card__desc">There should be tools built into the platform that enhance the ability of the MSD community to do their work.</p>
+    </div>
+  </li>
 
-**Environment** — The platform should include a computational component that delivers an integrated data-work environment as opposed to a stand-alone data repository.
+  <li class="principle-card">
+    <img src="../../assets/icons/laptop-code-solid.svg" alt="" class="principle-card__icon" aria-hidden="true" />
+    <div class="principle-card__text">
+      <h3 class="principle-card__title">Environment</h3>
+      <p class="principle-card__desc">The platform should include a computational component that delivers an integrated data-work environment as opposed to a stand-alone data repository.</p>
+    </div>
+  </li>
+</ul>
 
 ---
 
@@ -43,47 +69,55 @@ MSD-LIVE is being developed with support from the [MultiSector Dynamics](https:/
 MSD-LIVE is being developed by a team led by scientists at the DOE's Pacific Northwest
 National Laboratory. The team is composed of MSD researchers, data scientists, and software engineers.
 
-<div class="team-grid">
-  <div class="team-card">
-    <img src="../../assets/avatars/casey.png" alt="Casey Burleyson" class="team-avatar" />
-    <div class="team-info">
-      <strong>Casey Burleyson</strong>
-      <span>Principle Investigator - <a href="https://www.pnnl.gov">PNNL</a></span>
+<ul class="person-grid">
+  <li class="person-card">
+    <img src="../../assets/avatars/casey.png" alt="Casey Burleyson" class="person-card__photo" />
+    <div class="person-card__text">
+      <span class="person-card__name">Casey Burleyson</span>
+      <span class="person-card__meta">Principal Investigator — <a href="https://www.pnnl.gov">PNNL</a></span>
     </div>
-  </div>
+  </li>
 
-  <div class="team-card">
-    <img src="../../assets/avatars/Carina_Lansing.jpg" alt="Carina Lansing" class="team-avatar" />
-    <div class="team-info">
-      <strong>Carina Lansing</strong>
-      <span>Lead Software Architect - <a href="https://www.pnnl.gov">PNNL</a></span>
+  <li class="person-card">
+    <img src="../../assets/avatars/Carina_Lansing.jpg" alt="Carina Lansing" class="person-card__photo" />
+    <div class="person-card__text">
+      <span class="person-card__name">Carina Lansing</span>
+      <span class="person-card__meta">Lead Software Architect — <a href="https://www.pnnl.gov">PNNL</a></span>
     </div>
-  </div>
+  </li>
 
-  <div class="team-card">
-    <img src="../../assets/avatars/Zoe_Guillen.jpg" alt="Zoë Guillen" class="team-avatar" />
-    <div class="team-info">
-      <strong>Zoë Guillen</strong>
-      <span>Data Repository Lead - <a href="https://www.pnnl.gov">PNNL</a></span>
+  <li class="person-card">
+    <img src="../../assets/avatars/Zoe_Guillen.jpg" alt="Zoë Guillen" class="person-card__photo" />
+    <div class="person-card__text">
+      <span class="person-card__name">Zoë Guillen</span>
+      <span class="person-card__meta">Data Repository Lead — <a href="https://www.pnnl.gov">PNNL</a></span>
     </div>
-  </div>
+  </li>
 
-  <div class="team-card">
-    <img src="../../assets/avatars/Jon_Weers.jpeg" alt="Jon Weers" class="team-avatar" />
-    <div class="team-info">
-      <strong>Jon Weers</strong>
-      <span>Senior Cloud Advisor - <a href="https://www.nlr.org">NLR</a></span>
+  <li class="person-card">
+    <img src="../../assets/avatars/Jon_Weers.jpeg" alt="Jon Weers" class="person-card__photo" />
+    <div class="person-card__text">
+      <span class="person-card__name">Jon Weers</span>
+      <span class="person-card__meta">Senior Cloud Advisor — <a href="https://www.nlr.org">NLR</a></span>
     </div>
-  </div>
+  </li>
 
-  <div class="team-card">
-    <img src="../../assets/avatars/Bekah_Mars.jpg" alt="Bekah Mars" class="team-avatar" />
-    <div class="team-info">
-      <strong>Bekah Mars</strong>
-      <span>Software Engineer - <a href="https://www.pnnl.gov">PNNL</a></span>
+  <li class="person-card">
+    <img src="../../assets/avatars/Chandrika_Sivaramakrishnan.png" alt="Chandrika_Sivaramakrishnan" class="person-card__photo" />
+    <div class="person-card__text">
+      <span class="person-card__name">Chandrika Sivaramakrishnan</span>
+      <span class="person-card__meta">Software Engineer — <a href="https://www.pnnl.gov">PNNL</a></span>
     </div>
-  </div>
-</div>
+  </li>
+
+  <li class="person-card">
+    <img src="../../assets/avatars/Bekah_Mars.jpg" alt="Bekah Mars" class="person-card__photo" />
+    <div class="person-card__text">
+      <span class="person-card__name">Bekah Mars</span>
+      <span class="person-card__meta">Software Engineer — <a href="https://www.pnnl.gov">PNNL</a></span>
+    </div>
+  </li>
+</ul>
 
 ## Stakeholder Group
 
