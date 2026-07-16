@@ -42,26 +42,117 @@ MSD-LIVE is being developed with support from the [MultiSector Dynamics](https:/
 
 MSD-LIVE is being developed by a team led by scientists at the DOE's Pacific Northwest National Laboratory. The team is composed of MSD researchers, data scientists, and software engineers.
 
-| Name | Role | Organization |
-|---|---|---|
-| Casey Burleyson | Principal Investigator | [PNNL](https://www.pnnl.gov/) |
-| Carina Lansing | Lead Software Architect | [PNNL](https://www.pnnl.gov/) |
-| Zoë Guillen | Data Repository Lead | [PNNL](https://www.pnnl.gov/) |
-| Jon Weers | Senior Cloud Advisor | [NREL](http://nrel.gov/) |
-| Bekah Mars | Software Engineer | [PNNL](https://www.pnnl.gov/) |
+<ul class="person-grid">
+  <li class="person-card">
+    <img class="person-card__photo" src="../../assets/avatars/casey.png" alt="Casey Burleyson" />
+    <div class="person-card__text">
+      <span class="person-card__name">Casey Burleyson</span>
+      <span class="person-card__meta">Principal Investigator - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <img class="person-card__photo" src="../../assets/avatars/Carina_Lansing.jpg" alt="Carina Lansing" />
+    <div class="person-card__text">
+      <span class="person-card__name">Carina Lansing</span>
+      <span class="person-card__meta">Lead Software Architect - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <img class="person-card__photo" src="../../assets/avatars/Zoe_Guillen.jpg" alt="Zoë Guillen" />
+    <div class="person-card__text">
+      <span class="person-card__name">Zoë Guillen</span>
+      <span class="person-card__meta">Data Repository Lead - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <img class="person-card__photo" src="../../assets/avatars/Jon_Weers.jpeg" alt="Jon Weers" />
+    <div class="person-card__text">
+      <span class="person-card__name">Jon Weers</span>
+      <span class="person-card__meta">Senior Cloud Advisor - <a href="http://nrel.gov/" target="_blank" rel="noopener">NREL</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <img class="person-card__photo" src="../../assets/avatars/Bekah_Mars.jpg" alt="Bekah Mars" />
+    <div class="person-card__text">
+      <span class="person-card__name">Bekah Mars</span>
+      <span class="person-card__meta">Software Engineer - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">CS</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Chandrika Sivaramakrishnan</span>
+      <span class="person-card__meta">Software Engineer - <a href="https://www.pnnl.gov/" target="_blank" rel="noopener">PNNL</a></span>
+    </div>
+  </li>
+</ul>
 
 ## Stakeholder Group
 
 MSD-LIVE is supported by an active and valuable stakeholder group made up of project representatives from across the MSD community. The stakeholder group reviews progress and provides continuous input that can help guide development. They also act as liaisons between MSD-LIVE and their respective projects.
 
-| Name | Project |
-|---|---|
-| Brent Daniel | [ICoM](https://icom.pnnl.gov/) |
-| Ying Zhang | [InterFACE](https://climatemodeling.science.energy.gov/projects/interface-interdisciplinary-research-arctic-coastal-environments) |
-| Rob Nicholas | [PCHES-ADAPT](https://www.pches.psu.edu/) |
-| Pralit Patel | [GCIMS](https://gcims.pnnl.gov/) |
-| Stefan Rahimi-Esfarjani | [HyperFACETS](https://hyperfacets.ucdavis.edu/) |
-| Pat Reed | [IM3](https://im3.pnnl.gov/) |
-| Adam Schlosser | [MIT](https://globalchange.mit.edu/) |
-| Chris Vernon | [IM3](https://im3.pnnl.gov/) |
-| Chris Forest | [BSEC](https://bsec.21cc.jhu.edu/) |
+<ul class="person-grid">
+  <li class="person-card">
+    <div class="person-card__initials">BD</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Brent Daniel</span>
+      <span class="person-card__meta"><a href="https://icom.pnnl.gov/" target="_blank" rel="noopener">ICoM</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">YZ</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Ying Zhang</span>
+      <span class="person-card__meta"><a href="https://climatemodeling.science.energy.gov/projects/interface-interdisciplinary-research-arctic-coastal-environments" target="_blank" rel="noopener">InterFACE</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">RN</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Rob Nicholas</span>
+      <span class="person-card__meta"><a href="https://www.pches.psu.edu/" target="_blank" rel="noopener">PCHES-ADAPT</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">PP</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Pralit Patel</span>
+      <span class="person-card__meta"><a href="https://gcims.pnnl.gov/" target="_blank" rel="noopener">GCIMS</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">SR</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Stefan Rahimi-Esfarjani</span>
+      <span class="person-card__meta"><a href="https://hyperfacets.ucdavis.edu/" target="_blank" rel="noopener">HyperFACETS</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">PR</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Pat Reed</span>
+      <span class="person-card__meta"><a href="https://im3.pnnl.gov/" target="_blank" rel="noopener">IM3</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">AS</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Adam Schlosser</span>
+      <span class="person-card__meta"><a href="https://globalchange.mit.edu/" target="_blank" rel="noopener">MIT</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">CV</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Chris Vernon</span>
+      <span class="person-card__meta"><a href="https://im3.pnnl.gov/" target="_blank" rel="noopener">IM3</a></span>
+    </div>
+  </li>
+  <li class="person-card">
+    <div class="person-card__initials">CF</div>
+    <div class="person-card__text">
+      <span class="person-card__name">Chris Forest</span>
+      <span class="person-card__meta"><a href="https://bsec.21cc.jhu.edu/" target="_blank" rel="noopener">BSEC</a></span>
+    </div>
+  </li>
+</ul>

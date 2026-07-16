@@ -3,10 +3,32 @@ cds-header,
 .md-sidebar--primary,
 .md-sidebar--secondary,
 .md-footer,
-.md-footer-nav,
 .md-breadcrumbs,
 .md-theme-toggle {
     display: none !important;
+}
+
+/* Skip-to-main link: visible only on keyboard focus */
+.skip-link {
+    position: absolute;
+    top: -9999px;
+    left: 0;
+    z-index: 9999;
+    padding: 0.5rem 1rem;
+    background: #0f62fe;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0 0 4px 0;
+}
+.skip-link:focus {
+    top: 0;
+}
+
+/* Preserve visible focus outlines for all interactive elements */
+:focus-visible {
+    outline: 3px solid #0f62fe !important;
+    outline-offset: 2px !important;
 }
 
 /* Layout fixes */
