@@ -4,7 +4,6 @@ on:
     push:
         branches:
             - main
-            - feature/msdlive-docs-refactor
     workflow_dispatch:
 
 permissions:
