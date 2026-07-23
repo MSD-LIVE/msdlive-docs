@@ -34,8 +34,6 @@ nav:
       - Create an Account: getting_started/create_account.md
       - Log In and Join a Project: getting_started/login_join_project.md
       - Policies: platform_community/policies.md
-      - Events: platform_community/events.md
-      - Acknowledgement: platform_community/acknowledgement.md
   - For Data Users:
       - Find Data: for_data_users/dataset_search.md
       - Explore Data:
