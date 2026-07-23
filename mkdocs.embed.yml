@@ -6,4 +6,5 @@ theme:
   theme_default: white
 
 extra_css:
+  - styles/carbon-customizations.css
   - styles/embed.css
