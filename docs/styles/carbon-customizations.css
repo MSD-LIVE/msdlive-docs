@@ -4,14 +4,11 @@
     --sidebar-width: 356px;
 } */
 
-
 .header-logo {
     height: 24px;
     margin-right: 0.75rem;
     vertical-align: middle;
 }
-
-
 
 /* Needed in order to indent nested navigation menus */
 cds-side-nav-menu cds-side-nav-menu {
@@ -23,21 +20,9 @@ footer {
     display: none;
 }
 
-/* Adds vertical spacing between nav items */
-/* cds-side-nav-menu-item[role="button"] {
-    padding: 0.5rem 0.0rem;
-} */
-
 cds-side-nav-menu {
     margin-bottom: 0.5rem;
 }
-
-/* can hide the page TOC with this */
-/* @media (min-width: 1280px) {
-    .md-sidebar--secondary {
-        display: none;
-    }
-} */
 
 /* hide the breadcrumb */
 .md-breadcrumbs {
@@ -60,4 +45,279 @@ cds-side-nav-menu {
 .md-content .resource-collapsible-title {
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+/* ── Person card grid ─────────────────────────────────────────── */
+.person-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1.25rem 0 2rem;
+    padding: 0;
+    list-style: none;
+}
+
+@media (max-width: 640px) {
+    .person-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.person-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    background: #fff;
+}
+
+.person-card__photo {
+    width: 75px !important;
+    height: 75px !important;
+    min-width: 72px;
+    border-radius: 50% !important;
+    object-fit: cover;
+    object-position: center;
+    background: #e0e0e0;
+    flex-shrink: 0;
+}
+
+/* Initials placeholder used when no photo is available */
+.person-card__initials {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0f62fe, #0043ce);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.person-card__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.person-card__name {
+    font-weight: 700;
+    font-size: 1.05rem;
+    line-height: 1.3;
+    color: inherit;
+    margin: 0;
+}
+
+.person-card__meta {
+    font-size: 0.85rem;
+    color: #525252;
+    margin-top: 0.2rem;
+    line-height: 1.4;
+}
+
+.person-card__meta a {
+    color: #0f62fe;
+    text-decoration: none;
+}
+
+.person-card__meta a:hover {
+    text-decoration: underline;
+}
+
+/* ─── Google Fonts ──────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+/* ─── Focus outlines ────────────────────────────────────────────── */
+:focus-visible {
+    outline: 3px solid #1b75bb !important;
+    outline-offset: 2px !important;
+}
+
+/* ─── Layout fixes ──────────────────────────────────────────────── */
+.md-container {
+    max-width: none !important;
+    margin-top: 0 !important;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* ─── Carbon CSS token overrides ───────────────────────────────── */
+:root {
+    --cds-interactive-01:      #093e80;
+    --cds-interactive-02:      #1b75bb;
+    --cds-interactive-03:      #16adfe;
+    --cds-interactive-04:      #16adfe;
+    --cds-ui-shell-bg:         #093e80;
+    --cds-ui-shell-header-bg:  #093e80;
+    --cds-side-nav-bg:         #093e80;
+    --cds-text-on-color:       #ffffff;
+    --cds-ui-shell-text-01:    #ffffff;
+    --cds-link-01:             #1b75bb;
+    --cds-link-02:             #093e80;
+    --cds-body-font-family:    'Roboto', sans-serif;
+    --cds-heading-font-family: 'Rubik', sans-serif;
+}
+
+:root[data-carbon-theme="g90"],
+:root[data-carbon-theme="g100"] {
+    --cds-background: #ffffff !important;
+    --cds-layer:      #ffffff !important;
+}
+
+/* ─── Body / content typography ────────────────────────────────── */
+body,
+.md-content,
+.md-typeset {
+    font-family:  'Roboto', sans-serif;
+    font-size:    1.2rem;
+    font-weight:  400;
+}
+
+/* ─── Headings ──────────────────────────────────────────────────── */
+.md-typeset h1,
+.md-typeset h2 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.md-typeset h1 {
+    font-size:     3rem;
+    font-weight:   700;
+    margin-bottom: 2rem;
+}
+
+.md-typeset h2 {
+    font-size:     2.25rem;
+    font-weight:   500;
+    margin-top:    1.5rem;
+    margin-bottom: 1rem;
+}
+
+.md-typeset h3 {
+    font-family:   'Roboto', sans-serif;
+    font-size:     1.5rem;
+    font-weight:   700;
+    margin-bottom: 0.5rem;
+}
+
+.md-typeset h4 {
+    font-size:     1.4rem;
+    margin-top:    1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ─── Links in content ──────────────────────────────────────────── */
+.md-typeset a {
+    color:           #1b75bb;
+    text-decoration: none;
+}
+
+.md-typeset a:hover {
+    color: #093e80;
+}
+
+/* ─── Sidebar nav ───────────────────────────────────────────────── */
+.md-sidebar--primary,
+.md-nav {
+    background-color: #093e80;
+}
+
+.md-nav__link,
+.md-nav__item a {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+}
+
+.md-nav__link:hover,
+.md-nav__item a:hover {
+    color: #16adfe;
+}
+
+.md-nav__link--active {
+    color:       #ffffff;
+    font-weight: 700;
+    border-left: 4px solid #ffffff;
+}
+@media (max-width: 1055px) {
+    .md-sidebar--primary:not(.active) {
+        display: none !important;
+    }
+}
+
+/* ─── Prev / Next footer buttons ────────────────────────────────── */
+.md-footer__link {
+    background-color: #093e80;
+    color:            #ffffff;
+    font-weight:      700;
+    text-transform:   none;
+    border-radius:    0.3rem;
+    font-family:      'Roboto', sans-serif;
+}
+
+.md-footer__link:hover {
+    background-color: #1b75bb;
+}
+/* ── Principle card grid ─────────────────────────────────────── */
+.principle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 2rem;
+    margin: 1.5rem 0 2.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+@media (max-width: 640px) {
+    .principle-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.principle-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.25rem;
+    list-style: none;
+}
+
+.principle-card__icon {
+    width: 72px !important;
+    height: 72px !important;
+    min-width: 72px !important;
+    max-width: 72px !important;
+    flex-shrink: 0;
+    display: block;
+    /* Tint black SVG to brand light-blue (#16adfe) */
+    filter: invert(58%) sepia(88%) saturate(2183%) hue-rotate(175deg) brightness(101%) contrast(101%);
+}
+
+.principle-card__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.principle-card__title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    line-height: 1.2;
+}
+
+.principle-card__desc {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
 }

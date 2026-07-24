@@ -51,13 +51,13 @@ To copy your processed/subsetted files to the scratch directory from within your
 
 5. Once complete, you'll receive a second notification confirming the copy finished
 
-> **Important:** 
+> **Important:**
     Using the "Copy to Scratch Dir" button in the file explorer is the preferred and supported way to copy files into your scratch directory. While it's technically possible to copy files using code inside notebooks, this is not recommended due to underlying S3 limitations.
 
 
 ## How to download files from the scratch directory
 
-For step-by-step instructions on downloading files from scratch with the msdlive CLI, see [Scratch directory usage in the msdlive CLI docs](../../tools_services/cli/usage/#scratch-directory).
+For step-by-step instructions on downloading files from scratch with the msdlive CLI, see [Scratch directory usage in the msdlive CLI docs](../tools_services/cli/usage.md#scratch-directory).
 
 
 ## Video Walkthrough
@@ -76,4 +76,3 @@ Watch this video for a walkthrough of copying files to the scratch directory and
 
 
 
- 
