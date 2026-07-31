@@ -8,3 +8,7 @@ theme:
 extra_css:
   - styles/carbon-customizations.css
   - styles/embed.css
+
+extra_javascript:
+  - javascripts/embed-links-fix.js
+  - javascripts/carbon-nav-scroll-fix.js
