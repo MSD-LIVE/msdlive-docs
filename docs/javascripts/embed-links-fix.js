@@ -1,20 +1,45 @@
-document.addEventListener("click", (event) => {
-  const target = event.target;
-  if (!(target instanceof Element)) return;
+document.addEventListener("DOMContentLoaded", () => {
+  // Only enable iframe behavior when embedded in a parent frame
+  const isEmbedded = window.self !== window.top;
 
-  const link = target.closest("a");
-  if (!link) return;
+  if (!isEmbedded) {
+    return;
+  }
 
-  const url = new URL(link.href);
+  // Use parent origin passed via query param if available, fallback to "*"
+  const params = new URLSearchParams(window.location.search);
+  const parentOrigin = params.get("parentOrigin") || "*";
 
-  // Leave external links alone
-  if (url.origin !== window.location.origin) return;
+  document.addEventListener("click", (event) => {
+    const link = event.target.closest("a");
 
-  event.preventDefault();
+    if (!link) return;
 
-  const destination = new URL(
-    `https://msd-live.github.io/msdlive-docs${url.pathname}${url.search}${url.hash}`
-  );
+    const href = link.getAttribute("href");
+    if (!href) return;
 
-  window.open(destination.href, "_blank", "noopener,noreferrer");
+    let url;
+    try {
+      url = new URL(link.href);
+    } catch {
+      return;
+    }
+
+    // Ignore external links
+    if (url.origin !== window.location.origin) {
+      return;
+    }
+
+    // Ignore same-page anchor links
+    if (url.hash && url.pathname === window.location.pathname) {
+      return;
+    }
+
+    event.preventDefault();
+
+    window.parent.postMessage(
+      { type: "docs-navigate", pathname: url.pathname },
+      parentOrigin
+    );
+  });
 });

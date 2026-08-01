@@ -18,6 +18,8 @@ cds-header,
 html,
 body {
     overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 :root[data-carbon-theme="g90"],
@@ -27,10 +29,36 @@ body {
 }
 
 .md-content__inner {
-    padding: 0px;
-}
-
-.md-content__inner {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+/* Override Carbon header offset token */
+:root {
+    --cds-header-height: 0px !important;
+    --header-height: 0px !important;
+}
+
+/* Remove space reserved for hidden header */
+.md-main {
+    padding-top: 0 !important;
+}
+
+.md-main__inner {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+main,
+[role="main"] {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Carbon web component header height offset */
+cds-header ~ main,
+cds-header ~ .md-container,
+cds-header ~ [role="main"] {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
