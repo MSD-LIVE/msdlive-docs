@@ -33,7 +33,7 @@ Notebook Lab will open in a new window with your dataset files already mounted a
 
 You can launch Notebook Lab from a published or draft dataset landing page.
 
-![Launch Notebook Lab Button from Dataset Landing Page](../assets/dataset_notebooks/launchfromlanding.png)
+![Launch Notebook Lab Button from Dataset Landing Page](../assets/for_data_providers/launchfromlanding.png)
 
 !!! warning
      Notebook Lab sessions are limited to **3 hours**. Be sure to save your work frequently.

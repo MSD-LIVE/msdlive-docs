@@ -10,7 +10,7 @@ You can upload files to your dataset using the MSD-LIVE Data Repository web inte
 
 To upload a dataset using the web interface, click the **Upload** button shown below. 
 
-![Upload Button](../assets/web_upload.png)
+![Upload Button](../assets/for_data_providers/web_upload.png)
 
 ## Upload via CLI
 

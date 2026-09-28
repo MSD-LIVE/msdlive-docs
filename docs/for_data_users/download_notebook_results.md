@@ -10,7 +10,7 @@ Once you've processed or subsetted large data in a dataset notebook, you can dow
 ## Download via Jupyter Web Interface
 
 For smaller files, you can right-click in the Jupyter file browser and select **Download**.
-![Download](../assets/dataset_notebooks/web_download.png)
+![Download](../assets/for_data_users/web_download.png)
 
 ## Download via Scratch Directory and CLI
 
@@ -23,7 +23,7 @@ For larger files or when working on a machine without a browser, copy your resul
 3. Click the blue cloud button in the toolbar
 4. Wait for the copy job to complete
 
-![Copy To Scrach Button](../assets/dataset_notebooks/copy_to_scratch_button.png)
+![Copy To Scrach Button](../assets/for_data_users/copy_to_scratch_button.png)
 
 ### Step 2: Download from Scratch Directory
 

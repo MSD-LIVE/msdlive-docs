@@ -11,6 +11,10 @@ theme:
 
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        platform_community/about.md: getting_started/about.md
+        platform_community/policies.md: getting_started/policies.md
   - glightbox:
       shadow: true
       caption_position: bottom
@@ -29,11 +33,11 @@ extra_javascript:
 
 nav:
   - Getting Started:
-      - About: platform_community/about.md
+      - About: getting_started/about.md
       - Quick Start: index.md
       - Create an Account: getting_started/create_account.md
       - Log In and Join a Project: getting_started/login_join_project.md
-      - Policies: platform_community/policies.md
+      - Policies: getting_started/policies.md
   - For Data Users:
       - Find Data: for_data_users/dataset_search.md
       - Explore Data:

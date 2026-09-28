@@ -97,6 +97,8 @@ Deployment to GitHub Pages is handled automatically by `.github/workflows/deploy
 - `mkdocs.yml` — Main site configuration (nav, theme, plugins, extensions)
 - `mkdocs.embed.yml` — Headless configuration. Inherits from `mkdocs.yml` via `INHERIT:` and overrides the theme/CSS to strip nav, header, search, and footer
 - `docs/` — Markdown source files (shared between both builds)
+- `docs/getting_started/`, `docs/for_data_users/`, `docs/for_data_providers/`, `docs/tools_services/`, and `docs/learning_resources/` — pages grouped by site navigation
+- `docs/assets/` — images grouped by the navigation section that uses them; shared screenshots and site branding remain in shared asset locations
 - `docs/styles/carbon-customizations.css` — Styling shared by both builds (card grids, layout patches, etc.)
 - `docs/styles/embed.css` — Additional styles applied only to the headless embed build (hides Carbon chrome)
 - `docs/overrides/` — Custom theme template overrides for the full build
@@ -113,6 +115,8 @@ https://msd-live.github.io/msdlive-docs/embed/<path>/
 ```
 
 Routes like `/about`, `/policies`, and `/computational-resources` map to specific embed pages in `App.tsx`. The header's "Help" button links to the **full** docs site (not the embed) and opens in a new tab.
+
+About and Policies live under `getting_started/`; the old `platform_community/` page URLs redirect to them in both the full and embed builds. The landing page's existing embed routes are updated to use the new URLs without changing which pages are embedded.
 
 Because both builds share the same Markdown sources, content changes are reflected in both contexts automatically after deployment. Only styling changes need to consider which build they target:
 
