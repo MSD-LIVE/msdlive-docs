@@ -13,7 +13,7 @@ You can download files from published datasets using the MSD-LIVE Data Repositor
 3. Click the download button
 
 
-![Download Button](../assets/web_download.png)
+![Download Button](../assets/for_data_users/web_download.png)
 
 ## Download via CLI
 

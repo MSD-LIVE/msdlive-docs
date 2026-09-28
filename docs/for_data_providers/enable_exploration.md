@@ -30,7 +30,7 @@ Enabling file exploration marks your dataset as explorable, allowing users to br
 5. Submit your dataset for review and publication through the standard MSD-LIVE workflow
 
 
-![Enable File Exploration](../assets/dataset_notebooks/enable_explore.png)
+![Enable File Exploration](../assets/for_data_providers/enable_explore.png)
 
 ## Video Walkthrough
 

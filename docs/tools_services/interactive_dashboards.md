@@ -14,7 +14,7 @@ These dashboards provide powerful visualization capabilities, enabling users to 
 
 ### lafferty-sriver-2023-downscaling-uncertainty
 
-![lafferty-sriver-2023-downscaling-uncertainty](../assets/computational_resources/lafferty.png)
+![lafferty-sriver-2023-downscaling-uncertainty](../assets/tools_services/computational_resources/lafferty.png)
 
 This interactive dashboard allows users to create visualizations of the dataset underpinning the Lafferty and Sriver 2023 paper published in NPJ Climate and Atmospheric Science.
 
@@ -24,7 +24,7 @@ This interactive dashboard allows users to create visualizations of the dataset 
 
 ### ICoM RAFT Hurricane Projections Dataset
 
-![ICoM RAFT Hurricane Projections Dataset](../assets/computational_resources/raft2.png)
+![ICoM RAFT Hurricane Projections Dataset](../assets/tools_services/computational_resources/raft2.png)
 
 This dashboard visualizes 620 historic tropical cyclones from 1979 to 2018 replayed under eight future climate scenarios.
 

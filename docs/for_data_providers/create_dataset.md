@@ -47,4 +47,4 @@ To mint a DOI:
 
 ## Publish Your Dataset
 
-When you are ready to publish your dataset, click **Submit For Review**. A curator from the **Reviewing Project** will verify that your submission meets [MSD-LIVE Policies](../platform_community/policies.md) and follows best practices. If changes are needed, the curator will contact you. After approval, your dataset is published and the DOI is minted automatically.
+When you are ready to publish your dataset, click **Submit For Review**. A curator from the **Reviewing Project** will verify that your submission meets [MSD-LIVE Policies](../getting_started/policies.md) and follows best practices. If changes are needed, the curator will contact you. After approval, your dataset is published and the DOI is minted automatically.

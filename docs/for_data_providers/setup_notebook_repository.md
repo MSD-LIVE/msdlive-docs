@@ -20,7 +20,7 @@ There are two ways to set up your notebook repository. Most users should choose 
 
 This is the easiest way to get a correctly configured repository with starter notebooks.
 
-![Setup Repository Modal](../assets/dataset_notebooks/reposetup.png)
+![Setup Repository Modal](../assets/for_data_providers/reposetup.png)
 
 1. Open your dataset record and go to the **File Exploration** section
 2. Click **Setup Repository**

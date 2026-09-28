@@ -13,7 +13,7 @@ After logging in to your notebook environment, right-click in the file explorer 
 
 When creating a new notebook, you need to choose where it will be stored. Your options depend on the purpose of your notebook and whether the dataset author has set up a repository for dataset-specific notebooks. Here are your available locations:
 
-![New Notebook Dialog](../assets/dataset_notebooks/newnotebookdialog.png)
+![New Notebook Dialog](../assets/for_data_users/newnotebookdialog.png)
 
 - **/community_notebooks** — For general or cross-dataset notebooks shared openly with the MSD-LIVE community (tutorials, alternative analyses, learning materials)
 - **/my_notebooks** — For your own temporary notebooks that you do not plan to share with others. Select this location when you want to explore the data privately for your own purposes.

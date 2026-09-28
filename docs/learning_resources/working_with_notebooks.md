@@ -139,7 +139,7 @@ This built-in chatbot is designed to help you create high-quality dataset notebo
 - **Code assistance:** Writing Python, R, or Julia code to load, inspect, analyze, and visualize your data.
 - **Notebook best practices:** Organizing workflow, debugging, and improving notebook quality.
 
-![MSD-LIVE AI Assistant sidebar icon](../assets/dataset_notebooks/small-chatbot.png)
+![MSD-LIVE AI Assistant sidebar icon](../assets/learning_resources/small-chatbot.png)
 
 Use the AI Assistant whenever you need quick guidance or examples while developing your notebooks.
 

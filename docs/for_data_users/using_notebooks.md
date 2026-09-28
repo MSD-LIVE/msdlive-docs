@@ -23,7 +23,7 @@ If a dataset supports notebooks, you will see an **"Explore the data"** link on 
 > **Note:** You must have a Tier 3 membership in order to launch dataset notebooks. Check your <a href="https://msdlive.org/profile" target="_blank" rel="noopener noreferrer">**profile**</a> page to see what Tier you are and to request an upgrade if necessary.
 
 
-![Explore Small Datasets](../assets/dataset_notebooks/exploredatasmall.png)
+![Explore Small Datasets](../assets/for_data_users/exploredatasmall.png)
 
 When launched:
 
@@ -48,4 +48,4 @@ If no notebooks are provided, you can create your own.
 - Pay attention to the **bottom-right of the status bar** to see the remaining time for your session
    <!-- instead of, "Save your work frequently" link to scrach dir page and anchor showing how in progress work can be saved to the scrach dir for use in a subsequent session  -->
  
-![Remaining Session Time](../assets/dataset_notebooks/session_time.png)
+![Remaining Session Time](../assets/for_data_users/session_time.png)

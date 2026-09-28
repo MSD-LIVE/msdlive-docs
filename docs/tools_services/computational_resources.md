@@ -11,7 +11,7 @@ MSD-LIVE harnesses the power of Amazon Web Services cloud infrastructure to prov
 
 Our newest computational offering is the ability to explore datasets directly in MSD-LIVE via Jupyter notebooks.
 
-![In Situ Dataset Exploration](../assets/computational_resources/intro_wide.png)
+![In Situ Dataset Exploration](../assets/tools_services/computational_resources/intro_wide.png)
 
 [Explore In Situ Dataset Exploration](../for_data_users/explore_data_about.md)
 
@@ -19,7 +19,7 @@ Our newest computational offering is the ability to explore datasets directly in
 
 Created by the IM3 project, the UC eBook is a living guide to sensitivity analysis and diagnostic model evaluation techniques for confronting the computational and conceptual challenges of multi-model, transdisciplinary workflows.
 
-![Uncertainty Characterization eBook](../assets/computational_resources/ucebook.png)
+![Uncertainty Characterization eBook](../assets/tools_services/computational_resources/ucebook.png)
 
 [Open the UC eBook](https://uc-ebook.org/)
 
