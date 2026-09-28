@@ -7,6 +7,10 @@ theme:
 
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        platform_community/about.md: getting_started/about.md
+        platform_community/policies.md: getting_started/policies.md
   - glightbox:
       shadow: true
       caption_position: bottom
