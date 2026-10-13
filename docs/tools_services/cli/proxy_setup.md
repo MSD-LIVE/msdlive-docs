@@ -18,15 +18,17 @@ pip install --proxy $PROXY_URL https://github.com/MSD-LIVE/msdlive-cli-distro/ra
 
 From your activated virtual environment shell, run this command:
 
-=== "Windows"
-    ```
-    set HTTPS_PROXY=YOUR_PROXY_URL_GOES_HERE
-    ```
+### Windows
 
-=== "Linux/MacOS"
-    ```
-    export HTTPS_PROXY=YOUR_PROXY_URL_GOES_HERE
-    ```
+```
+set HTTPS_PROXY=YOUR_PROXY_URL_GOES_HERE
+```
+
+### Linux/MacOS
+
+```
+export HTTPS_PROXY=YOUR_PROXY_URL_GOES_HERE
+```
 
 - Replace YOUR_PROXY_URL_GOES_HERE with the proxy URL for your organization. Contact your system administrator for this value.
 - Once this environment variable is set, then you can safely run any msdlive command.
