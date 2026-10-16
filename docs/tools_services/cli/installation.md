@@ -6,7 +6,7 @@ include_from_chatbot: false
 
 ## Prerequisites
 
-- **Python** — Python 3 must be installed on your computer. See [Installing Python](https://pyguides.dev/tutorials/installing-python) for instructions.
+- **Python** — Python 3 must be installed on your computer. The most recent Python version verified for this client is Python 3.14. See [Installing Python](https://pyguides.dev/tutorials/installing-python) for instructions.
 - **Virtual environment (recommended)** — It is recommended to install the CLI inside a virtual environment to avoid conflicts with other packages. See [Create a Virtual Environment Using venv](https://www.geeksforgeeks.org/python/create-virtual-environment-using-venv-python/) for instructions.
 
 ## Install
